@@ -1,32 +1,27 @@
 
 let usedImages = new Set();
+let imageList = [];
 
-function getAllImages() {
+const MAX_IMAGES = 100; // Change this number to increase the range
+const imageFolder = 'images/';
+
+function preloadImages() {
   const exts = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
-  const folder = 'images/';
-  const images = [];
-
-  const allFiles = [
-    'image1.jpg', 'Image2.PNG', 'photo3.jpeg', 'pic4.GIF', 'sample5.webp',
-    'random6.JPG', 'Cool7.JPEG'
-  ];
-
-  allFiles.forEach(file => {
-    const lower = file.toLowerCase();
-    if (exts.some(ext => lower.endsWith(ext))) {
-      images.push(folder + file);
-    }
-  });
-
-  return images;
+  for (let i = 1; i <= MAX_IMAGES; i++) {
+    const filename = `image_${i}.jpg`; // default to .jpg, can extend later
+    const img = new Image();
+    img.onload = () => {
+      imageList.push(imageFolder + filename);
+    };
+    img.onerror = () => {};
+    img.src = imageFolder + filename;
+  }
 }
-
-const imageList = getAllImages();
 
 function showRandomImage() {
   const available = imageList.filter(img => !usedImages.has(img));
   if (available.length === 0) {
-    alert("No more new images. Refresh the page or click Reset to start over.");
+    alert("No more new images. Click Reset or refresh the page.");
     return;
   }
 
@@ -41,3 +36,5 @@ function resetImages() {
   usedImages.clear();
   document.getElementById('randomImage').src = "";
 }
+
+window.onload = preloadImages;
