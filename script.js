@@ -67,7 +67,14 @@ function resetImages() {
   document.getElementById('randomImage').src = "";
 }
 
-window.onload = preloadImages;
+
+window.onload = () => {
+  preloadImages();
+  setTimeout(() => {
+    showRandomImage();
+  }, 500);
+};
+
 
 // Swipe gesture support
 let touchStartX = null;

@@ -23,7 +23,7 @@ body {
 }
 
 .counter {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #333;
   margin-bottom: 0.5rem;
 }
@@ -43,8 +43,8 @@ img {
 }
 
 button {
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
+  padding: 1.5rem 1rem;
+  font-size: 1.5rem;
   cursor: pointer;
   border: none;
   border-radius: 6px;
@@ -63,8 +63,8 @@ button:hover {
   }
 
   button {
-    font-size: 0.9rem;
-    padding: 0.4rem 0.8rem;
+    font-size: 1.3rem;
+    padding: 1.2rem 1rem;
   }
 
   .top-bar {
