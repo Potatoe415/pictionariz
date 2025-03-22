@@ -9,6 +9,14 @@
 <body>
   <h1 class="site-title">Pictionariz</h1>
   <div class="top-bar">
+    <div class="folder-selector">
+      <label for="folder">Folder:</label>
+      <select id="folder" onchange="changeFolder()">
+        <option value="img_pictionariz">img_pictionariz</option>
+        <option value="img_eskisse">img_eskisse</option>
+        <option value="img_top ten">img_top ten</option>
+      </select>
+    </div>
     <div class="counter">Loaded: <span id="imageCount">0</span></div>
     <div class="button-group">
       <button onclick="resetImages()">Reset</button>

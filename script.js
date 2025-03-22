@@ -1,32 +1,41 @@
 
 let usedImages = new Set();
 let imageList = [];
+let currentFolder = 'img_pictionariz';
 
 const MAX_IMAGES = 100;
-const imageFolder = 'images/';
 const maxRetries = 50;
 
 function updateCounter() {
   document.getElementById('imageCount').innerText = imageList.length;
 }
 
-function preloadImages() {
+function loadImagesFromFolder(folder) {
+  imageList = [];
+  usedImages.clear();
   let loaded = 0;
   for (let i = 1; i <= MAX_IMAGES; i++) {
     const filename = `image_${i}.jpg`;
     const img = new Image();
     img.onload = () => {
-      imageList.push(imageFolder + filename);
+      imageList.push(`${folder}/${filename}`);
       loaded++;
-      if (loaded === MAX_IMAGES) updateCounter();
-      else updateCounter();
+      updateCounter();
     };
     img.onerror = () => {
       loaded++;
-      if (loaded === MAX_IMAGES) updateCounter();
+      updateCounter();
     };
-    img.src = imageFolder + filename;
+    img.src = `${folder}/${filename}`;
   }
+}
+
+function changeFolder() {
+  const folderSelect = document.getElementById("folder");
+  currentFolder = folderSelect.value;
+  document.getElementById('randomImage').src = "";
+  loadImagesFromFolder(currentFolder);
+  setTimeout(() => showRandomImage(), 300);
 }
 
 function showRandomImage() {
@@ -68,36 +77,9 @@ function resetImages() {
   showRandomImage();
 }
 
-
 window.onload = () => {
-  preloadImages();
+  loadImagesFromFolder(currentFolder);
   setTimeout(() => {
     showRandomImage();
   }, 500);
 };
-
-
-// Swipe gesture support
-let touchStartX = null;
-
-document.addEventListener("touchstart", function (e) {
-  touchStartX = e.changedTouches[0].screenX;
-}, false);
-
-document.addEventListener("touchend", function (e) {
-  if (touchStartX === null) return;
-  let touchEndX = e.changedTouches[0].screenX;
-  let diffX = touchStartX - touchEndX;
-
-  if (Math.abs(diffX) > 30) { // Only count swipe if distance is significant
-    if (diffX > 0) {
-      // Swipe Left: Show next image
-      showRandomImage();
-    } else {
-      // Swipe Right: Reset
-      resetImages();
-    }
-  }
-
-  touchStartX = null;
-}, false);
