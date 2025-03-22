@@ -8,8 +8,11 @@
 </head>
 <body>
   <div class="top-bar">
-    <button onclick="resetImages()">Reset</button>
-    <button onclick="showRandomImage()">Show Random Image</button>
+    <div class="counter">Loaded: <span id="imageCount">0</span></div>
+    <div class="button-group">
+      <button onclick="resetImages()">Reset</button>
+      <button onclick="showRandomImage()">Show Random Image</button>
+    </div>
   </div>
   <h1>Welcome to Pictionariz</h1>
   <img id="randomImage" src="" alt="Random Image">
