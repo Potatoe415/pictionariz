@@ -65,6 +65,7 @@ function showRandomImage() {
 function resetImages() {
   usedImages.clear();
   document.getElementById('randomImage').src = "";
+  showRandomImage();
 }
 
 
