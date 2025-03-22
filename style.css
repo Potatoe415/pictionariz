@@ -4,6 +4,15 @@ body {
   text-align: center;
   padding: 2rem;
   background-color: #f9f9f9;
+  margin: 0;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 1rem 2rem;
+  background-color: #f0f0f0;
 }
 
 h1 {
@@ -20,8 +29,7 @@ img {
 }
 
 button {
-  margin-top: 1.5rem;
-  padding: 0.6rem 1.2rem;
+  padding: 0.5rem 1rem;
   font-size: 1rem;
   cursor: pointer;
   border: none;
