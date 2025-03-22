@@ -2,7 +2,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   text-align: center;
-  padding: 1rem;
+  padding: 1rem 5px;
   background-color: #f9f9f9;
   margin: 0;
 }
@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 5px;
   flex-wrap: wrap;
   background-color: #f0f0f0;
 }
@@ -71,4 +71,10 @@ button:hover {
     flex-direction: column;
     align-items: flex-start;
   }
+}
+
+.site-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin: 1rem 0 0.5rem 0;
 }
