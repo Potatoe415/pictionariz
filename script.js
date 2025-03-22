@@ -2,13 +2,13 @@
 let usedImages = new Set();
 let imageList = [];
 
-const MAX_IMAGES = 100; // Change this number to increase the range
+const MAX_IMAGES = 100; // Easily change this number
 const imageFolder = 'images/';
+const maxRetries = 50;
 
 function preloadImages() {
-  const exts = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
   for (let i = 1; i <= MAX_IMAGES; i++) {
-    const filename = `image_${i}.jpg`; // default to .jpg, can extend later
+    const filename = `image_${i}.jpg`;
     const img = new Image();
     img.onload = () => {
       imageList.push(imageFolder + filename);
@@ -25,11 +25,30 @@ function showRandomImage() {
     return;
   }
 
-  const randomIndex = Math.floor(Math.random() * available.length);
-  const selected = available[randomIndex];
-  usedImages.add(selected);
+  let retries = 0;
+  let selected = null;
 
-  document.getElementById('randomImage').src = selected;
+  while (retries < maxRetries) {
+    const randomIndex = Math.floor(Math.random() * available.length);
+    const candidate = available[randomIndex];
+
+    const img = new Image();
+    img.src = candidate;
+
+    img.onload = () => {
+      usedImages.add(candidate);
+      document.getElementById('randomImage').src = candidate;
+    };
+
+    img.onerror = () => {
+      retries++;
+      showRandomImage(); // Try another
+    };
+
+    return; // Exit after attempting to load one
+  }
+
+  alert("Couldn't find a valid image after several tries.");
 }
 
 function resetImages() {
