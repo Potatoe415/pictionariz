@@ -3,11 +3,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Pictionariz</title>
+  <title>Game Cars Generator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 class="site-title">Pictionariz</h1>
+  <h1 class="site-title">Game Cars Generator</h1>
   <div class="top-bar">
     <div class="folder-selector">
       <label for="folder">Folder:</label>
@@ -19,8 +19,8 @@
     </div>
     <div class="counter">Loaded: <span id="imageCount">0</span></div>
     <div class="button-group">
-      <button onclick="resetImages()">Reset</button>
-      <button onclick="showRandomImage()">Show Random Image</button>
+      <button class="reset-btn" onclick="resetImages()">⟲</button>
+      <button class="next-btn" onclick="showRandomImage()">➤</button>
     </div>
   </div>
   <img id="randomImage" src="" alt="Random Image">

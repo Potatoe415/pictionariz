@@ -2,6 +2,8 @@
 let usedImages = new Set();
 let imageList = [];
 let currentFolder = 'img_pictionariz';
+let imageHistory = [];
+let currentIndex = -1;
 
 const MAX_IMAGES = 100;
 const maxRetries = 50;
@@ -13,6 +15,8 @@ function updateCounter() {
 function loadImagesFromFolder(folder) {
   imageList = [];
   usedImages.clear();
+  imageHistory = [];
+  currentIndex = -1;
   let loaded = 0;
   for (let i = 1; i <= MAX_IMAGES; i++) {
     const filename = `image_${i}.jpg`;
@@ -59,6 +63,8 @@ function showRandomImage() {
     const img = new Image();
     img.onload = () => {
       usedImages.add(candidate);
+      imageHistory.push(candidate);
+      currentIndex = imageHistory.length - 1;
       document.getElementById('randomImage').src = candidate;
     };
     img.onerror = () => {
@@ -73,8 +79,18 @@ function showRandomImage() {
 
 function resetImages() {
   usedImages.clear();
+  imageHistory = [];
+  currentIndex = -1;
   document.getElementById('randomImage').src = "";
   showRandomImage();
+}
+
+function showPreviousImage() {
+  if (currentIndex > 0) {
+    currentIndex--;
+    const prevImage = imageHistory[currentIndex];
+    document.getElementById('randomImage').src = prevImage;
+  }
 }
 
 window.onload = () => {
@@ -83,3 +99,23 @@ window.onload = () => {
     showRandomImage();
   }, 500);
 };
+
+let touchStartX = null;
+document.addEventListener("touchstart", function (e) {
+  touchStartX = e.changedTouches[0].screenX;
+}, false);
+
+document.addEventListener("touchend", function (e) {
+  if (touchStartX === null) return;
+  let touchEndX = e.changedTouches[0].screenX;
+  let diffX = touchStartX - touchEndX;
+
+  if (Math.abs(diffX) > 30) {
+    if (diffX > 0) {
+      showRandomImage();
+    } else {
+      showPreviousImage();
+    }
+  }
+  touchStartX = null;
+}, false);

@@ -35,13 +35,15 @@ body {
 }
 
 .folder-selector {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 0.5rem;
+  flex-grow: 2;
 }
 
 .folder-selector select {
-  padding: 0.5rem;
-  font-size: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  width: 200px;
 }
 
 img {
@@ -53,28 +55,32 @@ img {
 }
 
 button {
-  padding: 1.5rem 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   cursor: pointer;
   border: none;
   border-radius: 6px;
   background-color: #007bff;
   color: white;
   transition: background-color 0.3s ease;
+  height: 80px;
 }
 
 button:hover {
   background-color: #0056b3;
 }
 
+.reset-btn, .next-btn {
+  width: 20vw;
+  min-width: 60px;
+}
+
 @media (max-width: 600px) {
-  h1 {
-    font-size: 1.5rem;
+  .site-title {
+    font-size: 1.8rem;
   }
 
   button {
-    font-size: 1.3rem;
-    padding: 1.2rem 1rem;
+    font-size: 2rem;
   }
 
   .top-bar {
