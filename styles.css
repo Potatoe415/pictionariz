@@ -88,8 +88,6 @@ body.splashPage{
 /* ===== Game page ===== */
 body.gamePage{
   overflow:hidden;
-  padding-top: calc(var(--topImgH) + env(safe-area-inset-top));
-  padding-bottom: calc(var(--bottomH) + env(safe-area-inset-bottom));
 }
 
 /* Top banner (hard reset link) */
@@ -113,15 +111,12 @@ body.gamePage{
   display:block;
   pointer-events:none;
 }
-
 .app{
-  min-height:100vh;
-  max-width:720px;
-  margin:0 auto;
-  padding: 12px 14px 0;
-  display:flex;
-  flex-direction:column;
-  gap:14px;
+
+  
+    margin-top: var(--topImgH);
+
+
 }
 
 .cardId{
@@ -163,8 +158,11 @@ body.gamePage{
   flex:1;
   display:flex;
   flex-direction:column;
-  justify-content:center;
   align-items:center;
+
+  /* intentional bias downward */
+  justify-content: center;
+  padding-top: 40%;
 }
 
 .wordCard{

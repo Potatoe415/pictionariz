@@ -169,9 +169,10 @@
     const match = CATEGORY_LEGEND.find(x => x.token === tok);
     if (legendNote){
       legendNote.textContent = match
-        ? `Couleur actuelle : ${match.label}`
+        ? `Couleur actuelle : ${match.label}   -   Double tap on word to hide it`
         : (tok ? `Couleur actuelle : ${tok} (catégorie inconnue)` : "Couleur actuelle : inconnue");
     }
+
   }
 
   function openInfo(){
