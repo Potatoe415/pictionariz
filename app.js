@@ -380,7 +380,6 @@
 
   prevBtn.addEventListener("click", () => { if (gameStarted) prevCard(); });
   nextBtn.addEventListener("click", () => { if (gameStarted) nextCard(); });
-  
 
 
 let lastTapTime = 0;
@@ -404,15 +403,7 @@ function handleWordCardPointerUp(e){
 
 document.addEventListener("pointerup", handleWordCardPointerUp);
 
-function handleTopImageTap(e){
-  const top = e.target.closest("#topImage");
-  if (!top) return;
 
-  e.preventDefault();
-  resetToSplash();
-}
-
-document.addEventListener("pointerup", handleTopImageTap);
 
 
   langButtons.forEach(btn => btn.addEventListener("click", () => setLang(btn.dataset.lang)));
