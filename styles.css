@@ -25,22 +25,25 @@
 
     /* ===== TOP LOGO: FULL WIDTH ===== */
     .topImage{
-      position: fixed;
-      top: 0;
-      left: 0; right: 0;
-      height: calc(var(--topImgH) + env(safe-area-inset-top));
-      padding-top: env(safe-area-inset-top);
-      z-index: 30;
-      border-bottom: 1px solid var(--stroke);
-      background: rgba(11,15,22,0.92);
-      backdrop-filter: blur(10px);
-    }
-    .topImage img{
-      width: 100%;
-      height: 100%;
-      object-fit: cover; /* full width */
-      display:block;
-    }
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: calc(var(--topImgH) + env(safe-area-inset-top));
+  padding-top: env(safe-area-inset-top);
+
+  z-index: 10000;          /* 👈 must be higher than splash & modal */
+  cursor: pointer;
+}
+
+.topImage img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;   /* 👈 ensures click goes to .topImage */
+}
+
 
     /* ===== APP ===== */
     .app{
