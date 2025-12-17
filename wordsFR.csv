@@ -1,0 +1,576 @@
+game_id,card_id,card_color,hint,word_index,word_color,word_key,label_fr,scan_status
+pictionary,pictionary_C001,yellow,,1,orange,portemanteau,"Portemanteau",100
+pictionary,pictionary_C001,yellow,,2,blue,opera,"Opéra",100
+pictionary,pictionary_C001,yellow,,3,orange,sevader,"S'évader",100
+pictionary,pictionary_C001,yellow,,4,green,avoir_un_haut_le_coeur,"Avoir un haut le cœur",100
+pictionary,pictionary_C001,yellow,,5,red,koh_lanta,"Koh Lanta",100
+
+pictionary,pictionary_C002,yellow,,1,orange,tote_bag,"Tote bag",100
+pictionary,pictionary_C002,yellow,,2,blue,elysee,"Élysée",100
+pictionary,pictionary_C002,yellow,,3,orange,mesurer,"Mesurer",100
+pictionary,pictionary_C002,yellow,,4,green,devenir_dingue,"Devenir dingue",100
+pictionary,pictionary_C002,yellow,,5,red,la_bourse,"La bourse",100
+
+pictionary,pictionary_C003,yellow,,1,orange,thierry,"Thierry",100
+pictionary,pictionary_C003,yellow,,2,blue,poney,"Poney",100
+pictionary,pictionary_C003,yellow,,3,orange,frotter,"Frotter",100
+pictionary,pictionary_C003,yellow,,4,green,avoir_le_mal_de_mer,"Avoir le mal de mer",100
+pictionary,pictionary_C003,yellow,,5,red,beaujolais_nouveau,"Beaujolais nouveau",100
+
+pictionary,pictionary_C004,yellow,,1,orange,taxi,"Taxi",100
+pictionary,pictionary_C004,yellow,,2,blue,couturier,"Couturier",100
+pictionary,pictionary_C004,yellow,,3,orange,melanger,"Mélanger",100
+pictionary,pictionary_C004,yellow,,4,green,retourner_sa_veste,"Retourner sa veste",100
+pictionary,pictionary_C004,yellow,,5,red,dora_lexploratrice,"Dora l'exploratrice",100
+
+pictionary,pictionary_C005,yellow,,1,orange,carrousel,"Carrousel",100
+pictionary,pictionary_C005,yellow,,2,blue,port,"Port",100
+pictionary,pictionary_C005,yellow,,3,orange,tirer_sur_une_corde,"Tirer sur une corde",100
+pictionary,pictionary_C005,yellow,,4,green,il_pleut_des_cordes,"Il pleut des cordes",100
+pictionary,pictionary_C005,yellow,,5,red,croix_rouge,"Croix-Rouge",100
+
+pictionary,pictionary_C006,yellow,,1,orange,fontaine,"Fontaine",100
+pictionary,pictionary_C006,yellow,,2,blue,presentateur,"Présentateur",100
+pictionary,pictionary_C006,yellow,,3,orange,enlacer_quelquun,"Enlacer quelqu'un",100
+pictionary,pictionary_C006,yellow,,4,green,grippe_aviaire,"Grippe aviaire",100
+pictionary,pictionary_C006,yellow,,5,red,omar_sy,"Omar Sy",100
+
+pictionary,pictionary_C007,yellow,,1,orange,coquetier,"Coquetier",100
+pictionary,pictionary_C007,yellow,,2,blue,majordome,"Majordome",100
+pictionary,pictionary_C007,yellow,,3,orange,partager,"Partager",100
+pictionary,pictionary_C007,yellow,,4,green,faire_un_voeu,"Faire un vœu",100
+pictionary,pictionary_C007,yellow,,5,red,hollywood,"Hollywood",100
+
+pictionary,pictionary_C008,yellow,,1,orange,trophee,"Trophée",100
+pictionary,pictionary_C008,yellow,,2,blue,grand_canyon,"Grand Canyon",100
+pictionary,pictionary_C008,yellow,,3,orange,tourner,"Tourner",100
+pictionary,pictionary_C008,yellow,,4,green,maree_haute,"Marée haute",100
+pictionary,pictionary_C008,yellow,,5,red,moliere,"Molière",100
+
+pictionary,pictionary_C009,yellow,,1,orange,fleuret,"Fleuret",100
+pictionary,pictionary_C009,yellow,,2,blue,berger,"Berger",100
+pictionary,pictionary_C009,yellow,,3,orange,expirer,"Expirer",100
+pictionary,pictionary_C009,yellow,,4,green,arnaque,"Arnaque",100
+pictionary,pictionary_C009,yellow,,5,red,karaoke,"Karaoké",100
+
+pictionary,pictionary_C010,yellow,,1,orange,cheminee,"Cheminée",100
+pictionary,pictionary_C010,yellow,,2,blue,paris,"Paris",100
+pictionary,pictionary_C010,yellow,,3,orange,fondre,"Fondre",100
+pictionary,pictionary_C010,yellow,,4,green,depasser_les_bornes,"Dépasser les bornes",100
+pictionary,pictionary_C010,yellow,,5,red,alfred_hitchcock,"Alfred Hitchcock",100
+
+pictionary,pictionary_C011,yellow,,1,orange,epingle,"Épingle",100
+pictionary,pictionary_C011,yellow,,2,blue,dentiste,"Dentiste",100
+pictionary,pictionary_C011,yellow,,3,orange,percer,"Percer",100
+pictionary,pictionary_C011,yellow,,4,green,avoir_les_nerfs,"Avoir les nerfs",100
+pictionary,pictionary_C011,yellow,,5,red,festival_de_cannes,"Festival de Cannes",100
+
+pictionary,pictionary_C012,yellow,,1,orange,entonnoir,"Entonnoir",100
+pictionary,pictionary_C012,yellow,,2,blue,hibou,"Hibou",100
+pictionary,pictionary_C012,yellow,,3,orange,observer,"Observer",100
+pictionary,pictionary_C012,yellow,,4,green,avoir_l_oeil,"Avoir l’œil",100
+pictionary,pictionary_C012,yellow,,5,red,le_mont_saint_michel,"Le Mont-Saint-Michel",100
+
+pictionary,pictionary_C013,yellow,,1,orange,entonnoir_a_huile,"Entonnoir à huile",100
+pictionary,pictionary_C013,yellow,,2,blue,aigle,"Aigle",100
+pictionary,pictionary_C013,yellow,,3,orange,voler,"Voler",100
+pictionary,pictionary_C013,yellow,,4,green,prendre_de_la_hauteur,"Prendre de la hauteur",100
+pictionary,pictionary_C013,yellow,,5,red,le_puy_du_fou,"Le Puy du Fou",100
+
+pictionary,pictionary_C014,yellow,,1,orange,corde,"Corde",100
+pictionary,pictionary_C014,yellow,,2,blue,araignee,"Araignée",100
+pictionary,pictionary_C014,yellow,,3,orange,escalader,"Escalader",100
+pictionary,pictionary_C014,yellow,,4,green,s_accrocher,"S'accrocher",100
+pictionary,pictionary_C014,yellow,,5,red,la_defense,"La Défense",100
+
+pictionary,pictionary_C015,yellow,,1,orange,entonnoir_de_cuisine,"Entonnoir de cuisine",100
+pictionary,pictionary_C015,yellow,,2,blue,tortue,"Tortue",100
+pictionary,pictionary_C015,yellow,,3,orange,avancer,"Avancer",100
+pictionary,pictionary_C015,yellow,,4,green,prendre_son_temps,"Prendre son temps",100
+pictionary,pictionary_C015,yellow,,5,red,le_marais,"Le Marais",100
+
+pictionary,pictionary_C016,yellow,,1,orange,cle,"Clé",100
+pictionary,pictionary_C016,yellow,,2,blue,poisson,"Poisson",100
+pictionary,pictionary_C016,yellow,,3,orange,plonger,"Plonger",100
+pictionary,pictionary_C016,yellow,,4,green,se_noircir,"Se noircir",100
+pictionary,pictionary_C016,yellow,,5,red,arc_de_triomphe,"Arc de Triomphe",100
+
+pictionary,pictionary_C017,yellow,,1,orange,echelle,"Échelle",100
+pictionary,pictionary_C017,yellow,,2,blue,chameau,"Chameau",100
+pictionary,pictionary_C017,yellow,,3,orange,grimper,"Grimper",100
+pictionary,pictionary_C017,yellow,,4,green,perdre_la_face,"Perdre la face",100
+pictionary,pictionary_C017,yellow,,5,red,les_champs_elysees,"Les Champs-Élysées",100
+
+pictionary,pictionary_C018,yellow,,1,orange,coffre,"Coffre",100
+pictionary,pictionary_C018,yellow,,2,blue,papillon,"Papillon",100
+pictionary,pictionary_C018,yellow,,3,orange,attraper,"Attraper",100
+pictionary,pictionary_C018,yellow,,4,green,prendre_son_envol,"Prendre son envol",100
+pictionary,pictionary_C018,yellow,,5,red,le_pont_neuf,"Le Pont-Neuf",100
+
+pictionary,pictionary_C019,yellow,,1,orange,lampe,"Lampe",100
+pictionary,pictionary_C019,yellow,,2,blue,ours,"Ours",100
+pictionary,pictionary_C019,yellow,,3,orange,allumer,"Allumer",100
+pictionary,pictionary_C019,yellow,,4,green,voir_la_lumiere,"Voir la lumière",100
+pictionary,pictionary_C019,yellow,,5,red,le_mont_blanc,"Le Mont-Blanc",100
+
+pictionary,pictionary_C020,yellow,,1,orange,tiroir,"Tiroir",100
+pictionary,pictionary_C020,yellow,,2,blue,serpent,"Serpent",100
+pictionary,pictionary_C020,yellow,,3,orange,ramper,"Ramper",100
+pictionary,pictionary_C020,yellow,,4,green,avoir_la_peau_dure,"Avoir la peau dure",100
+pictionary,pictionary_C020,yellow,,5,red,le_futuroscope,"Le Futuroscope",100
+
+pictionary,pictionary_C021,yellow,,1,orange,entonnoir,"Entonnoir",100
+pictionary,pictionary_C021,yellow,,2,blue,hibou,"Hibou",100
+pictionary,pictionary_C021,yellow,,3,orange,observer,"Observer",100
+pictionary,pictionary_C021,yellow,,4,green,avoir_l_oeil,"Avoir l’œil",100
+pictionary,pictionary_C021,yellow,,5,red,le_mont_saint_michel,"Le Mont-Saint-Michel",100
+
+pictionary,pictionary_C022,yellow,,1,orange,entonnoir_a_huile,"Entonnoir à huile",100
+pictionary,pictionary_C022,yellow,,2,blue,aigle,"Aigle",100
+pictionary,pictionary_C022,yellow,,3,orange,voler,"Voler",100
+pictionary,pictionary_C022,yellow,,4,green,prendre_de_la_hauteur,"Prendre de la hauteur",100
+pictionary,pictionary_C022,yellow,,5,red,le_puy_du_fou,"Le Puy du Fou",100
+
+pictionary,pictionary_C023,yellow,,1,orange,corde,"Corde",100
+pictionary,pictionary_C023,yellow,,2,blue,araignee,"Araignée",100
+pictionary,pictionary_C023,yellow,,3,orange,escalader,"Escalader",100
+pictionary,pictionary_C023,yellow,,4,green,s_accrocher,"S'accrocher",100
+pictionary,pictionary_C023,yellow,,5,red,la_defense,"La Défense",100
+
+pictionary,pictionary_C024,yellow,,1,orange,entonnoir_de_cuisine,"Entonnoir de cuisine",100
+pictionary,pictionary_C024,yellow,,2,blue,tortue,"Tortue",100
+pictionary,pictionary_C024,yellow,,3,orange,avancer,"Avancer",100
+pictionary,pictionary_C024,yellow,,4,green,prendre_son_temps,"Prendre son temps",100
+pictionary,pictionary_C024,yellow,,5,red,le_marais,"Le Marais",100
+
+pictionary,pictionary_C025,yellow,,1,orange,cle,"Clé",100
+pictionary,pictionary_C025,yellow,,2,blue,poisson,"Poisson",100
+pictionary,pictionary_C025,yellow,,3,orange,plonger,"Plonger",100
+pictionary,pictionary_C025,yellow,,4,green,se_noircir,"Se noircir",100
+pictionary,pictionary_C025,yellow,,5,red,arc_de_triomphe,"Arc de Triomphe",100
+
+pictionary,pictionary_C026,yellow,,1,orange,echelle,"Échelle",100
+pictionary,pictionary_C026,yellow,,2,blue,chameau,"Chameau",100
+pictionary,pictionary_C026,yellow,,3,orange,grimper,"Grimper",100
+pictionary,pictionary_C026,yellow,,4,green,perdre_la_face,"Perdre la face",100
+pictionary,pictionary_C026,yellow,,5,red,les_champs_elysees,"Les Champs-Élysées",100
+
+pictionary,pictionary_C027,yellow,,1,orange,coffre,"Coffre",100
+pictionary,pictionary_C027,yellow,,2,blue,papillon,"Papillon",100
+pictionary,pictionary_C027,yellow,,3,orange,attraper,"Attraper",100
+pictionary,pictionary_C027,yellow,,4,green,prendre_son_envol,"Prendre son envol",100
+pictionary,pictionary_C027,yellow,,5,red,le_pont_neuf,"Le Pont-Neuf",100
+
+pictionary,pictionary_C028,yellow,,1,orange,lampe,"Lampe",100
+pictionary,pictionary_C028,yellow,,2,blue,ours,"Ours",100
+pictionary,pictionary_C028,yellow,,3,orange,allumer,"Allumer",100
+pictionary,pictionary_C028,yellow,,4,green,voir_la_lumiere,"Voir la lumière",100
+pictionary,pictionary_C028,yellow,,5,red,le_mont_blanc,"Le Mont-Blanc",100
+
+pictionary,pictionary_C029,yellow,,1,orange,tiroir,"Tiroir",100
+pictionary,pictionary_C029,yellow,,2,blue,serpent,"Serpent",100
+pictionary,pictionary_C029,yellow,,3,orange,ramper,"Ramper",100
+pictionary,pictionary_C029,yellow,,4,green,avoir_la_peau_dure,"Avoir la peau dure",100
+pictionary,pictionary_C029,yellow,,5,red,le_futuroscope,"Le Futuroscope",100
+
+pictionary,pictionary_C030,yellow,,1,orange,entonnoir_a_huile,"Entonnoir à huile",100
+pictionary,pictionary_C030,yellow,,2,blue,aigle,"Aigle",100
+pictionary,pictionary_C030,yellow,,3,orange,voler,"Voler",100
+pictionary,pictionary_C030,yellow,,4,green,prendre_de_la_hauteur,"Prendre de la hauteur",100
+pictionary,pictionary_C030,yellow,,5,red,le_puy_du_fou,"Le Puy du Fou",100
+
+pictionary,pictionary_C031,yellow,,1,orange,piscine,"Piscine",100
+pictionary,pictionary_C031,yellow,,2,blue,etudiant,"Étudiant",100
+pictionary,pictionary_C031,yellow,,3,orange,plucher,"Plucher",100
+pictionary,pictionary_C031,yellow,,4,green,etre_vivant,"Être vivant",100
+pictionary,pictionary_C031,yellow,,5,red,coco_chanel,"Coco Chanel",100
+
+pictionary,pictionary_C032,yellow,,1,orange,tablier,"Tablier",100
+pictionary,pictionary_C032,yellow,,2,blue,cobra,"Cobra",100
+pictionary,pictionary_C032,yellow,,3,orange,rebondir,"Rebondir",100
+pictionary,pictionary_C032,yellow,,4,green,faire_un_creneau,"Faire un créneau",100
+pictionary,pictionary_C032,yellow,,5,red,haka,"Haka",100
+
+pictionary,pictionary_C033,yellow,,1,orange,jacuzzi,"Jacuzzi",100
+pictionary,pictionary_C033,yellow,,2,blue,creche,"Crèche",100
+pictionary,pictionary_C033,yellow,,3,orange,se_mettre_a_genoux,"Se mettre à genoux",100
+pictionary,pictionary_C033,yellow,,4,green,moutarde,"Moutarde",100
+pictionary,pictionary_C033,yellow,,5,red,co_voiturage,"Covoiturage",100
+
+pictionary,pictionary_C034,yellow,,1,orange,cadenas,"Cadenas",100
+pictionary,pictionary_C034,yellow,,2,blue,pont_levis,"Pont-levis",100
+pictionary,pictionary_C034,yellow,,3,orange,retracer,"Retracer",100
+pictionary,pictionary_C034,yellow,,4,green,haut_de_gamme,"Haut de gamme",100
+pictionary,pictionary_C034,yellow,,5,red,futuroscope,"Futuroscope",100
+
+pictionary,pictionary_C035,yellow,,1,orange,barriere,"Barrière",100
+pictionary,pictionary_C035,yellow,,2,blue,leopard,"Léopard",100
+pictionary,pictionary_C035,yellow,,3,orange,frissonner,"Frissonner",100
+pictionary,pictionary_C035,yellow,,4,green,marathon,"Marathon",100
+pictionary,pictionary_C035,yellow,,5,red,speed_dating,"Speed dating",100
+
+pictionary,pictionary_C036,yellow,,1,orange,fauteuil,"Fauteuil",100
+pictionary,pictionary_C036,yellow,,2,blue,calamar,"Calamar",100
+pictionary,pictionary_C036,yellow,,3,orange,se_deshabiller,"Se déshabiller",100
+pictionary,pictionary_C036,yellow,,4,green,chiffre_d_affaires,"Chiffre d'affaires",100
+pictionary,pictionary_C036,yellow,,5,red,jeux_olympiques,"Jeux Olympiques",100
+
+pictionary,pictionary_C037,yellow,,1,orange,robe_de_chambre,"Robe de chambre",100
+pictionary,pictionary_C037,yellow,,2,blue,paon,"Paon",100
+pictionary,pictionary_C037,yellow,,3,orange,plonger,"Plonger",100
+pictionary,pictionary_C037,yellow,,4,green,chanter_faux,"Chanter faux",100
+pictionary,pictionary_C037,yellow,,5,red,steven_spielberg,"Steven Spielberg",100
+
+pictionary,pictionary_C038,yellow,,1,orange,passeport,"Passeport",100
+pictionary,pictionary_C038,yellow,,2,blue,blaireau,"Blaireau",100
+pictionary,pictionary_C038,yellow,,3,orange,tendre,"Tendre",100
+pictionary,pictionary_C038,yellow,,4,green,partie_visible_de_l_iceberg,"Partie visible de l'iceberg",100
+pictionary,pictionary_C038,yellow,,5,red,george_clooney,"George Clooney",100
+
+pictionary,pictionary_C039,yellow,,1,orange,frisbee,"Frisbee",100
+pictionary,pictionary_C039,yellow,,2,blue,poulpe,"Poulpe",100
+pictionary,pictionary_C039,yellow,,3,orange,apprendre,"Apprendre",100
+pictionary,pictionary_C039,yellow,,4,green,ville_fantome,"Ville fantôme",100
+pictionary,pictionary_C039,yellow,,5,red,guinness_record,"Guinness Record",100
+
+pictionary,pictionary_C040,yellow,,1,orange,cafetiere,"Cafetière",100
+pictionary,pictionary_C040,yellow,,2,blue,panda,"Panda",100
+pictionary,pictionary_C040,yellow,,3,orange,poncer,"Poncer",100
+pictionary,pictionary_C040,yellow,,4,green,cremation,"Crémation",100
+pictionary,pictionary_C040,yellow,,5,red,faire_le_pont,"Faire le pont",100
+
+pictionary,pictionary_C041,yellow,,1,orange,cadeau,"Cadeau",100
+pictionary,pictionary_C041,yellow,,2,blue,agriculture,"Agriculture",100
+pictionary,pictionary_C041,yellow,,3,orange,exploser,"Exploser",100
+pictionary,pictionary_C041,yellow,,4,green,alveoles,"Alvéoles",100
+pictionary,pictionary_C041,yellow,,5,red,chucky,"Chucky",100
+
+pictionary,pictionary_C042,yellow,,1,orange,feu_d_artifice,"Feu d'artifice",100
+pictionary,pictionary_C042,yellow,,2,blue,dentiste,"Dentiste",100
+pictionary,pictionary_C042,yellow,,3,orange,avaler,"Avaler",100
+pictionary,pictionary_C042,yellow,,4,green,cul_de_sac,"Cul-de-sac",100
+pictionary,pictionary_C042,yellow,,5,red,puy_du_fou,"Puy du Fou",100
+
+pictionary,pictionary_C043,yellow,,1,orange,lance_pierres,"Lance-pierres",100
+pictionary,pictionary_C043,yellow,,2,blue,grande_muraille_de_chine,"Grande Muraille de Chine",100
+pictionary,pictionary_C043,yellow,,3,orange,operer,"Opérer",100
+pictionary,pictionary_C043,yellow,,4,green,siege_ejectable,"Siège éjectable",100
+pictionary,pictionary_C043,yellow,,5,red,zlatan_ibrahimovic,"Zlatan Ibrahimović",100
+
+pictionary,pictionary_C044,yellow,,1,orange,melangeur,"Mélangeur",100
+pictionary,pictionary_C044,yellow,,2,blue,hippocampe,"Hippocampe",100
+pictionary,pictionary_C044,yellow,,3,orange,chatouiller,"Chatouiller",100
+pictionary,pictionary_C044,yellow,,4,green,station_d_epuration,"Station d'épuration",100
+pictionary,pictionary_C044,yellow,,5,red,baccalaureat,"Baccalauréat",100
+
+pictionary,pictionary_C045,yellow,,1,orange,congelateur,"Congélateur",100
+pictionary,pictionary_C045,yellow,,2,blue,psychologue,"Psychologue",100
+pictionary,pictionary_C045,yellow,,3,orange,boire,"Boire",100
+pictionary,pictionary_C045,yellow,,4,green,etre_agre,"Être âgé",100
+pictionary,pictionary_C045,yellow,,5,red,prix_nobel,"Prix Nobel",100
+
+pictionary,pictionary_C046,yellow,,1,orange,bouclier,"Bouclier",100
+pictionary,pictionary_C046,yellow,,2,blue,reine,"Reine",100
+pictionary,pictionary_C046,yellow,,3,orange,se_muscler,"Se muscler",100
+pictionary,pictionary_C046,yellow,,4,green,fumer_comme_un_pompier,"Fumer comme un pompier",100
+pictionary,pictionary_C046,yellow,,5,red,photomaton,"Photomaton",100
+
+pictionary,pictionary_C047,yellow,,1,orange,passeoire,"Passoire",100
+pictionary,pictionary_C047,yellow,,2,blue,architecte,"Architecte",100
+pictionary,pictionary_C047,yellow,,3,orange,vaporiser,"Vaporiser",100
+pictionary,pictionary_C047,yellow,,4,green,vide,"Vide",100
+pictionary,pictionary_C047,yellow,,5,red,la_danse_des_canards,"La danse des canards",100
+
+pictionary,pictionary_C048,yellow,,1,orange,enciente_musicale,"Enceinte musicale",100
+pictionary,pictionary_C048,yellow,,2,blue,pirate,"Pirate",100
+pictionary,pictionary_C048,yellow,,3,orange,pedaler,"Pédaler",100
+pictionary,pictionary_C048,yellow,,4,green,annuaire,"Annuaire",100
+pictionary,pictionary_C048,yellow,,5,red,irish_coffee,"Irish coffee",100
+
+pictionary,pictionary_C049,yellow,,1,orange,squeezer,"Squeezer",100
+pictionary,pictionary_C049,yellow,,2,blue,banquise,"Banquise",100
+pictionary,pictionary_C049,yellow,,3,orange,universite,"Université",100
+pictionary,pictionary_C049,yellow,,4,green,franchise_alimentaire,"Franchise alimentaire",100
+pictionary,pictionary_C049,yellow,,5,red,marc_gasol,"Marc Gasol",100
+
+pictionary,pictionary_C050,yellow,,1,orange,cercle,"Cercle",100
+pictionary,pictionary_C050,yellow,,2,blue,basket,"Basket",100
+pictionary,pictionary_C050,yellow,,3,orange,etre_en_colere,"Être en colère",100
+pictionary,pictionary_C050,yellow,,4,green,ramener_a_la_maison,"Ramener à la maison",100
+pictionary,pictionary_C050,yellow,,5,red,peaky_blinders,"Peaky Blinders",100
+
+pictionary,pictionary_C051,yellow,,1,orange,ponton,"Ponton",100
+pictionary,pictionary_C051,yellow,,2,blue,pere,"Père",100
+pictionary,pictionary_C051,yellow,,3,orange,poisson,"Poisson",100
+pictionary,pictionary_C051,yellow,,4,green,faire_la_fete,"Faire la fête",100
+pictionary,pictionary_C051,yellow,,5,red,france,"France",100
+
+pictionary,pictionary_C052,yellow,,1,orange,petard,"Pétard",100
+pictionary,pictionary_C052,yellow,,2,blue,dentiste,"Dentiste",100
+pictionary,pictionary_C052,yellow,,3,orange,avaler,"Avaler",100
+pictionary,pictionary_C052,yellow,,4,green,cul_de_sac,"Cul-de-sac",100
+pictionary,pictionary_C052,yellow,,5,red,puy_du_fou,"Puy du Fou",100
+
+pictionary,pictionary_C053,yellow,,1,orange,coupe_du_monde,"Coupe du monde",100
+pictionary,pictionary_C053,yellow,,2,blue,stade_de_concert,"Stade de concert",100
+pictionary,pictionary_C053,yellow,,3,orange,applaudir,"Applaudir",100
+pictionary,pictionary_C053,yellow,,4,green,faire_du_sport,"Faire du sport",100
+pictionary,pictionary_C053,yellow,,5,red,les_jo,"Les JO",100
+
+pictionary,pictionary_C054,yellow,,1,orange,salon_de_coiffure,"Salon de coiffure",100
+pictionary,pictionary_C054,yellow,,2,blue,coiffeur,"Coiffeur",100
+pictionary,pictionary_C054,yellow,,3,orange,couper,"Couper",100
+pictionary,pictionary_C054,yellow,,4,green,changement_radical,"Changement radical",100
+pictionary,pictionary_C054,yellow,,5,red,renaissance,"Renaissance",100
+
+pictionary,pictionary_C055,yellow,,1,orange,marchand,"Marchand",100
+pictionary,pictionary_C055,yellow,,2,blue,horloge,"Horloge",100
+pictionary,pictionary_C055,yellow,,3,orange,regler,"Régler",100
+pictionary,pictionary_C055,yellow,,4,green,prendre_le_temps,"Prendre le temps",100
+pictionary,pictionary_C055,yellow,,5,red,adonis,"Adonis",100
+
+pictionary,pictionary_C056,yellow,,1,orange,achat,"Achat",100
+pictionary,pictionary_C056,yellow,,2,blue,loup,"Loup",100
+pictionary,pictionary_C056,yellow,,3,orange,voler,"Voler",100
+pictionary,pictionary_C056,yellow,,4,green,avoir_faim,"Avoir faim",100
+pictionary,pictionary_C056,yellow,,5,red,remy,"Rémy",100
+
+pictionary,pictionary_C057,yellow,,1,orange,cadeau,"Cadeau",100
+pictionary,pictionary_C057,yellow,,2,blue,renard,"Renard",100
+pictionary,pictionary_C057,yellow,,3,orange,offrir,"Offrir",100
+pictionary,pictionary_C057,yellow,,4,green,faire_plaisir,"Faire plaisir",100
+pictionary,pictionary_C057,yellow,,5,red,ratatouille,"Ratatouille",100
+
+pictionary,pictionary_C058,yellow,,1,orange,squeezer,"Squeezer",100
+pictionary,pictionary_C058,yellow,,2,blue,banquise,"Banquise",100
+pictionary,pictionary_C058,yellow,,3,orange,glisser,"Glisser",100
+pictionary,pictionary_C058,yellow,,4,green,perdre_pied,"Perdre pied",100
+pictionary,pictionary_C058,yellow,,5,red,antarctique,"Antarctique",100
+
+pictionary,pictionary_C059,yellow,,1,orange,tarot,"Tarot",100
+pictionary,pictionary_C059,yellow,,2,blue,voie_lactee,"Voie lactée",100
+pictionary,pictionary_C059,yellow,,3,orange,chanter,"Chanter",100
+pictionary,pictionary_C059,yellow,,4,green,avoir_la_tete_dans_les_etoiles,"Avoir la tête dans les étoiles",100
+pictionary,pictionary_C059,yellow,,5,red,carte_du_ciel,"Carte du ciel",100
+
+pictionary,pictionary_C060,yellow,,1,orange,flipper,"Flipper",100
+pictionary,pictionary_C060,yellow,,2,blue,sardine,"Sardine",100
+pictionary,pictionary_C060,yellow,,3,orange,gratter,"Gratter",100
+pictionary,pictionary_C060,yellow,,4,green,etre_aux_anges,"Être aux anges",100
+pictionary,pictionary_C060,yellow,,5,red,yoda,"Yoda",100
+
+pictionary,pictionary_C061,yellow,,1,orange,arrete_a_chat,"Arrête-à-chat",100
+pictionary,pictionary_C061,yellow,,2,blue,londres,"Londres",100
+pictionary,pictionary_C061,yellow,,3,orange,voler,"Voler",100
+pictionary,pictionary_C061,yellow,,4,green,gosper,"Gosper",100
+pictionary,pictionary_C061,yellow,,5,red,instagram,"Instagram",100
+
+pictionary,pictionary_C062,yellow,,1,orange,escalator,"Escalator",100
+pictionary,pictionary_C062,yellow,,2,blue,bresil,"Brésil",100
+pictionary,pictionary_C062,yellow,,3,orange,tomber,"Tomber",100
+pictionary,pictionary_C062,yellow,,4,green,guacamole,"Guacamole",100
+pictionary,pictionary_C062,yellow,,5,red,cirque_du_soleil,"Cirque du Soleil",100
+
+pictionary,pictionary_C063,yellow,,1,orange,poignee_de_porte,"Poignée de porte",100
+pictionary,pictionary_C063,yellow,,2,blue,sagrada_familia,"Sagrada Família",100
+pictionary,pictionary_C063,yellow,,3,orange,soulever,"Soulever",100
+pictionary,pictionary_C063,yellow,,4,green,place_de_parking,"Place de parking",100
+pictionary,pictionary_C063,yellow,,5,red,aladin,"Aladin",100
+
+pictionary,pictionary_C064,yellow,,1,orange,lettres,"Lettres",100
+pictionary,pictionary_C064,yellow,,2,blue,espion,"Espion",100
+pictionary,pictionary_C064,yellow,,3,orange,frapper,"Frapper",100
+pictionary,pictionary_C064,yellow,,4,green,oeil_au_beurre_noir,"Œil au beurre noir",100
+pictionary,pictionary_C064,yellow,,5,red,guerre_froide,"Guerre froide",100
+
+pictionary,pictionary_C065,yellow,,1,orange,cuillere,"Cuillère",100
+pictionary,pictionary_C065,yellow,,2,blue,la_tour_de_pise,"La tour de Pise",100
+pictionary,pictionary_C065,yellow,,3,orange,tourner_autour_du_pot,"Tourner autour du pot",100
+pictionary,pictionary_C065,yellow,,4,green,droit_au_but,"Droit au but",100
+pictionary,pictionary_C065,yellow,,5,red,potion_magique,"Potion magique",100
+
+pictionary,pictionary_C066,yellow,,1,orange,tambour,"Tambour",100
+pictionary,pictionary_C066,yellow,,2,blue,marin,"Marin",100
+pictionary,pictionary_C066,yellow,,3,orange,dessiner,"Dessiner",100
+pictionary,pictionary_C066,yellow,,4,green,fuseau_horaire,"Fuseau horaire",100
+pictionary,pictionary_C066,yellow,,5,red,les_mille_et_une_nuits,"Les Mille et Une Nuits",100
+
+pictionary,pictionary_C067,yellow,,1,orange,cafe,"Café",100
+pictionary,pictionary_C067,yellow,,2,blue,hibou,"Hibou",100
+pictionary,pictionary_C067,yellow,,3,orange,hanter,"Hanter",100
+pictionary,pictionary_C067,yellow,,4,green,stationnement_interdit,"Stationnement interdit",100
+pictionary,pictionary_C067,yellow,,5,red,lac_des_cygnes,"Lac des cygnes",100
+
+pictionary,pictionary_C068,yellow,,1,orange,bouteille,"Bouteille",100
+pictionary,pictionary_C068,yellow,,2,blue,requin,"Requin",100
+pictionary,pictionary_C068,yellow,,3,orange,casser,"Casser",100
+pictionary,pictionary_C068,yellow,,4,green,se_faire_des_muscles,"Se faire des muscles",100
+pictionary,pictionary_C068,yellow,,5,red,princesse_diana,"Princesse Diana",100
+
+pictionary,pictionary_C069,yellow,,1,orange,portefeuille,"Portefeuille",100
+pictionary,pictionary_C069,yellow,,2,blue,opera,"Opéra",100
+pictionary,pictionary_C069,yellow,,3,orange,s_evader,"S’évader",100
+pictionary,pictionary_C069,yellow,,4,green,avoir_un_haut_le_coeur,"Avoir un haut-le-cœur",100
+pictionary,pictionary_C069,yellow,,5,red,koh_lanta,"Koh-Lanta",100
+
+pictionary,pictionary_C070,yellow,,1,orange,hotel,"Hôtel",100
+pictionary,pictionary_C070,yellow,,2,blue,elysee,"Élysée",100
+pictionary,pictionary_C070,yellow,,3,orange,mesurer,"Mesurer",100
+pictionary,pictionary_C070,yellow,,4,green,devenir_dingue,"Devenir dingue",100
+pictionary,pictionary_C070,yellow,,5,red,la_bourse,"La Bourse",100
+
+pictionary,pictionary_C071,yellow,,1,orange,porte,"Porte",100
+pictionary,pictionary_C071,yellow,,2,blue,poney,"Poney",100
+pictionary,pictionary_C071,yellow,,3,orange,frotter,"Frotter",100
+pictionary,pictionary_C071,yellow,,4,green,avoir_le_mal_de_mer,"Avoir le mal de mer",100
+pictionary,pictionary_C071,yellow,,5,red,beaujolais_nouveau,"Beaujolais nouveau",100
+
+pictionary,pictionary_C072,yellow,,1,orange,taxi,"Taxi",100
+pictionary,pictionary_C072,yellow,,2,blue,couturier,"Couturier",100
+pictionary,pictionary_C072,yellow,,3,orange,melanger,"Mélanger",100
+pictionary,pictionary_C072,yellow,,4,green,retourner_sa_veste,"Retourner sa veste",100
+pictionary,pictionary_C072,yellow,,5,red,dora_l_exploratrice,"Dora l'exploratrice",100
+
+pictionary,pictionary_C073,yellow,,1,orange,carrousel,"Carrousel",100
+pictionary,pictionary_C073,yellow,,2,blue,port,"Port",100
+pictionary,pictionary_C073,yellow,,3,orange,tirer_sur_une_corde,"Tirer sur une corde",100
+pictionary,pictionary_C073,yellow,,4,green,il_pleut_des_cordes,"Il pleut des cordes",100
+pictionary,pictionary_C073,yellow,,5,red,croix_rouge,"Croix-Rouge",100
+
+pictionary,pictionary_C074,yellow,,1,orange,fontaine,"Fontaine",100
+pictionary,pictionary_C074,yellow,,2,blue,presentateur,"Présentateur",100
+pictionary,pictionary_C074,yellow,,3,orange,enlacer_quelquun,"Enlacer quelqu'un",100
+pictionary,pictionary_C074,yellow,,4,green,grippe_aviaire,"Grippe aviaire",100
+pictionary,pictionary_C074,yellow,,5,red,omar_sy,"Omar Sy",100
+
+pictionary,pictionary_C075,yellow,,1,orange,coquetier,"Coquetier",100
+pictionary,pictionary_C075,yellow,,2,blue,majordome,"Majordome",100
+pictionary,pictionary_C075,yellow,,3,orange,partager,"Partager",100
+pictionary,pictionary_C075,yellow,,4,green,faire_un_voeu,"Faire un vœu",100
+pictionary,pictionary_C075,yellow,,5,red,hollywood,"Hollywood",100
+
+pictionary,pictionary_C076,yellow,,1,orange,trophee,"Trophée",100
+pictionary,pictionary_C076,yellow,,2,blue,grand_canyon,"Grand Canyon",100
+pictionary,pictionary_C076,yellow,,3,orange,tourner,"Tourner",100
+pictionary,pictionary_C076,yellow,,4,green,maree_haute,"Marée haute",100
+pictionary,pictionary_C076,yellow,,5,red,moliere,"Molière",100
+
+pictionary,pictionary_C077,yellow,,1,orange,fleuret,"Fleuret",100
+pictionary,pictionary_C077,yellow,,2,blue,berger,"Berger",100
+pictionary,pictionary_C077,yellow,,3,orange,expirer,"Expirer",100
+pictionary,pictionary_C077,yellow,,4,green,arnaque,"Arnaque",100
+pictionary,pictionary_C077,yellow,,5,red,karaoke,"Karaoké",100
+
+pictionary,pictionary_C078,yellow,,1,orange,cheminee,"Cheminée",100
+pictionary,pictionary_C078,yellow,,2,blue,paris,"Paris",100
+pictionary,pictionary_C078,yellow,,3,orange,fondre,"Fondre",100
+pictionary,pictionary_C078,yellow,,4,green,depasser_les_bornes,"Dépasser les bornes",100
+pictionary,pictionary_C078,yellow,,5,red,alfred_hitchcock,"Alfred Hitchcock",100
+
+pictionary,pictionary_C079,yellow,,1,orange,epingle,"Épingle",100
+pictionary,pictionary_C079,yellow,,2,blue,dentiste,"Dentiste",100
+pictionary,pictionary_C079,yellow,,3,orange,percer,"Percer",100
+pictionary,pictionary_C079,yellow,,4,green,avoir_les_nerfs,"Avoir les nerfs",100
+pictionary,pictionary_C079,yellow,,5,red,festival_de_cannes,"Festival de Cannes",100
+
+pictionary,pictionary_C080,yellow,,1,orange,entonnoir,"Entonnoir",100
+pictionary,pictionary_C080,yellow,,2,blue,hibou,"Hibou",100
+pictionary,pictionary_C080,yellow,,3,orange,observer,"Observer",100
+pictionary,pictionary_C080,yellow,,4,green,avoir_l_oeil,"Avoir l’œil",100
+pictionary,pictionary_C080,yellow,,5,red,le_mont_saint_michel,"Le Mont-Saint-Michel",100
+
+pictionary,pictionary_C081,yellow,,1,orange,entonnoir_a_huile,"Entonnoir à huile",100
+pictionary,pictionary_C081,yellow,,2,blue,aigle,"Aigle",100
+pictionary,pictionary_C081,yellow,,3,orange,voler,"Voler",100
+pictionary,pictionary_C081,yellow,,4,green,prendre_de_la_hauteur,"Prendre de la hauteur",100
+pictionary,pictionary_C081,yellow,,5,red,le_puy_du_fou,"Le Puy du Fou",100
+
+pictionary,pictionary_C082,yellow,,1,orange,corde,"Corde",100
+pictionary,pictionary_C082,yellow,,2,blue,araignee,"Araignée",100
+pictionary,pictionary_C082,yellow,,3,orange,escalader,"Escalader",100
+pictionary,pictionary_C082,yellow,,4,green,s_accrocher,"S'accrocher",100
+pictionary,pictionary_C082,yellow,,5,red,la_defense,"La Défense",100
+
+pictionary,pictionary_C083,yellow,,1,orange,entonnoir_de_cuisine,"Entonnoir de cuisine",100
+pictionary,pictionary_C083,yellow,,2,blue,tortue,"Tortue",100
+pictionary,pictionary_C083,yellow,,3,orange,avancer,"Avancer",100
+pictionary,pictionary_C083,yellow,,4,green,prendre_son_temps,"Prendre son temps",100
+pictionary,pictionary_C083,yellow,,5,red,le_marais,"Le Marais",100
+
+pictionary,pictionary_C084,yellow,,1,orange,cle,"Clé",100
+pictionary,pictionary_C084,yellow,,2,blue,poisson,"Poisson",100
+pictionary,pictionary_C084,yellow,,3,orange,plonger,"Plonger",100
+pictionary,pictionary_C084,yellow,,4,green,se_noircir,"Se noircir",100
+pictionary,pictionary_C084,yellow,,5,red,arc_de_triomphe,"Arc de Triomphe",100
+
+pictionary,pictionary_C085,yellow,,1,orange,echelle,"Échelle",100
+pictionary,pictionary_C085,yellow,,2,blue,chameau,"Chameau",100
+pictionary,pictionary_C085,yellow,,3,orange,grimper,"Grimper",100
+pictionary,pictionary_C085,yellow,,4,green,perdre_la_face,"Perdre la face",100
+pictionary,pictionary_C085,yellow,,5,red,les_champs_elysees,"Les Champs-Élysées",100
+
+pictionary,pictionary_C086,yellow,,1,orange,coffre,"Coffre",100
+pictionary,pictionary_C086,yellow,,2,blue,papillon,"Papillon",100
+pictionary,pictionary_C086,yellow,,3,orange,attraper,"Attraper",100
+pictionary,pictionary_C086,yellow,,4,green,prendre_son_envol,"Prendre son envol",100
+pictionary,pictionary_C086,yellow,,5,red,le_pont_neuf,"Le Pont-Neuf",100
+
+pictionary,pictionary_C087,yellow,,1,orange,lampe,"Lampe",100
+pictionary,pictionary_C087,yellow,,2,blue,ours,"Ours",100
+pictionary,pictionary_C087,yellow,,3,orange,allumer,"Allumer",100
+pictionary,pictionary_C087,yellow,,4,green,voir_la_lumiere,"Voir la lumière",100
+pictionary,pictionary_C087,yellow,,5,red,le_mont_blanc,"Le Mont-Blanc",100
+
+pictionary,pictionary_C088,yellow,,1,orange,tiroir,"Tiroir",100
+pictionary,pictionary_C088,yellow,,2,blue,serpent,"Serpent",100
+pictionary,pictionary_C088,yellow,,3,orange,ramper,"Ramper",100
+pictionary,pictionary_C088,yellow,,4,green,avoir_la_peau_dure,"Avoir la peau dure",100
+pictionary,pictionary_C088,yellow,,5,red,le_futuroscope,"Le Futuroscope",100
+
+pictionary,pictionary_C089,yellow,,1,orange,entonnoir,"Entonnoir",100
+pictionary,pictionary_C089,yellow,,2,blue,hibou,"Hibou",100
+pictionary,pictionary_C089,yellow,,3,orange,observer,"Observer",100
+pictionary,pictionary_C089,yellow,,4,green,avoir_l_oeil,"Avoir l’œil",100
+pictionary,pictionary_C089,yellow,,5,red,le_mont_saint_michel,"Le Mont-Saint-Michel",100
+
+pictionary,pictionary_C090,yellow,,1,orange,entonnoir_a_huile,"Entonnoir à huile",100
+pictionary,pictionary_C090,yellow,,2,blue,aigle,"Aigle",100
+pictionary,pictionary_C090,yellow,,3,orange,voler,"Voler",100
+pictionary,pictionary_C090,yellow,,4,green,prendre_de_la_hauteur,"Prendre de la hauteur",100
+pictionary,pictionary_C090,yellow,,5,red,le_puy_du_fou,"Le Puy du Fou",100
+
+pictionary,pictionary_C091,yellow,,1,orange,corde,"Corde",100
+pictionary,pictionary_C091,yellow,,2,blue,araignee,"Araignée",100
+pictionary,pictionary_C091,yellow,,3,orange,escalader,"Escalader",100
+pictionary,pictionary_C091,yellow,,4,green,s_accrocher,"S'accrocher",100
+pictionary,pictionary_C091,yellow,,5,red,la_defense,"La Défense",100
+
+pictionary,pictionary_C092,yellow,,1,orange,entonnoir_de_cuisine,"Entonnoir de cuisine",100
+pictionary,pictionary_C092,yellow,,2,blue,tortue,"Tortue",100
+pictionary,pictionary_C092,yellow,,3,orange,avancer,"Avancer",100
+pictionary,pictionary_C092,yellow,,4,green,prendre_son_temps,"Prendre son temps",100
+pictionary,pictionary_C092,yellow,,5,red,le_marais,"Le Marais",100
+
+pictionary,pictionary_C093,yellow,,1,orange,cle,"Clé",100
+pictionary,pictionary_C093,yellow,,2,blue,poisson,"Poisson",100
+pictionary,pictionary_C093,yellow,,3,orange,plonger,"Plonger",100
+pictionary,pictionary_C093,yellow,,4,green,se_noircir,"Se noircir",100
+pictionary,pictionary_C093,yellow,,5,red,arc_de_triomphe,"Arc de Triomphe",100
+
+pictionary,pictionary_C094,yellow,,1,orange,echelle,"Échelle",100
+pictionary,pictionary_C094,yellow,,2,blue,chameau,"Chameau",100
+pictionary,pictionary_C094,yellow,,3,orange,grimper,"Grimper",100
+pictionary,pictionary_C094,yellow,,4,green,perdre_la_face,"Perdre la face",100
+pictionary,pictionary_C094,yellow,,5,red,les_champs_elysees,"Les Champs-Élysées",100
+
+pictionary,pictionary_C095,yellow,,1,orange,coffre,"Coffre",100
+pictionary,pictionary_C095,yellow,,2,blue,papillon,"Papillon",100
+pictionary,pictionary_C095,yellow,,3,orange,attraper,"Attraper",100
+pictionary,pictionary_C095,yellow,,4,green,prendre_son_envol,"Prendre son envol",100
+pictionary,pictionary_C095,yellow,,5,red,le_pont_neuf,"Le Pont-Neuf",100
+
+pictionary,pictionary_C096,yellow,,1,orange,lampe,"Lampe",100
+pictionary,pictionary_C096,yellow,,2,blue,ours,"Ours",100
+pictionary,pictionary_C096,yellow,,3,orange,allumer,"Allumer",100
+pictionary,pictionary_C096,yellow,,4,green,voir_la_lumiere,"Voir la lumière",100
+pictionary,pictionary_C096,yellow,,5,red,le_mont_blanc,"Le Mont-Blanc",100
