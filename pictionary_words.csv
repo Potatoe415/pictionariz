@@ -1,575 +1,575 @@
 game_id,card_id,card_color,hint,word_index,word_color,word_key,label_fr,scan_status,label_en,label_es
-pictionary,pictionary_C001,yellow,,1,orange,portemanteau,"Portemanteau",100,Coat rack,Perchero
+pictionary,pictionary_C001,yellow,,1,yellow,portemanteau,"Portemanteau",100,Coat rack,Perchero
 pictionary,pictionary_C001,yellow,,2,blue,opera,"Opéra",100,Opera,Ópera
 pictionary,pictionary_C001,yellow,,3,orange,sevader,"S'évader",100,Escape,Escapar
 pictionary,pictionary_C001,yellow,,4,green,avoir_un_haut_le_coeur,"Avoir un haut le cœur",100,Feel nauseous,Sentir náuseas
 pictionary,pictionary_C001,yellow,,5,red,koh_lanta,"Koh Lanta",100,Survival show,Programa de supervivencia
 
-pictionary,pictionary_C002,yellow,,1,orange,tote_bag,"Tote bag",100,Tote bag,Bolsa tote
+pictionary,pictionary_C002,yellow,,1,yellow,tote_bag,"Tote bag",100,Tote bag,Bolsa tote
 pictionary,pictionary_C002,yellow,,2,blue,elysee,"Élysée",100,Élysée Palace,Palacio del Elíseo
 pictionary,pictionary_C002,yellow,,3,orange,mesurer,"Mesurer",100,Measure,Medir
 pictionary,pictionary_C002,yellow,,4,green,devenir_dingue,"Devenir dingue",100,Go crazy,Volverse loco
 pictionary,pictionary_C002,yellow,,5,red,la_bourse,"La bourse",100,Stock market,Bolsa de valores
 
-pictionary,pictionary_C003,yellow,,1,orange,thierry,"Thierry",100,Man named Thierry,Hombre llamado Thierry
+pictionary,pictionary_C003,yellow,,1,yellow,thierry,"Thierry",100,Man named Thierry,Hombre llamado Thierry
 pictionary,pictionary_C003,yellow,,2,blue,poney,"Poney",100,Pony,Poni
 pictionary,pictionary_C003,yellow,,3,orange,frotter,"Frotter",100,Rub,Frotar
 pictionary,pictionary_C003,yellow,,4,green,avoir_le_mal_de_mer,"Avoir le mal de mer",100,Seasick,Mareo
 pictionary,pictionary_C003,yellow,,5,red,beaujolais_nouveau,"Beaujolais nouveau",100,New wine,Vino nuevo
 
-pictionary,pictionary_C004,yellow,,1,orange,taxi,"Taxi",100,Taxi,Taxi
+pictionary,pictionary_C004,yellow,,1,yellow,taxi,"Taxi",100,Taxi,Taxi
 pictionary,pictionary_C004,yellow,,2,blue,couturier,"Couturier",100,Fashion designer,Diseñador de moda
 pictionary,pictionary_C004,yellow,,3,orange,melanger,"Mélanger",100,Mix,Mezclar
 pictionary,pictionary_C004,yellow,,4,green,retourner_sa_veste,"Retourner sa veste",100,Change sides,Cambiar de bando
 pictionary,pictionary_C004,yellow,,5,red,dora_lexploratrice,"Dora l'exploratrice",100,Dora the Explorer,Dora la Exploradora
 
-pictionary,pictionary_C005,yellow,,1,orange,carrousel,"Carrousel",100,Carousel,Carrusel
+pictionary,pictionary_C005,yellow,,1,yellow,carrousel,"Carrousel",100,Carousel,Carrusel
 pictionary,pictionary_C005,yellow,,2,blue,port,"Port",100,Harbor,Puerto
 pictionary,pictionary_C005,yellow,,3,orange,tirer_sur_une_corde,"Tirer sur une corde",100,Pull a rope,Tirar de una cuerda
 pictionary,pictionary_C005,yellow,,4,green,il_pleut_des_cordes,"Il pleut des cordes",100,Heavy rain,Lluvia fuerte
 pictionary,pictionary_C005,yellow,,5,red,croix_rouge,"Croix-Rouge",100,Red Cross,Cruz Roja
 
-pictionary,pictionary_C006,yellow,,1,orange,fontaine,"Fontaine",100,Fountain,Fuente
+pictionary,pictionary_C006,yellow,,1,yellow,fontaine,"Fontaine",100,Fountain,Fuente
 pictionary,pictionary_C006,yellow,,2,blue,presentateur,"Présentateur",100,TV host,Presentador
 pictionary,pictionary_C006,yellow,,3,orange,enlacer_quelquun,"Enlacer quelqu'un",100,Hug someone,Abrazar a alguien
 pictionary,pictionary_C006,yellow,,4,green,grippe_aviaire,"Grippe aviaire",100,Bird flu,Gripe aviar
 pictionary,pictionary_C006,yellow,,5,red,omar_sy,"Omar Sy",100,Omar Sy,Omar Sy
 
-pictionary,pictionary_C007,yellow,,1,orange,coquetier,"Coquetier",100,Egg cup,Huevera
+pictionary,pictionary_C007,yellow,,1,yellow,coquetier,"Coquetier",100,Egg cup,Huevera
 pictionary,pictionary_C007,yellow,,2,blue,majordome,"Majordome",100,Butler,Mayordomo
 pictionary,pictionary_C007,yellow,,3,orange,partager,"Partager",100,Share,Compartir
 pictionary,pictionary_C007,yellow,,4,green,faire_un_voeu,"Faire un vœu",100,Make a wish,Pedir un deseo
 pictionary,pictionary_C007,yellow,,5,red,hollywood,"Hollywood",100,Hollywood,Hollywood
 
-pictionary,pictionary_C008,yellow,,1,orange,trophee,"Trophée",100,Trophy,Trofeo
+pictionary,pictionary_C008,yellow,,1,yellow,trophee,"Trophée",100,Trophy,Trofeo
 pictionary,pictionary_C008,yellow,,2,blue,grand_canyon,"Grand Canyon",100,Grand Canyon,Gran Cañón
 pictionary,pictionary_C008,yellow,,3,orange,tourner,"Tourner",100,Turn,Girar
 pictionary,pictionary_C008,yellow,,4,green,maree_haute,"Marée haute",100,High tide,Marea alta
 pictionary,pictionary_C008,yellow,,5,red,moliere,"Molière",100,Molière,Molière
 
-pictionary,pictionary_C009,yellow,,1,orange,fleuret,"Fleuret",100,Foil sword,Florete
+pictionary,pictionary_C009,yellow,,1,yellow,fleuret,"Fleuret",100,Foil sword,Florete
 pictionary,pictionary_C009,yellow,,2,blue,berger,"Berger",100,Shepherd,Pastor
 pictionary,pictionary_C009,yellow,,3,orange,expirer,"Expirer",100,Exhale,Exhalar
 pictionary,pictionary_C009,yellow,,4,green,arnaque,"Arnaque",100,Scam,Estafa
 pictionary,pictionary_C009,yellow,,5,red,karaoke,"Karaoké",100,Karaoke,Karaoke
 
-pictionary,pictionary_C010,yellow,,1,orange,cheminee,"Cheminée",100,Fireplace,Chimenea
+pictionary,pictionary_C010,yellow,,1,yellow,cheminee,"Cheminée",100,Fireplace,Chimenea
 pictionary,pictionary_C010,yellow,,2,blue,paris,"Paris",100,Paris,París
 pictionary,pictionary_C010,yellow,,3,orange,fondre,"Fondre",100,Melt,Derretirse
 pictionary,pictionary_C010,yellow,,4,green,depasser_les_bornes,"Dépasser les bornes",100,Go too far,Pasarse de la raya
 pictionary,pictionary_C010,yellow,,5,red,alfred_hitchcock,"Alfred Hitchcock",100,Alfred Hitchcock,Alfred Hitchcock
 
-pictionary,pictionary_C011,yellow,,1,orange,epingle,"Épingle",100,Pin,Alfiler
+pictionary,pictionary_C011,yellow,,1,yellow,epingle,"Épingle",100,Pin,Alfiler
 pictionary,pictionary_C011,yellow,,2,blue,dentiste,"Dentiste",100,Dentist,Dentista
 pictionary,pictionary_C011,yellow,,3,orange,percer,"Percer",100,Pierce,Perforar
 pictionary,pictionary_C011,yellow,,4,green,avoir_les_nerfs,"Avoir les nerfs",100,Be angry,Estar nervioso
 pictionary,pictionary_C011,yellow,,5,red,festival_de_cannes,"Festival de Cannes",100,Festival de Cannes,Festival de Cannes
 
-pictionary,pictionary_C012,yellow,,1,orange,entonnoir,"Entonnoir",100,Funnel,Embudo
+pictionary,pictionary_C012,yellow,,1,yellow,entonnoir,"Entonnoir",100,Funnel,Embudo
 pictionary,pictionary_C012,yellow,,2,blue,hibou,"Hibou",100,Owl,Búho
 pictionary,pictionary_C012,yellow,,3,orange,observer,"Observer",100,Observe,Observar
 pictionary,pictionary_C012,yellow,,4,green,avoir_l_oeil,"Avoir l’œil",100,Keep an eye,Estar atento
 pictionary,pictionary_C012,yellow,,5,red,le_mont_saint_michel,"Le Mont-Saint-Michel",100,Le Mont-Saint-Michel,Le Mont-Saint-Michel
 
-pictionary,pictionary_C013,yellow,,1,orange,entonnoir_a_huile,"Entonnoir à huile",100,Oil funnel,Embudo de aceite
+pictionary,pictionary_C013,yellow,,1,yellow,entonnoir_a_huile,"Entonnoir à huile",100,Oil funnel,Embudo de aceite
 pictionary,pictionary_C013,yellow,,2,blue,aigle,"Aigle",100,Eagle,Águila
 pictionary,pictionary_C013,yellow,,3,orange,voler,"Voler",100,Fly,Volar
 pictionary,pictionary_C013,yellow,,4,green,prendre_de_la_hauteur,"Prendre de la hauteur",100,Gain height,Ganar altura
 pictionary,pictionary_C013,yellow,,5,red,le_puy_du_fou,"Le Puy du Fou",100,Le Puy du Fou,Le Puy du Fou
 
-pictionary,pictionary_C014,yellow,,1,orange,corde,"Corde",100,Rope,Cuerda
+pictionary,pictionary_C014,yellow,,1,yellow,corde,"Corde",100,Rope,Cuerda
 pictionary,pictionary_C014,yellow,,2,blue,araignee,"Araignée",100,Spider,Araña
 pictionary,pictionary_C014,yellow,,3,orange,escalader,"Escalader",100,Climb,Escalar
 pictionary,pictionary_C014,yellow,,4,green,s_accrocher,"S'accrocher",100,Hang on,Agarrarse
 pictionary,pictionary_C014,yellow,,5,red,la_defense,"La Défense",100,La Défense,La Défense
 
-pictionary,pictionary_C015,yellow,,1,orange,entonnoir_de_cuisine,"Entonnoir de cuisine",100,Kitchen funnel,Embudo de cocina
+pictionary,pictionary_C015,yellow,,1,yellow,entonnoir_de_cuisine,"Entonnoir de cuisine",100,Kitchen funnel,Embudo de cocina
 pictionary,pictionary_C015,yellow,,2,blue,tortue,"Tortue",100,Turtle,Tortuga
 pictionary,pictionary_C015,yellow,,3,orange,avancer,"Avancer",100,Move forward,Avanzar
 pictionary,pictionary_C015,yellow,,4,green,prendre_son_temps,"Prendre son temps",100,Take your time,Tomarse su tiempo
 pictionary,pictionary_C015,yellow,,5,red,le_marais,"Le Marais",100,Le Marais,Le Marais
 
-pictionary,pictionary_C016,yellow,,1,orange,cle,"Clé",100,Key,Llave
+pictionary,pictionary_C016,yellow,,1,yellow,cle,"Clé",100,Key,Llave
 pictionary,pictionary_C016,yellow,,2,blue,poisson,"Poisson",100,Fish,Pez
 pictionary,pictionary_C016,yellow,,3,orange,plonger,"Plonger",100,Dive,Bucear
 pictionary,pictionary_C016,yellow,,4,green,se_noircir,"Se noircir",100,Turn black,Oscurecerse
 pictionary,pictionary_C016,yellow,,5,red,arc_de_triomphe,"Arc de Triomphe",100,Arc de Triomphe,Arc de Triomphe
 
-pictionary,pictionary_C017,yellow,,1,orange,echelle,"Échelle",100,Ladder,Escalera
+pictionary,pictionary_C017,yellow,,1,yellow,echelle,"Échelle",100,Ladder,Escalera
 pictionary,pictionary_C017,yellow,,2,blue,chameau,"Chameau",100,Camel,Camello
 pictionary,pictionary_C017,yellow,,3,orange,grimper,"Grimper",100,Climb,Trepar
 pictionary,pictionary_C017,yellow,,4,green,perdre_la_face,"Perdre la face",100,Lose face,Perder la cara
 pictionary,pictionary_C017,yellow,,5,red,les_champs_elysees,"Les Champs-Élysées",100,Les Champs-Élysées,Les Champs-Élysées
 
-pictionary,pictionary_C018,yellow,,1,orange,coffre,"Coffre",100,Chest,Cofre
+pictionary,pictionary_C018,yellow,,1,yellow,coffre,"Coffre",100,Chest,Cofre
 pictionary,pictionary_C018,yellow,,2,blue,papillon,"Papillon",100,Butterfly,Mariposa
 pictionary,pictionary_C018,yellow,,3,orange,attraper,"Attraper",100,Catch,Atrapar
 pictionary,pictionary_C018,yellow,,4,green,prendre_son_envol,"Prendre son envol",100,Take flight,Alzar el vuelo
 pictionary,pictionary_C018,yellow,,5,red,le_pont_neuf,"Le Pont-Neuf",100,Le Pont-Neuf,Le Pont-Neuf
 
-pictionary,pictionary_C019,yellow,,1,orange,lampe,"Lampe",100,Lamp,Lámpara
+pictionary,pictionary_C019,yellow,,1,yellow,lampe,"Lampe",100,Lamp,Lámpara
 pictionary,pictionary_C019,yellow,,2,blue,ours,"Ours",100,Bear,Oso
 pictionary,pictionary_C019,yellow,,3,orange,allumer,"Allumer",100,Turn on,Encender
 pictionary,pictionary_C019,yellow,,4,green,voir_la_lumiere,"Voir la lumière",100,See the light,Ver la luz
 pictionary,pictionary_C019,yellow,,5,red,le_mont_blanc,"Le Mont-Blanc",100,Le Mont-Blanc,Le Mont-Blanc
 
-pictionary,pictionary_C020,yellow,,1,orange,tiroir,"Tiroir",100,Drawer,Cajón
+pictionary,pictionary_C020,yellow,,1,yellow,tiroir,"Tiroir",100,Drawer,Cajón
 pictionary,pictionary_C020,yellow,,2,blue,serpent,"Serpent",100,Snake,Serpiente
 pictionary,pictionary_C020,yellow,,3,orange,ramper,"Ramper",100,Crawl,Reptar
 pictionary,pictionary_C020,yellow,,4,green,avoir_la_peau_dure,"Avoir la peau dure",100,Be tough,Ser duro
 pictionary,pictionary_C020,yellow,,5,red,le_futuroscope,"Le Futuroscope",100,Le Futuroscope,Le Futuroscope
 
-pictionary,pictionary_C021,yellow,,1,orange,entonnoir,"Entonnoir",100,Funnel,Embudo
+pictionary,pictionary_C021,yellow,,1,yellow,entonnoir,"Entonnoir",100,Funnel,Embudo
 pictionary,pictionary_C021,yellow,,2,blue,hibou,"Hibou",100,Owl,Búho
 pictionary,pictionary_C021,yellow,,3,orange,observer,"Observer",100,Observe,Observar
 pictionary,pictionary_C021,yellow,,4,green,avoir_l_oeil,"Avoir l’œil",100,Keep an eye,Estar atento
 pictionary,pictionary_C021,yellow,,5,red,le_mont_saint_michel,"Le Mont-Saint-Michel",100,Le Mont-Saint-Michel,Le Mont-Saint-Michel
 
-pictionary,pictionary_C022,yellow,,1,orange,entonnoir_a_huile,"Entonnoir à huile",100,Oil funnel,Embudo de aceite
+pictionary,pictionary_C022,yellow,,1,yellow,entonnoir_a_huile,"Entonnoir à huile",100,Oil funnel,Embudo de aceite
 pictionary,pictionary_C022,yellow,,2,blue,aigle,"Aigle",100,Eagle,Águila
 pictionary,pictionary_C022,yellow,,3,orange,voler,"Voler",100,Fly,Volar
 pictionary,pictionary_C022,yellow,,4,green,prendre_de_la_hauteur,"Prendre de la hauteur",100,Gain height,Ganar altura
 pictionary,pictionary_C022,yellow,,5,red,le_puy_du_fou,"Le Puy du Fou",100,Le Puy du Fou,Le Puy du Fou
 
-pictionary,pictionary_C023,yellow,,1,orange,corde,"Corde",100,Rope,Cuerda
+pictionary,pictionary_C023,yellow,,1,yellow,corde,"Corde",100,Rope,Cuerda
 pictionary,pictionary_C023,yellow,,2,blue,araignee,"Araignée",100,Spider,Araña
 pictionary,pictionary_C023,yellow,,3,orange,escalader,"Escalader",100,Climb,Escalar
 pictionary,pictionary_C023,yellow,,4,green,s_accrocher,"S'accrocher",100,Hang on,Agarrarse
 pictionary,pictionary_C023,yellow,,5,red,la_defense,"La Défense",100,La Défense,La Défense
 
-pictionary,pictionary_C024,yellow,,1,orange,entonnoir_de_cuisine,"Entonnoir de cuisine",100,Kitchen funnel,Embudo de cocina
+pictionary,pictionary_C024,yellow,,1,yellow,entonnoir_de_cuisine,"Entonnoir de cuisine",100,Kitchen funnel,Embudo de cocina
 pictionary,pictionary_C024,yellow,,2,blue,tortue,"Tortue",100,Turtle,Tortuga
 pictionary,pictionary_C024,yellow,,3,orange,avancer,"Avancer",100,Move forward,Avanzar
 pictionary,pictionary_C024,yellow,,4,green,prendre_son_temps,"Prendre son temps",100,Take your time,Tomarse su tiempo
 pictionary,pictionary_C024,yellow,,5,red,le_marais,"Le Marais",100,Le Marais,Le Marais
 
-pictionary,pictionary_C025,yellow,,1,orange,cle,"Clé",100,Key,Llave
+pictionary,pictionary_C025,yellow,,1,yellow,cle,"Clé",100,Key,Llave
 pictionary,pictionary_C025,yellow,,2,blue,poisson,"Poisson",100,Fish,Pez
 pictionary,pictionary_C025,yellow,,3,orange,plonger,"Plonger",100,Dive,Bucear
 pictionary,pictionary_C025,yellow,,4,green,se_noircir,"Se noircir",100,Turn black,Oscurecerse
 pictionary,pictionary_C025,yellow,,5,red,arc_de_triomphe,"Arc de Triomphe",100,Arc de Triomphe,Arc de Triomphe
 
-pictionary,pictionary_C026,yellow,,1,orange,echelle,"Échelle",100,Ladder,Escalera
+pictionary,pictionary_C026,yellow,,1,yellow,echelle,"Échelle",100,Ladder,Escalera
 pictionary,pictionary_C026,yellow,,2,blue,chameau,"Chameau",100,Camel,Camello
 pictionary,pictionary_C026,yellow,,3,orange,grimper,"Grimper",100,Climb,Trepar
 pictionary,pictionary_C026,yellow,,4,green,perdre_la_face,"Perdre la face",100,Lose face,Perder la cara
 pictionary,pictionary_C026,yellow,,5,red,les_champs_elysees,"Les Champs-Élysées",100,Les Champs-Élysées,Les Champs-Élysées
 
-pictionary,pictionary_C027,yellow,,1,orange,coffre,"Coffre",100,Chest,Cofre
+pictionary,pictionary_C027,yellow,,1,yellow,coffre,"Coffre",100,Chest,Cofre
 pictionary,pictionary_C027,yellow,,2,blue,papillon,"Papillon",100,Butterfly,Mariposa
 pictionary,pictionary_C027,yellow,,3,orange,attraper,"Attraper",100,Catch,Atrapar
 pictionary,pictionary_C027,yellow,,4,green,prendre_son_envol,"Prendre son envol",100,Take flight,Alzar el vuelo
 pictionary,pictionary_C027,yellow,,5,red,le_pont_neuf,"Le Pont-Neuf",100,Le Pont-Neuf,Le Pont-Neuf
 
-pictionary,pictionary_C028,yellow,,1,orange,lampe,"Lampe",100,Lamp,Lámpara
+pictionary,pictionary_C028,yellow,,1,yellow,lampe,"Lampe",100,Lamp,Lámpara
 pictionary,pictionary_C028,yellow,,2,blue,ours,"Ours",100,Bear,Oso
 pictionary,pictionary_C028,yellow,,3,orange,allumer,"Allumer",100,Turn on,Encender
 pictionary,pictionary_C028,yellow,,4,green,voir_la_lumiere,"Voir la lumière",100,See the light,Ver la luz
 pictionary,pictionary_C028,yellow,,5,red,le_mont_blanc,"Le Mont-Blanc",100,Le Mont-Blanc,Le Mont-Blanc
 
-pictionary,pictionary_C029,yellow,,1,orange,tiroir,"Tiroir",100,Drawer,Cajón
+pictionary,pictionary_C029,yellow,,1,yellow,tiroir,"Tiroir",100,Drawer,Cajón
 pictionary,pictionary_C029,yellow,,2,blue,serpent,"Serpent",100,Snake,Serpiente
 pictionary,pictionary_C029,yellow,,3,orange,ramper,"Ramper",100,Crawl,Reptar
 pictionary,pictionary_C029,yellow,,4,green,avoir_la_peau_dure,"Avoir la peau dure",100,Be tough,Ser duro
 pictionary,pictionary_C029,yellow,,5,red,le_futuroscope,"Le Futuroscope",100,Le Futuroscope,Le Futuroscope
 
-pictionary,pictionary_C030,yellow,,1,orange,entonnoir_a_huile,"Entonnoir à huile",100,Oil funnel,Embudo de aceite
+pictionary,pictionary_C030,yellow,,1,yellow,entonnoir_a_huile,"Entonnoir à huile",100,Oil funnel,Embudo de aceite
 pictionary,pictionary_C030,yellow,,2,blue,aigle,"Aigle",100,Eagle,Águila
 pictionary,pictionary_C030,yellow,,3,orange,voler,"Voler",100,Fly,Volar
 pictionary,pictionary_C030,yellow,,4,green,prendre_de_la_hauteur,"Prendre de la hauteur",100,Gain height,Ganar altura
 pictionary,pictionary_C030,yellow,,5,red,le_puy_du_fou,"Le Puy du Fou",100,Le Puy du Fou,Le Puy du Fou
 
-pictionary,pictionary_C031,yellow,,1,orange,piscine,"Piscine",100,Swimming pool,Piscina
+pictionary,pictionary_C031,yellow,,1,yellow,piscine,"Piscine",100,Swimming pool,Piscina
 pictionary,pictionary_C031,yellow,,2,blue,etudiant,"Étudiant",100,Student,Estudiante
 pictionary,pictionary_C031,yellow,,3,orange,plucher,"Plucher",100,Peel,Pelar
 pictionary,pictionary_C031,yellow,,4,green,etre_vivant,"Être vivant",100,Living being,Ser vivo
 pictionary,pictionary_C031,yellow,,5,red,coco_chanel,"Coco Chanel",100,Coco Chanel,Coco Chanel
 
-pictionary,pictionary_C032,yellow,,1,orange,tablier,"Tablier",100,Apron,Delantal
+pictionary,pictionary_C032,yellow,,1,yellow,tablier,"Tablier",100,Apron,Delantal
 pictionary,pictionary_C032,yellow,,2,blue,cobra,"Cobra",100,Cobra,Cobra
 pictionary,pictionary_C032,yellow,,3,orange,rebondir,"Rebondir",100,Bounce,Rebotar
 pictionary,pictionary_C032,yellow,,4,green,faire_un_creneau,"Faire un créneau",100,Parallel park,Aparcar en batería
 pictionary,pictionary_C032,yellow,,5,red,haka,"Haka",100,Haka,Haka
 
-pictionary,pictionary_C033,yellow,,1,orange,jacuzzi,"Jacuzzi",100,Jacuzzi,Jacuzzi
+pictionary,pictionary_C033,yellow,,1,yellow,jacuzzi,"Jacuzzi",100,Jacuzzi,Jacuzzi
 pictionary,pictionary_C033,yellow,,2,blue,creche,"Crèche",100,Nursery,Guardería
 pictionary,pictionary_C033,yellow,,3,orange,se_mettre_a_genoux,"Se mettre à genoux",100,Kneel,Arrodillarse
 pictionary,pictionary_C033,yellow,,4,green,moutarde,"Moutarde",100,Mustard,Mostaza
 pictionary,pictionary_C033,yellow,,5,red,co_voiturage,"Covoiturage",100,Carpooling,Coche compartido
 
-pictionary,pictionary_C034,yellow,,1,orange,cadenas,"Cadenas",100,Padlock,Candado
+pictionary,pictionary_C034,yellow,,1,yellow,cadenas,"Cadenas",100,Padlock,Candado
 pictionary,pictionary_C034,yellow,,2,blue,pont_levis,"Pont-levis",100,Drawbridge,Puente levadizo
 pictionary,pictionary_C034,yellow,,3,orange,retracer,"Retracer",100,Trace again,Volver a trazar
 pictionary,pictionary_C034,yellow,,4,green,haut_de_gamme,"Haut de gamme",100,High-end,Alta gama
 pictionary,pictionary_C034,yellow,,5,red,futuroscope,"Futuroscope",100,Futuroscope,Futuroscope
 
-pictionary,pictionary_C035,yellow,,1,orange,barriere,"Barrière",100,Barrier,Barrera
+pictionary,pictionary_C035,yellow,,1,yellow,barriere,"Barrière",100,Barrier,Barrera
 pictionary,pictionary_C035,yellow,,2,blue,leopard,"Léopard",100,Leopard,Leopardo
 pictionary,pictionary_C035,yellow,,3,orange,frissonner,"Frissonner",100,Shiver,Temblar
 pictionary,pictionary_C035,yellow,,4,green,marathon,"Marathon",100,Marathon,Maratón
 pictionary,pictionary_C035,yellow,,5,red,speed_dating,"Speed dating",100,Speed dating,Speed dating
 
-pictionary,pictionary_C036,yellow,,1,orange,fauteuil,"Fauteuil",100,Armchair,Sillón
+pictionary,pictionary_C036,yellow,,1,yellow,fauteuil,"Fauteuil",100,Armchair,Sillón
 pictionary,pictionary_C036,yellow,,2,blue,calamar,"Calamar",100,Squid,Calamar
 pictionary,pictionary_C036,yellow,,3,orange,se_deshabiller,"Se déshabiller",100,Undress,Desvestirse
 pictionary,pictionary_C036,yellow,,4,green,chiffre_d_affaires,"Chiffre d'affaires",100,Revenue,Facturación
 pictionary,pictionary_C036,yellow,,5,red,jeux_olympiques,"Jeux Olympiques",100,Jeux Olympiques,Jeux Olympiques
 
-pictionary,pictionary_C037,yellow,,1,orange,robe_de_chambre,"Robe de chambre",100,Bathrobe,Bata
+pictionary,pictionary_C037,yellow,,1,yellow,robe_de_chambre,"Robe de chambre",100,Bathrobe,Bata
 pictionary,pictionary_C037,yellow,,2,blue,paon,"Paon",100,Peacock,Pavo real
 pictionary,pictionary_C037,yellow,,3,orange,plonger,"Plonger",100,Dive,Bucear
 pictionary,pictionary_C037,yellow,,4,green,chanter_faux,"Chanter faux",100,Sing off-key,Cantar mal
 pictionary,pictionary_C037,yellow,,5,red,steven_spielberg,"Steven Spielberg",100,Steven Spielberg,Steven Spielberg
 
-pictionary,pictionary_C038,yellow,,1,orange,passeport,"Passeport",100,Passport,Paspaporte
+pictionary,pictionary_C038,yellow,,1,yellow,passeport,"Passeport",100,Passport,Paspaporte
 pictionary,pictionary_C038,yellow,,2,blue,blaireau,"Blaireau",100,Badger,Tejón
 pictionary,pictionary_C038,yellow,,3,orange,tendre,"Tendre",100,Reach out,Extender
 pictionary,pictionary_C038,yellow,,4,green,partie_visible_de_l_iceberg,"Partie visible de l'iceberg",100,Tip of the iceberg,Punta del iceberg
 pictionary,pictionary_C038,yellow,,5,red,george_clooney,"George Clooney",100,George Clooney,George Clooney
 
-pictionary,pictionary_C039,yellow,,1,orange,frisbee,"Frisbee",100,Frisbee,Frisbee
+pictionary,pictionary_C039,yellow,,1,yellow,frisbee,"Frisbee",100,Frisbee,Frisbee
 pictionary,pictionary_C039,yellow,,2,blue,poulpe,"Poulpe",100,Octopus,Pulpo
 pictionary,pictionary_C039,yellow,,3,orange,apprendre,"Apprendre",100,Learn,Aprender
 pictionary,pictionary_C039,yellow,,4,green,ville_fantome,"Ville fantôme",100,Ghost town,Pueblo fantasma
 pictionary,pictionary_C039,yellow,,5,red,guinness_record,"Guinness Record",100,Guinness Record,Guinness Record
 
-pictionary,pictionary_C040,yellow,,1,orange,cafetiere,"Cafetière",100,Coffee maker,Cafetera
+pictionary,pictionary_C040,yellow,,1,yellow,cafetiere,"Cafetière",100,Coffee maker,Cafetera
 pictionary,pictionary_C040,yellow,,2,blue,panda,"Panda",100,Panda,Panda
 pictionary,pictionary_C040,yellow,,3,orange,poncer,"Poncer",100,Sand (wood),Lijar
 pictionary,pictionary_C040,yellow,,4,green,cremation,"Crémation",100,Cremation,Cremación
 pictionary,pictionary_C040,yellow,,5,red,faire_le_pont,"Faire le pont",100,Long weekend,Hacer puente
 
-pictionary,pictionary_C041,yellow,,1,orange,cadeau,"Cadeau",100,Gift,Regalo
+pictionary,pictionary_C041,yellow,,1,yellow,cadeau,"Cadeau",100,Gift,Regalo
 pictionary,pictionary_C041,yellow,,2,blue,agriculture,"Agriculture",100,Agriculture,Agricultura
 pictionary,pictionary_C041,yellow,,3,orange,exploser,"Exploser",100,Explode,Explotar
 pictionary,pictionary_C041,yellow,,4,green,alveoles,"Alvéoles",100,Cells,Celdillas
 pictionary,pictionary_C041,yellow,,5,red,chucky,"Chucky",100,Chucky,Chucky
 
-pictionary,pictionary_C042,yellow,,1,orange,feu_d_artifice,"Feu d'artifice",100,Fireworks,Fuegos artificiales
+pictionary,pictionary_C042,yellow,,1,yellow,feu_d_artifice,"Feu d'artifice",100,Fireworks,Fuegos artificiales
 pictionary,pictionary_C042,yellow,,2,blue,dentiste,"Dentiste",100,Dentist,Dentista
 pictionary,pictionary_C042,yellow,,3,orange,avaler,"Avaler",100,Swallow,Tragar
 pictionary,pictionary_C042,yellow,,4,green,cul_de_sac,"Cul-de-sac",100,Dead end,Callejón sin salida
 pictionary,pictionary_C042,yellow,,5,red,puy_du_fou,"Puy du Fou",100,Puy du Fou,Puy du Fou
 
-pictionary,pictionary_C043,yellow,,1,orange,lance_pierres,"Lance-pierres",100,Slingshot,Tirachinas
+pictionary,pictionary_C043,yellow,,1,yellow,lance_pierres,"Lance-pierres",100,Slingshot,Tirachinas
 pictionary,pictionary_C043,yellow,,2,blue,grande_muraille_de_chine,"Grande Muraille de Chine",100,Great Wall of China,Gran Muralla China
 pictionary,pictionary_C043,yellow,,3,orange,operer,"Opérer",100,Operate,Operar
 pictionary,pictionary_C043,yellow,,4,green,siege_ejectable,"Siège éjectable",100,Ejection seat,Asiento eyectable
 pictionary,pictionary_C043,yellow,,5,red,zlatan_ibrahimovic,"Zlatan Ibrahimović",100,Zlatan Ibrahimović,Zlatan Ibrahimović
 
-pictionary,pictionary_C044,yellow,,1,orange,melangeur,"Mélangeur",100,Mixer,Mezclador
+pictionary,pictionary_C044,yellow,,1,yellow,melangeur,"Mélangeur",100,Mixer,Mezclador
 pictionary,pictionary_C044,yellow,,2,blue,hippocampe,"Hippocampe",100,Seahorse,Caballito de mar
 pictionary,pictionary_C044,yellow,,3,orange,chatouiller,"Chatouiller",100,Tickle,Hacer cosquillas
 pictionary,pictionary_C044,yellow,,4,green,station_d_epuration,"Station d'épuration",100,Water treatment plant,Planta depuradora
 pictionary,pictionary_C044,yellow,,5,red,baccalaureat,"Baccalauréat",100,Baccalauréat,Baccalauréat
 
-pictionary,pictionary_C045,yellow,,1,orange,congelateur,"Congélateur",100,Freezer,Congelador
+pictionary,pictionary_C045,yellow,,1,yellow,congelateur,"Congélateur",100,Freezer,Congelador
 pictionary,pictionary_C045,yellow,,2,blue,psychologue,"Psychologue",100,Psychologist,Psicólogo
 pictionary,pictionary_C045,yellow,,3,orange,boire,"Boire",100,Drink,Beber
 pictionary,pictionary_C045,yellow,,4,green,etre_agre,"Être âgé",100,Be old,Ser mayor
 pictionary,pictionary_C045,yellow,,5,red,prix_nobel,"Prix Nobel",100,Prix Nobel,Prix Nobel
 
-pictionary,pictionary_C046,yellow,,1,orange,bouclier,"Bouclier",100,Shield,Escudo
+pictionary,pictionary_C046,yellow,,1,yellow,bouclier,"Bouclier",100,Shield,Escudo
 pictionary,pictionary_C046,yellow,,2,blue,reine,"Reine",100,Queen,Reina
 pictionary,pictionary_C046,yellow,,3,orange,se_muscler,"Se muscler",100,Build muscles,Muscularse
 pictionary,pictionary_C046,yellow,,4,green,fumer_comme_un_pompier,"Fumer comme un pompier",100,Smoke a lot,Fumar como un carretero
 pictionary,pictionary_C046,yellow,,5,red,photomaton,"Photomaton",100,Photo booth,Fotomatón
 
-pictionary,pictionary_C047,yellow,,1,orange,passeoire,"Passoire",100,Colander,Colador
+pictionary,pictionary_C047,yellow,,1,yellow,passeoire,"Passoire",100,Colander,Colador
 pictionary,pictionary_C047,yellow,,2,blue,architecte,"Architecte",100,Architect,Arquitecto
 pictionary,pictionary_C047,yellow,,3,orange,vaporiser,"Vaporiser",100,Spray,Vaporizar
 pictionary,pictionary_C047,yellow,,4,green,vide,"Vide",100,Empty,Vacío
 pictionary,pictionary_C047,yellow,,5,red,la_danse_des_canards,"La danse des canards",100,La danse des canards,La danse des canards
 
-pictionary,pictionary_C048,yellow,,1,orange,enciente_musicale,"Enceinte musicale",100,Speaker,Altavoz
+pictionary,pictionary_C048,yellow,,1,yellow,enciente_musicale,"Enceinte musicale",100,Speaker,Altavoz
 pictionary,pictionary_C048,yellow,,2,blue,pirate,"Pirate",100,Pirate,Pirata
 pictionary,pictionary_C048,yellow,,3,orange,pedaler,"Pédaler",100,Pedal,Pedalear
 pictionary,pictionary_C048,yellow,,4,green,annuaire,"Annuaire",100,Directory,Directorio
 pictionary,pictionary_C048,yellow,,5,red,irish_coffee,"Irish coffee",100,Irish coffee,Irish coffee
 
-pictionary,pictionary_C049,yellow,,1,orange,squeezer,"Squeezer",100,Juicer,Exprimidor
+pictionary,pictionary_C049,yellow,,1,yellow,squeezer,"Squeezer",100,Juicer,Exprimidor
 pictionary,pictionary_C049,yellow,,2,blue,banquise,"Banquise",100,Ice floe,Banquisa
 pictionary,pictionary_C049,yellow,,3,orange,universite,"Université",100,University,Universidad
 pictionary,pictionary_C049,yellow,,4,green,franchise_alimentaire,"Franchise alimentaire",100,Food franchise,Franquicia alimentaria
 pictionary,pictionary_C049,yellow,,5,red,marc_gasol,"Marc Gasol",100,Marc Gasol,Marc Gasol
 
-pictionary,pictionary_C050,yellow,,1,orange,cercle,"Cercle",100,Circle,Círculo
+pictionary,pictionary_C050,yellow,,1,yellow,cercle,"Cercle",100,Circle,Círculo
 pictionary,pictionary_C050,yellow,,2,blue,basket,"Basket",100,Basketball,Baloncesto
 pictionary,pictionary_C050,yellow,,3,orange,etre_en_colere,"Être en colère",100,Be angry,Estar enfadado
 pictionary,pictionary_C050,yellow,,4,green,ramener_a_la_maison,"Ramener à la maison",100,Bring home,Llevar a casa
 pictionary,pictionary_C050,yellow,,5,red,peaky_blinders,"Peaky Blinders",100,Peaky Blinders,Peaky Blinders
 
-pictionary,pictionary_C051,yellow,,1,orange,ponton,"Ponton",100,Pier,Pantalán
+pictionary,pictionary_C051,yellow,,1,yellow,ponton,"Ponton",100,Pier,Pantalán
 pictionary,pictionary_C051,yellow,,2,blue,pere,"Père",100,Father,Padre
 pictionary,pictionary_C051,yellow,,3,orange,poisson,"Poisson",100,Fish,Pez
 pictionary,pictionary_C051,yellow,,4,green,faire_la_fete,"Faire la fête",100,Party,Salir de fiesta
 pictionary,pictionary_C051,yellow,,5,red,france,"France",100,France,France
 
-pictionary,pictionary_C052,yellow,,1,orange,petard,"Pétard",100,Firecracker,Petardo
+pictionary,pictionary_C052,yellow,,1,yellow,petard,"Pétard",100,Firecracker,Petardo
 pictionary,pictionary_C052,yellow,,2,blue,dentiste,"Dentiste",100,Dentist,Dentista
 pictionary,pictionary_C052,yellow,,3,orange,avaler,"Avaler",100,Swallow,Tragar
 pictionary,pictionary_C052,yellow,,4,green,cul_de_sac,"Cul-de-sac",100,Dead end,Callejón sin salida
 pictionary,pictionary_C052,yellow,,5,red,puy_du_fou,"Puy du Fou",100,Puy du Fou,Puy du Fou
 
-pictionary,pictionary_C053,yellow,,1,orange,coupe_du_monde,"Coupe du monde",100,World Cup,Copa del Mundo
+pictionary,pictionary_C053,yellow,,1,yellow,coupe_du_monde,"Coupe du monde",100,World Cup,Copa del Mundo
 pictionary,pictionary_C053,yellow,,2,blue,stade_de_concert,"Stade de concert",100,Concert stadium,Estadio de conciertos
 pictionary,pictionary_C053,yellow,,3,orange,applaudir,"Applaudir",100,Clap,Aplaudir
 pictionary,pictionary_C053,yellow,,4,green,faire_du_sport,"Faire du sport",100,Do sports,Hacer deporte
 pictionary,pictionary_C053,yellow,,5,red,les_jo,"Les JO",100,Olympic Games,Juegos Olímpicos
 
-pictionary,pictionary_C054,yellow,,1,orange,salon_de_coiffure,"Salon de coiffure",100,Hair salon,Peluquería
+pictionary,pictionary_C054,yellow,,1,yellow,salon_de_coiffure,"Salon de coiffure",100,Hair salon,Peluquería
 pictionary,pictionary_C054,yellow,,2,blue,coiffeur,"Coiffeur",100,Hairdresser,Peluquero
 pictionary,pictionary_C054,yellow,,3,orange,couper,"Couper",100,Cut,Cortar
 pictionary,pictionary_C054,yellow,,4,green,changement_radical,"Changement radical",100,Radical change,Cambio radical
 pictionary,pictionary_C054,yellow,,5,red,renaissance,"Renaissance",100,Renaissance,Renaissance
 
-pictionary,pictionary_C055,yellow,,1,orange,marchand,"Marchand",100,Merchant,Comerciante
+pictionary,pictionary_C055,yellow,,1,yellow,marchand,"Marchand",100,Merchant,Comerciante
 pictionary,pictionary_C055,yellow,,2,blue,horloge,"Horloge",100,Clock,Reloj
 pictionary,pictionary_C055,yellow,,3,orange,regler,"Régler",100,Adjust,Ajustar
 pictionary,pictionary_C055,yellow,,4,green,prendre_le_temps,"Prendre le temps",100,Take time,Tomarse el tiempo
 pictionary,pictionary_C055,yellow,,5,red,adonis,"Adonis",100,Adonis,Adonis
 
-pictionary,pictionary_C056,yellow,,1,orange,achat,"Achat",100,Purchase,Compra
+pictionary,pictionary_C056,yellow,,1,yellow,achat,"Achat",100,Purchase,Compra
 pictionary,pictionary_C056,yellow,,2,blue,loup,"Loup",100,Wolf,Lobo
 pictionary,pictionary_C056,yellow,,3,orange,voler,"Voler",100,Fly,Volar
 pictionary,pictionary_C056,yellow,,4,green,avoir_faim,"Avoir faim",100,Be hungry,Tener hambre
 pictionary,pictionary_C056,yellow,,5,red,remy,"Rémy",100,Rémy,Rémy
 
-pictionary,pictionary_C057,yellow,,1,orange,cadeau,"Cadeau",100,Gift,Regalo
+pictionary,pictionary_C057,yellow,,1,yellow,cadeau,"Cadeau",100,Gift,Regalo
 pictionary,pictionary_C057,yellow,,2,blue,renard,"Renard",100,Fox,Zorro
 pictionary,pictionary_C057,yellow,,3,orange,offrir,"Offrir",100,Give as a gift,Regalar
 pictionary,pictionary_C057,yellow,,4,green,faire_plaisir,"Faire plaisir",100,Make happy,Dar gusto
 pictionary,pictionary_C057,yellow,,5,red,ratatouille,"Ratatouille",100,Ratatouille,Ratatouille
 
-pictionary,pictionary_C058,yellow,,1,orange,squeezer,"Squeezer",100,Juicer,Exprimidor
+pictionary,pictionary_C058,yellow,,1,yellow,squeezer,"Squeezer",100,Juicer,Exprimidor
 pictionary,pictionary_C058,yellow,,2,blue,banquise,"Banquise",100,Ice floe,Banquisa
 pictionary,pictionary_C058,yellow,,3,orange,glisser,"Glisser",100,Slide,Resbalar
 pictionary,pictionary_C058,yellow,,4,green,perdre_pied,"Perdre pied",100,Lose balance,Perder el equilibrio
 pictionary,pictionary_C058,yellow,,5,red,antarctique,"Antarctique",100,Antarctica,Antártida
 
-pictionary,pictionary_C059,yellow,,1,orange,tarot,"Tarot",100,Tarot,Tarot
+pictionary,pictionary_C059,yellow,,1,yellow,tarot,"Tarot",100,Tarot,Tarot
 pictionary,pictionary_C059,yellow,,2,blue,voie_lactee,"Voie lactée",100,Milky Way,Vía Láctea
 pictionary,pictionary_C059,yellow,,3,orange,chanter,"Chanter",100,Sing,Cantar
 pictionary,pictionary_C059,yellow,,4,green,avoir_la_tete_dans_les_etoiles,"Avoir la tête dans les étoiles",100,Daydream,Tener la cabeza en las nubes
 pictionary,pictionary_C059,yellow,,5,red,carte_du_ciel,"Carte du ciel",100,Star map,Carta celeste
 
-pictionary,pictionary_C060,yellow,,1,orange,flipper,"Flipper",100,Pinball,Pinball
+pictionary,pictionary_C060,yellow,,1,yellow,flipper,"Flipper",100,Pinball,Pinball
 pictionary,pictionary_C060,yellow,,2,blue,sardine,"Sardine",100,Sardine,Sardina
 pictionary,pictionary_C060,yellow,,3,orange,gratter,"Gratter",100,Scratch,Rascar
 pictionary,pictionary_C060,yellow,,4,green,etre_aux_anges,"Être aux anges",100,Be delighted,Estar en el cielo
 pictionary,pictionary_C060,yellow,,5,red,yoda,"Yoda",100,Yoda,Yoda
 
-pictionary,pictionary_C061,yellow,,1,orange,arrete_a_chat,"Arrête-à-chat",100,Anti-climb spike,Pincho antiescalada
+pictionary,pictionary_C061,yellow,,1,yellow,arrete_a_chat,"Arrête-à-chat",100,Anti-climb spike,Pincho antiescalada
 pictionary,pictionary_C061,yellow,,2,blue,londres,"Londres",100,London,Londres
 pictionary,pictionary_C061,yellow,,3,orange,voler,"Voler",100,Fly,Volar
 pictionary,pictionary_C061,yellow,,4,green,gosper,"Gosper",100,Gosper,Gosper
 pictionary,pictionary_C061,yellow,,5,red,instagram,"Instagram",100,Instagram,Instagram
 
-pictionary,pictionary_C062,yellow,,1,orange,escalator,"Escalator",100,Escalator,Escalera mecánica
+pictionary,pictionary_C062,yellow,,1,yellow,escalator,"Escalator",100,Escalator,Escalera mecánica
 pictionary,pictionary_C062,yellow,,2,blue,bresil,"Brésil",100,Brazil,Brasil
 pictionary,pictionary_C062,yellow,,3,orange,tomber,"Tomber",100,Fall,Caer
 pictionary,pictionary_C062,yellow,,4,green,guacamole,"Guacamole",100,Guacamole,Guacamole
 pictionary,pictionary_C062,yellow,,5,red,cirque_du_soleil,"Cirque du Soleil",100,Cirque du Soleil,Cirque du Soleil
 
-pictionary,pictionary_C063,yellow,,1,orange,poignee_de_porte,"Poignée de porte",100,Door handle,Manilla de puerta
+pictionary,pictionary_C063,yellow,,1,yellow,poignee_de_porte,"Poignée de porte",100,Door handle,Manilla de puerta
 pictionary,pictionary_C063,yellow,,2,blue,sagrada_familia,"Sagrada Família",100,Sagrada Família,Sagrada Família
 pictionary,pictionary_C063,yellow,,3,orange,soulever,"Soulever",100,Lift,Levantar
 pictionary,pictionary_C063,yellow,,4,green,place_de_parking,"Place de parking",100,Parking space,Plaza de aparcamiento
 pictionary,pictionary_C063,yellow,,5,red,aladin,"Aladin",100,Aladin,Aladin
 
-pictionary,pictionary_C064,yellow,,1,orange,lettres,"Lettres",100,Letters,Letras
+pictionary,pictionary_C064,yellow,,1,yellow,lettres,"Lettres",100,Letters,Letras
 pictionary,pictionary_C064,yellow,,2,blue,espion,"Espion",100,Spy,Espía
 pictionary,pictionary_C064,yellow,,3,orange,frapper,"Frapper",100,Hit,Golpear
 pictionary,pictionary_C064,yellow,,4,green,oeil_au_beurre_noir,"Œil au beurre noir",100,Black eye,Ojo morado
 pictionary,pictionary_C064,yellow,,5,red,guerre_froide,"Guerre froide",100,Cold War,Guerra Fría
 
-pictionary,pictionary_C065,yellow,,1,orange,cuillere,"Cuillère",100,Spoon,Cuchara
+pictionary,pictionary_C065,yellow,,1,yellow,cuillere,"Cuillère",100,Spoon,Cuchara
 pictionary,pictionary_C065,yellow,,2,blue,la_tour_de_pise,"La tour de Pise",100,Leaning Tower of Pisa,Torre de Pisa
 pictionary,pictionary_C065,yellow,,3,orange,tourner_autour_du_pot,"Tourner autour du pot",100,Avoid the point,Andarse por las ramas
 pictionary,pictionary_C065,yellow,,4,green,droit_au_but,"Droit au but",100,Straight to the point,Ir al grano
 pictionary,pictionary_C065,yellow,,5,red,potion_magique,"Potion magique",100,Magic potion,Poción mágica
 
-pictionary,pictionary_C066,yellow,,1,orange,tambour,"Tambour",100,Drum,Tambor
+pictionary,pictionary_C066,yellow,,1,yellow,tambour,"Tambour",100,Drum,Tambor
 pictionary,pictionary_C066,yellow,,2,blue,marin,"Marin",100,Sailor,Marinero
 pictionary,pictionary_C066,yellow,,3,orange,dessiner,"Dessiner",100,Draw,Dibujar
 pictionary,pictionary_C066,yellow,,4,green,fuseau_horaire,"Fuseau horaire",100,Time zone,Huso horario
 pictionary,pictionary_C066,yellow,,5,red,les_mille_et_une_nuits,"Les Mille et Une Nuits",100,Les Mille et Une Nuits,Les Mille et Une Nuits
 
-pictionary,pictionary_C067,yellow,,1,orange,cafe,"Café",100,Coffee,Café
+pictionary,pictionary_C067,yellow,,1,yellow,cafe,"Café",100,Coffee,Café
 pictionary,pictionary_C067,yellow,,2,blue,hibou,"Hibou",100,Owl,Búho
 pictionary,pictionary_C067,yellow,,3,orange,hanter,"Hanter",100,Haunt,Atormentar
 pictionary,pictionary_C067,yellow,,4,green,stationnement_interdit,"Stationnement interdit",100,No parking,Prohibido estacionar
 pictionary,pictionary_C067,yellow,,5,red,lac_des_cygnes,"Lac des cygnes",100,Lac des cygnes,Lac des cygnes
 
-pictionary,pictionary_C068,yellow,,1,orange,bouteille,"Bouteille",100,Bottle,Botella
+pictionary,pictionary_C068,yellow,,1,yellow,bouteille,"Bouteille",100,Bottle,Botella
 pictionary,pictionary_C068,yellow,,2,blue,requin,"Requin",100,Shark,Tiburón
 pictionary,pictionary_C068,yellow,,3,orange,casser,"Casser",100,Break,Romper
 pictionary,pictionary_C068,yellow,,4,green,se_faire_des_muscles,"Se faire des muscles",100,Build muscles,Hacer músculo
 pictionary,pictionary_C068,yellow,,5,red,princesse_diana,"Princesse Diana",100,Princesse Diana,Princesse Diana
 
-pictionary,pictionary_C069,yellow,,1,orange,portefeuille,"Portefeuille",100,Wallet,Cartera
+pictionary,pictionary_C069,yellow,,1,yellow,portefeuille,"Portefeuille",100,Wallet,Cartera
 pictionary,pictionary_C069,yellow,,2,blue,opera,"Opéra",100,Opera,Ópera
 pictionary,pictionary_C069,yellow,,3,orange,s_evader,"S’évader",100,Escape,Escapar
 pictionary,pictionary_C069,yellow,,4,green,avoir_un_haut_le_coeur,"Avoir un haut-le-cœur",100,Feel nauseous,Sentir náuseas
 pictionary,pictionary_C069,yellow,,5,red,koh_lanta,"Koh-Lanta",100,Koh-Lanta,Koh-Lanta
 
-pictionary,pictionary_C070,yellow,,1,orange,hotel,"Hôtel",100,Hotel,Hotel
+pictionary,pictionary_C070,yellow,,1,yellow,hotel,"Hôtel",100,Hotel,Hotel
 pictionary,pictionary_C070,yellow,,2,blue,elysee,"Élysée",100,Élysée Palace,Palacio del Elíseo
 pictionary,pictionary_C070,yellow,,3,orange,mesurer,"Mesurer",100,Measure,Medir
 pictionary,pictionary_C070,yellow,,4,green,devenir_dingue,"Devenir dingue",100,Go crazy,Volverse loco
 pictionary,pictionary_C070,yellow,,5,red,la_bourse,"La Bourse",100,Stock market,Bolsa
 
-pictionary,pictionary_C071,yellow,,1,orange,porte,"Porte",100,Door,Puerta
+pictionary,pictionary_C071,yellow,,1,yellow,porte,"Porte",100,Door,Puerta
 pictionary,pictionary_C071,yellow,,2,blue,poney,"Poney",100,Pony,Poni
 pictionary,pictionary_C071,yellow,,3,orange,frotter,"Frotter",100,Rub,Frotar
 pictionary,pictionary_C071,yellow,,4,green,avoir_le_mal_de_mer,"Avoir le mal de mer",100,Seasick,Mareo
 pictionary,pictionary_C071,yellow,,5,red,beaujolais_nouveau,"Beaujolais nouveau",100,Beaujolais nouveau,Beaujolais nouveau
 
-pictionary,pictionary_C072,yellow,,1,orange,taxi,"Taxi",100,Taxi,Taxi
+pictionary,pictionary_C072,yellow,,1,yellow,taxi,"Taxi",100,Taxi,Taxi
 pictionary,pictionary_C072,yellow,,2,blue,couturier,"Couturier",100,Fashion designer,Diseñador de moda
 pictionary,pictionary_C072,yellow,,3,orange,melanger,"Mélanger",100,Mix,Mezclar
 pictionary,pictionary_C072,yellow,,4,green,retourner_sa_veste,"Retourner sa veste",100,Change sides,Cambiar de bando
 pictionary,pictionary_C072,yellow,,5,red,dora_l_exploratrice,"Dora l'exploratrice",100,Dora the Explorer,Dora la Exploradora
 
-pictionary,pictionary_C073,yellow,,1,orange,carrousel,"Carrousel",100,Carousel,Carrusel
+pictionary,pictionary_C073,yellow,,1,yellow,carrousel,"Carrousel",100,Carousel,Carrusel
 pictionary,pictionary_C073,yellow,,2,blue,port,"Port",100,Harbor,Puerto
 pictionary,pictionary_C073,yellow,,3,orange,tirer_sur_une_corde,"Tirer sur une corde",100,Pull a rope,Tirar de una cuerda
 pictionary,pictionary_C073,yellow,,4,green,il_pleut_des_cordes,"Il pleut des cordes",100,Heavy rain,Lluvia fuerte
 pictionary,pictionary_C073,yellow,,5,red,croix_rouge,"Croix-Rouge",100,Red Cross,Cruz Roja
 
-pictionary,pictionary_C074,yellow,,1,orange,fontaine,"Fontaine",100,Fountain,Fuente
+pictionary,pictionary_C074,yellow,,1,yellow,fontaine,"Fontaine",100,Fountain,Fuente
 pictionary,pictionary_C074,yellow,,2,blue,presentateur,"Présentateur",100,TV host,Presentador
 pictionary,pictionary_C074,yellow,,3,orange,enlacer_quelquun,"Enlacer quelqu'un",100,Hug someone,Abrazar a alguien
 pictionary,pictionary_C074,yellow,,4,green,grippe_aviaire,"Grippe aviaire",100,Bird flu,Gripe aviar
 pictionary,pictionary_C074,yellow,,5,red,omar_sy,"Omar Sy",100,Omar Sy,Omar Sy
 
-pictionary,pictionary_C075,yellow,,1,orange,coquetier,"Coquetier",100,Egg cup,Huevera
+pictionary,pictionary_C075,yellow,,1,yellow,coquetier,"Coquetier",100,Egg cup,Huevera
 pictionary,pictionary_C075,yellow,,2,blue,majordome,"Majordome",100,Butler,Mayordomo
 pictionary,pictionary_C075,yellow,,3,orange,partager,"Partager",100,Share,Compartir
 pictionary,pictionary_C075,yellow,,4,green,faire_un_voeu,"Faire un vœu",100,Make a wish,Pedir un deseo
 pictionary,pictionary_C075,yellow,,5,red,hollywood,"Hollywood",100,Hollywood,Hollywood
 
-pictionary,pictionary_C076,yellow,,1,orange,trophee,"Trophée",100,Trophy,Trofeo
+pictionary,pictionary_C076,yellow,,1,yellow,trophee,"Trophée",100,Trophy,Trofeo
 pictionary,pictionary_C076,yellow,,2,blue,grand_canyon,"Grand Canyon",100,Grand Canyon,Gran Cañón
 pictionary,pictionary_C076,yellow,,3,orange,tourner,"Tourner",100,Turn,Girar
 pictionary,pictionary_C076,yellow,,4,green,maree_haute,"Marée haute",100,High tide,Marea alta
 pictionary,pictionary_C076,yellow,,5,red,moliere,"Molière",100,Molière,Molière
 
-pictionary,pictionary_C077,yellow,,1,orange,fleuret,"Fleuret",100,Foil sword,Florete
+pictionary,pictionary_C077,yellow,,1,yellow,fleuret,"Fleuret",100,Foil sword,Florete
 pictionary,pictionary_C077,yellow,,2,blue,berger,"Berger",100,Shepherd,Pastor
 pictionary,pictionary_C077,yellow,,3,orange,expirer,"Expirer",100,Exhale,Exhalar
 pictionary,pictionary_C077,yellow,,4,green,arnaque,"Arnaque",100,Scam,Estafa
 pictionary,pictionary_C077,yellow,,5,red,karaoke,"Karaoké",100,Karaoke,Karaoke
 
-pictionary,pictionary_C078,yellow,,1,orange,cheminee,"Cheminée",100,Fireplace,Chimenea
+pictionary,pictionary_C078,yellow,,1,yellow,cheminee,"Cheminée",100,Fireplace,Chimenea
 pictionary,pictionary_C078,yellow,,2,blue,paris,"Paris",100,Paris,París
 pictionary,pictionary_C078,yellow,,3,orange,fondre,"Fondre",100,Melt,Derretirse
 pictionary,pictionary_C078,yellow,,4,green,depasser_les_bornes,"Dépasser les bornes",100,Go too far,Pasarse de la raya
 pictionary,pictionary_C078,yellow,,5,red,alfred_hitchcock,"Alfred Hitchcock",100,Alfred Hitchcock,Alfred Hitchcock
 
-pictionary,pictionary_C079,yellow,,1,orange,epingle,"Épingle",100,Pin,Alfiler
+pictionary,pictionary_C079,yellow,,1,yellow,epingle,"Épingle",100,Pin,Alfiler
 pictionary,pictionary_C079,yellow,,2,blue,dentiste,"Dentiste",100,Dentist,Dentista
 pictionary,pictionary_C079,yellow,,3,orange,percer,"Percer",100,Pierce,Perforar
 pictionary,pictionary_C079,yellow,,4,green,avoir_les_nerfs,"Avoir les nerfs",100,Be angry,Estar nervioso
 pictionary,pictionary_C079,yellow,,5,red,festival_de_cannes,"Festival de Cannes",100,Festival de Cannes,Festival de Cannes
 
-pictionary,pictionary_C080,yellow,,1,orange,entonnoir,"Entonnoir",100,Funnel,Embudo
+pictionary,pictionary_C080,yellow,,1,yellow,entonnoir,"Entonnoir",100,Funnel,Embudo
 pictionary,pictionary_C080,yellow,,2,blue,hibou,"Hibou",100,Owl,Búho
 pictionary,pictionary_C080,yellow,,3,orange,observer,"Observer",100,Observe,Observar
 pictionary,pictionary_C080,yellow,,4,green,avoir_l_oeil,"Avoir l’œil",100,Keep an eye,Estar atento
 pictionary,pictionary_C080,yellow,,5,red,le_mont_saint_michel,"Le Mont-Saint-Michel",100,Le Mont-Saint-Michel,Le Mont-Saint-Michel
 
-pictionary,pictionary_C081,yellow,,1,orange,entonnoir_a_huile,"Entonnoir à huile",100,Oil funnel,Embudo de aceite
+pictionary,pictionary_C081,yellow,,1,yellow,entonnoir_a_huile,"Entonnoir à huile",100,Oil funnel,Embudo de aceite
 pictionary,pictionary_C081,yellow,,2,blue,aigle,"Aigle",100,Eagle,Águila
 pictionary,pictionary_C081,yellow,,3,orange,voler,"Voler",100,Fly,Volar
 pictionary,pictionary_C081,yellow,,4,green,prendre_de_la_hauteur,"Prendre de la hauteur",100,Gain height,Ganar altura
 pictionary,pictionary_C081,yellow,,5,red,le_puy_du_fou,"Le Puy du Fou",100,Le Puy du Fou,Le Puy du Fou
 
-pictionary,pictionary_C082,yellow,,1,orange,corde,"Corde",100,Rope,Cuerda
+pictionary,pictionary_C082,yellow,,1,yellow,corde,"Corde",100,Rope,Cuerda
 pictionary,pictionary_C082,yellow,,2,blue,araignee,"Araignée",100,Spider,Araña
 pictionary,pictionary_C082,yellow,,3,orange,escalader,"Escalader",100,Climb,Escalar
 pictionary,pictionary_C082,yellow,,4,green,s_accrocher,"S'accrocher",100,Hang on,Agarrarse
 pictionary,pictionary_C082,yellow,,5,red,la_defense,"La Défense",100,La Défense,La Défense
 
-pictionary,pictionary_C083,yellow,,1,orange,entonnoir_de_cuisine,"Entonnoir de cuisine",100,Kitchen funnel,Embudo de cocina
+pictionary,pictionary_C083,yellow,,1,yellow,entonnoir_de_cuisine,"Entonnoir de cuisine",100,Kitchen funnel,Embudo de cocina
 pictionary,pictionary_C083,yellow,,2,blue,tortue,"Tortue",100,Turtle,Tortuga
 pictionary,pictionary_C083,yellow,,3,orange,avancer,"Avancer",100,Move forward,Avanzar
 pictionary,pictionary_C083,yellow,,4,green,prendre_son_temps,"Prendre son temps",100,Take your time,Tomarse su tiempo
 pictionary,pictionary_C083,yellow,,5,red,le_marais,"Le Marais",100,Le Marais,Le Marais
 
-pictionary,pictionary_C084,yellow,,1,orange,cle,"Clé",100,Key,Llave
+pictionary,pictionary_C084,yellow,,1,yellow,cle,"Clé",100,Key,Llave
 pictionary,pictionary_C084,yellow,,2,blue,poisson,"Poisson",100,Fish,Pez
 pictionary,pictionary_C084,yellow,,3,orange,plonger,"Plonger",100,Dive,Bucear
 pictionary,pictionary_C084,yellow,,4,green,se_noircir,"Se noircir",100,Turn black,Oscurecerse
 pictionary,pictionary_C084,yellow,,5,red,arc_de_triomphe,"Arc de Triomphe",100,Arc de Triomphe,Arc de Triomphe
 
-pictionary,pictionary_C085,yellow,,1,orange,echelle,"Échelle",100,Ladder,Escalera
+pictionary,pictionary_C085,yellow,,1,yellow,echelle,"Échelle",100,Ladder,Escalera
 pictionary,pictionary_C085,yellow,,2,blue,chameau,"Chameau",100,Camel,Camello
 pictionary,pictionary_C085,yellow,,3,orange,grimper,"Grimper",100,Climb,Trepar
 pictionary,pictionary_C085,yellow,,4,green,perdre_la_face,"Perdre la face",100,Lose face,Perder la cara
 pictionary,pictionary_C085,yellow,,5,red,les_champs_elysees,"Les Champs-Élysées",100,Les Champs-Élysées,Les Champs-Élysées
 
-pictionary,pictionary_C086,yellow,,1,orange,coffre,"Coffre",100,Chest,Cofre
+pictionary,pictionary_C086,yellow,,1,yellow,coffre,"Coffre",100,Chest,Cofre
 pictionary,pictionary_C086,yellow,,2,blue,papillon,"Papillon",100,Butterfly,Mariposa
 pictionary,pictionary_C086,yellow,,3,orange,attraper,"Attraper",100,Catch,Atrapar
 pictionary,pictionary_C086,yellow,,4,green,prendre_son_envol,"Prendre son envol",100,Take flight,Alzar el vuelo
 pictionary,pictionary_C086,yellow,,5,red,le_pont_neuf,"Le Pont-Neuf",100,Le Pont-Neuf,Le Pont-Neuf
 
-pictionary,pictionary_C087,yellow,,1,orange,lampe,"Lampe",100,Lamp,Lámpara
+pictionary,pictionary_C087,yellow,,1,yellow,lampe,"Lampe",100,Lamp,Lámpara
 pictionary,pictionary_C087,yellow,,2,blue,ours,"Ours",100,Bear,Oso
 pictionary,pictionary_C087,yellow,,3,orange,allumer,"Allumer",100,Turn on,Encender
 pictionary,pictionary_C087,yellow,,4,green,voir_la_lumiere,"Voir la lumière",100,See the light,Ver la luz
 pictionary,pictionary_C087,yellow,,5,red,le_mont_blanc,"Le Mont-Blanc",100,Le Mont-Blanc,Le Mont-Blanc
 
-pictionary,pictionary_C088,yellow,,1,orange,tiroir,"Tiroir",100,Drawer,Cajón
+pictionary,pictionary_C088,yellow,,1,yellow,tiroir,"Tiroir",100,Drawer,Cajón
 pictionary,pictionary_C088,yellow,,2,blue,serpent,"Serpent",100,Snake,Serpiente
 pictionary,pictionary_C088,yellow,,3,orange,ramper,"Ramper",100,Crawl,Reptar
 pictionary,pictionary_C088,yellow,,4,green,avoir_la_peau_dure,"Avoir la peau dure",100,Be tough,Ser duro
 pictionary,pictionary_C088,yellow,,5,red,le_futuroscope,"Le Futuroscope",100,Le Futuroscope,Le Futuroscope
 
-pictionary,pictionary_C089,yellow,,1,orange,entonnoir,"Entonnoir",100,Funnel,Embudo
+pictionary,pictionary_C089,yellow,,1,yellow,entonnoir,"Entonnoir",100,Funnel,Embudo
 pictionary,pictionary_C089,yellow,,2,blue,hibou,"Hibou",100,Owl,Búho
 pictionary,pictionary_C089,yellow,,3,orange,observer,"Observer",100,Observe,Observar
 pictionary,pictionary_C089,yellow,,4,green,avoir_l_oeil,"Avoir l’œil",100,Keep an eye,Estar atento
 pictionary,pictionary_C089,yellow,,5,red,le_mont_saint_michel,"Le Mont-Saint-Michel",100,Le Mont-Saint-Michel,Le Mont-Saint-Michel
 
-pictionary,pictionary_C090,yellow,,1,orange,entonnoir_a_huile,"Entonnoir à huile",100,Oil funnel,Embudo de aceite
+pictionary,pictionary_C090,yellow,,1,yellow,entonnoir_a_huile,"Entonnoir à huile",100,Oil funnel,Embudo de aceite
 pictionary,pictionary_C090,yellow,,2,blue,aigle,"Aigle",100,Eagle,Águila
 pictionary,pictionary_C090,yellow,,3,orange,voler,"Voler",100,Fly,Volar
 pictionary,pictionary_C090,yellow,,4,green,prendre_de_la_hauteur,"Prendre de la hauteur",100,Gain height,Ganar altura
 pictionary,pictionary_C090,yellow,,5,red,le_puy_du_fou,"Le Puy du Fou",100,Le Puy du Fou,Le Puy du Fou
 
-pictionary,pictionary_C091,yellow,,1,orange,corde,"Corde",100,Rope,Cuerda
+pictionary,pictionary_C091,yellow,,1,yellow,corde,"Corde",100,Rope,Cuerda
 pictionary,pictionary_C091,yellow,,2,blue,araignee,"Araignée",100,Spider,Araña
 pictionary,pictionary_C091,yellow,,3,orange,escalader,"Escalader",100,Climb,Escalar
 pictionary,pictionary_C091,yellow,,4,green,s_accrocher,"S'accrocher",100,Hang on,Agarrarse
 pictionary,pictionary_C091,yellow,,5,red,la_defense,"La Défense",100,La Défense,La Défense
 
-pictionary,pictionary_C092,yellow,,1,orange,entonnoir_de_cuisine,"Entonnoir de cuisine",100,Kitchen funnel,Embudo de cocina
+pictionary,pictionary_C092,yellow,,1,yellow,entonnoir_de_cuisine,"Entonnoir de cuisine",100,Kitchen funnel,Embudo de cocina
 pictionary,pictionary_C092,yellow,,2,blue,tortue,"Tortue",100,Turtle,Tortuga
 pictionary,pictionary_C092,yellow,,3,orange,avancer,"Avancer",100,Move forward,Avanzar
 pictionary,pictionary_C092,yellow,,4,green,prendre_son_temps,"Prendre son temps",100,Take your time,Tomarse su tiempo
 pictionary,pictionary_C092,yellow,,5,red,le_marais,"Le Marais",100,Le Marais,Le Marais
 
-pictionary,pictionary_C093,yellow,,1,orange,cle,"Clé",100,Key,Llave
+pictionary,pictionary_C093,yellow,,1,yellow,cle,"Clé",100,Key,Llave
 pictionary,pictionary_C093,yellow,,2,blue,poisson,"Poisson",100,Fish,Pez
 pictionary,pictionary_C093,yellow,,3,orange,plonger,"Plonger",100,Dive,Bucear
 pictionary,pictionary_C093,yellow,,4,green,se_noircir,"Se noircir",100,Turn black,Oscurecerse
 pictionary,pictionary_C093,yellow,,5,red,arc_de_triomphe,"Arc de Triomphe",100,Arc de Triomphe,Arc de Triomphe
 
-pictionary,pictionary_C094,yellow,,1,orange,echelle,"Échelle",100,Ladder,Escalera
+pictionary,pictionary_C094,yellow,,1,yellow,echelle,"Échelle",100,Ladder,Escalera
 pictionary,pictionary_C094,yellow,,2,blue,chameau,"Chameau",100,Camel,Camello
 pictionary,pictionary_C094,yellow,,3,orange,grimper,"Grimper",100,Climb,Trepar
 pictionary,pictionary_C094,yellow,,4,green,perdre_la_face,"Perdre la face",100,Lose face,Perder la cara
 pictionary,pictionary_C094,yellow,,5,red,les_champs_elysees,"Les Champs-Élysées",100,Les Champs-Élysées,Les Champs-Élysées
 
-pictionary,pictionary_C095,yellow,,1,orange,coffre,"Coffre",100,Chest,Cofre
+pictionary,pictionary_C095,yellow,,1,yellow,coffre,"Coffre",100,Chest,Cofre
 pictionary,pictionary_C095,yellow,,2,blue,papillon,"Papillon",100,Butterfly,Mariposa
 pictionary,pictionary_C095,yellow,,3,orange,attraper,"Attraper",100,Catch,Atrapar
 pictionary,pictionary_C095,yellow,,4,green,prendre_son_envol,"Prendre son envol",100,Take flight,Alzar el vuelo
 pictionary,pictionary_C095,yellow,,5,red,le_pont_neuf,"Le Pont-Neuf",100,Le Pont-Neuf,Le Pont-Neuf
 
-pictionary,pictionary_C096,yellow,,1,orange,lampe,"Lampe",100,Lamp,Lámpara
+pictionary,pictionary_C096,yellow,,1,yellow,lampe,"Lampe",100,Lamp,Lámpara
 pictionary,pictionary_C096,yellow,,2,blue,ours,"Ours",100,Bear,Oso
 pictionary,pictionary_C096,yellow,,3,orange,allumer,"Allumer",100,Turn on,Encender
 pictionary,pictionary_C096,yellow,,4,green,voir_la_lumiere,"Voir la lumière",100,See the light,Ver la luz
