@@ -372,12 +372,40 @@
       showError(e && e.message ? e.message : String(e));
     }
   }
+  
+
 
   // ===== Events =====
   tilePictionary.addEventListener("click", startPictionary);
 
   prevBtn.addEventListener("click", () => { if (gameStarted) prevCard(); });
   nextBtn.addEventListener("click", () => { if (gameStarted) nextCard(); });
+  
+
+
+let lastTapTime = 0;
+const DOUBLE_TAP_DELAY = 300; // ms
+
+function handleWordCardPointerUp(e){
+  const card = e.target.closest("#wordCard");
+  if (!card || !gameStarted) return;
+
+  const now = Date.now();
+  const delta = now - lastTapTime;
+
+  if (delta > 0 && delta < DOUBLE_TAP_DELAY){
+    // ✅ double tap detected
+    toggleWordVisibility();
+    lastTapTime = 0; // reset
+  } else {
+    lastTapTime = now;
+  }
+}
+
+document.addEventListener("pointerup", handleWordCardPointerUp);
+
+
+
 
   langButtons.forEach(btn => btn.addEventListener("click", () => setLang(btn.dataset.lang)));
 
