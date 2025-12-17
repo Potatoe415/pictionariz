@@ -1,30 +1,21 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Pictionary</title>
-
+  <title>Games</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-
-<body>
-
-  <a href="/" class="topImage" id="topImage">
-  <img src="pictionary_top.jpg" alt="Pictionary top">
-</a>
-
-
-  <!-- Splash -->
-  <div class="splash" id="splash">
+<body class="splashPage">
+  <main class="splashWrap" aria-label="Game selection">
     <div class="splashGrid">
-      <div class="tile clickable" id="tilePictionary" role="button" aria-label="Start Pictionary">
+      <a class="tile clickable" href="pictionary.html" aria-label="Start Pictionary">
         <img class="tileImg" src="pictionary_intro.jpg" alt="Pictionary intro">
         <div class="tileBar">
           <div class="tileTitle">Pictionary</div>
-          <div class="badge" id="pictionaryBadge">Tap to start</div>
+          <div class="badge">Tap to start</div>
         </div>
-      </div>
+      </a>
 
       <div class="tile disabled" aria-label="Esquisse placeholder">
         <img class="tileImg" src="esquisse_intro.jpg" alt="Esquisse intro">
@@ -33,69 +24,7 @@
           <div class="badge">Coming soon</div>
         </div>
       </div>
-
-      <div class="splashError" id="splashError"></div>
     </div>
-  </div>
-
-  <!-- Game -->
-  <div class="app">
-    <div class="cardId">
-      <div class="cardLeft">
-        <span class="dot" aria-hidden="true"></span>
-        <span id="cardTitle">Carte —</span>
-      </div>
-      <button class="infoBtn" id="infoBtn" type="button" aria-label="Info catégories">i</button>
-    </div>
-
-    <main class="stage">
-      <section class="wordCard" aria-live="polite" id="wordCard">
-        <div class="wordWrap">
-          <div class="label" id="label">—</div>
-          <div class="hint" id="hint"></div>
-        </div>
-      </section>
-      <div class="challengeBanner hidden" id="challengeBanner">Challenge</div>
-    </main>
-  </div>
-
-  <!-- Bottom bar -->
-  <div class="bottomBar">
-    <div class="bottomInner">
-      <div class="langs" aria-label="Langues">
-        <button class="langBtn" data-lang="fr" aria-pressed="true">
-          <span class="flag fr" aria-hidden="true"></span><span>FR</span>
-        </button>
-        <button class="langBtn" data-lang="es" aria-pressed="false">
-          <span class="flag es" aria-hidden="true"></span><span>ES</span>
-        </button>
-        <button class="langBtn" data-lang="en" aria-pressed="false">
-          <span class="flag en" aria-hidden="true"></span><span>EN</span>
-        </button>
-      </div>
-
-      <div class="navRow" aria-label="Navigation">
-        <button class="navBtn" id="prevBtn" disabled>← Précédent</button>
-        <button class="navBtn" id="nextBtn" disabled>Suivant →</button>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Info Modal -->
-  <div class="modalOverlay hidden" id="infoModal" role="dialog" aria-modal="true" aria-label="Catégories">
-    <div class="modalCard">
-      <div class="modalHeader">
-        <div class="modalTitle">Catégories</div>
-        <button class="modalClose" id="infoClose" type="button" aria-label="Fermer">✕</button>
-      </div>
-      <div class="modalBody">
-        <div class="legend" id="legendList"></div>
-        <div class="modalNote" id="legendNote"></div>
-      </div>
-    </div>
-  </div>
-
-  <script src="app.js"></script>
+  </main>
 </body>
 </html>

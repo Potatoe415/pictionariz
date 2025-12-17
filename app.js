@@ -1,18 +1,17 @@
-/* Pictionary mobile UI (single-page)
-   - Splash with two tiles (Pictionary clickable, Esquisser disabled placeholder)
-   - On click Pictionary: load CSV (pictionary_words.csv), build non-repeating random order for this session
-   - Colors: use word_color (NOT card_color) for the big box; red token must be #DC143C
-   - Word vertically centered in box (handled by CSS)
-   - Hide hint element when empty
-*/
-
 (() => {
-  // ===== Palette (token -> nice hex) =====
+  // ===== Dev knobs =====
+  const CSV_FILE = "pictionary_words.csv";
+  const CHALLENGE_PROB = 0.4;           // 0.4 = 4 times out of 10
+  const HIDDEN_MASK = "**********";
+  const DOUBLE_TAP_DELAY = 300;         // ms
+
+  // ===== Palette (token -> hex) =====
+  // red MUST be DC143C for the deck; challenge outline uses #c8102e in CSS.
   const TOKEN_PALETTE = {
     yellow: "#FBBF24",
     green:  "#22C55E",
     blue:   "#60A5FA",
-    red:    "#DC143C",   // REQUIRED
+    red:    "#DC143C",
     purple: "#A78BFA",
     orange: "#FB923C",
     pink:   "#F472B6",
@@ -22,12 +21,42 @@
     white:  "#E2E8F0"
   };
 
-  const SESSION_KEY = "pictionary_session_v1";
+  // Legend (based on your reference card) — driven by card_color (category)
+  const CATEGORY_LEGEND = [
+    { token: "yellow", label: "OBJET", shape: "✦" },
+    { token: "blue",   label: "PERSONNE / LIEU / ANIMAL", shape: "●" },
+    { token: "orange", label: "ACTION", shape: "◖" },
+    { token: "green",  label: "DIFFICILE", shape: "▼" },
+    { token: "red",    label: "CULTURE GÉNÉRALE", shape: "■" }
+  ];
 
-  // ===== Dev knobs =====
-  // 0.4 = 4 times out of 10
-  const CHALLENGE_PROB = 0.4;
-  const HIDDEN_MASK = "**********";
+  // ===== DOM =====
+  const elCardTitle = document.getElementById("cardTitle");
+  const elLabel = document.getElementById("label");
+  const elHint = document.getElementById("hint");
+  const wordCardEl = document.getElementById("wordCard");
+  const challengeBannerEl = document.getElementById("challengeBanner");
+
+  const prevBtn = document.getElementById("prevBtn");
+  const nextBtn = document.getElementById("nextBtn");
+  const langButtons = [...document.querySelectorAll(".langBtn")];
+
+  const infoBtn = document.getElementById("infoBtn");
+  const infoModal = document.getElementById("infoModal");
+  const infoClose = document.getElementById("infoClose");
+  const legendList = document.getElementById("legendList");
+  const legendNote = document.getElementById("legendNote");
+
+  const loadingOverlay = document.getElementById("loadingOverlay");
+  const loadingError = document.getElementById("loadingError");
+
+  // ===== State =====
+  let CARDS = [];
+  let order = [];
+  let pos = 0;
+  let currentLang = "fr";
+  let wordHidden = false;
+  let lastTapTime = 0;
 
   function normalizeToken(x){ return String(x ?? "").trim().toLowerCase(); }
   function resolveColor(token){
@@ -35,7 +64,7 @@
     return TOKEN_PALETTE[t] || "#A78BFA";
   }
   function idealTextColor(hex){
-    const h = hex.replace("#","").trim();
+    const h = String(hex || "").replace("#","").trim();
     if (h.length !== 6) return "rgba(255,255,255,0.92)";
     const r = parseInt(h.slice(0,2),16);
     const g = parseInt(h.slice(2,4),16);
@@ -45,63 +74,16 @@
   }
   function cardNumberFromId(card_id){
     const m = String(card_id).match(/C(\d+)/i);
-    return m ? m[1] : card_id;
+    return m ? m[1] : (card_id || "—");
   }
-  // ===== Category legend (based on your reference card) =====
-  // Uses OUR CSS palette values for consistency.
-  const CATEGORY_LEGEND = [
-    { token: "yellow", label: "OBJET", shape: "✦" },
-    { token: "blue",   label: "PERSONNE / LIEU / ANIMAL", shape: "●" },
-    { token: "orange", label: "ACTION", shape: "◖" },
-    { token: "green",  label: "DIFFICILE", shape: "▼" },
-    { token: "red",    label: "CULTURE GÉNÉRALE", shape: "■" }
-  ];
-
-  function buildLegend(currentToken){
-    if (!legendList) return;
-    legendList.innerHTML = CATEGORY_LEGEND.map(item => {
-      const hex = resolveColor(item.token);
-      return `
-        <div class="legendRow">
-          <div class="legendLeft">
-            <div class="legendSwatch" style="background:${hex}"></div>
-            <div class="legendText">${item.label}</div>
-          </div>
-          <div class="legendShape">${item.shape}</div>
-        </div>
-      `;
-    }).join("");
-
-    const tok = normalizeToken(currentToken);
-    const match = CATEGORY_LEGEND.find(x => x.token === tok);
-    if (legendNote){
-      legendNote.textContent = match
-        ? `Couleur actuelle : ${match.label} (${tok})`
-        : (tok ? `Couleur actuelle : ${tok} (catégorie inconnue)` : "Couleur actuelle : inconnue");
-    }
-  }
-
-  function openInfo(){
-    if (!infoModal) return;
-    // Use current card's WORD color token for the explanation.
-    const idx = sessionState?.order?.[sessionState.pos] ?? 0;
-    const card = CARDS?.[idx];
-    buildLegend(card?.card_color);
-    infoModal.classList.remove("hidden");
-  }
-
-  function closeInfo(){
-    if (!infoModal) return;
-    infoModal.classList.add("hidden");
-  }
-
   function getLabel(card, lang){
     const key = `label_${lang}`;
-    if (card[key] && String(card[key]).trim()) return card[key];
-    return card.label_fr || card.label_en || card.label_es || card.word_key || "—";
+    const v = card?.[key];
+    if (v && String(v).trim()) return v;
+    return card?.label_fr || card?.label_en || card?.label_es || card?.word_key || "—";
   }
 
-  // ===== CSV parsing (robust, handles quotes/commas) =====
+  // Robust CSV parser (quotes + commas)
   function parseCSV(text){
     const rows = [];
     let row = [];
@@ -136,6 +118,7 @@
     const objs = [];
     for (let r = 1; r < rows.length; r++){
       const line = rows[r];
+      // skip empty rows
       if (!line || line.every(x => String(x ?? "").trim() === "")) continue;
       const o = {};
       for (let c = 0; c < header.length; c++){
@@ -143,37 +126,22 @@
         if (!key) continue;
         o[key] = line[c] ?? "";
       }
+      // skip rows with no card_id at all
+      if (!String(o.card_id || "").trim()) continue;
       objs.push(o);
     }
     return objs;
   }
 
   async function loadCSV(){
-    // MUST be served over http:// (local server) — file:// will usually fail
-    const resp = await fetch("pictionary_words.csv", { cache: "no-store" });
-    if (!resp.ok) throw new Error(`HTTP ${resp.status} - ${resp.statusText}`);
+    const resp = await fetch(CSV_FILE, { cache: "no-store" });
+    if (!resp.ok) throw new Error(`Cannot load ${CSV_FILE} (HTTP ${resp.status})`);
     const text = await resp.text();
     const rows = parseCSV(text);
-    const objs = rowsToObjects(rows);
-
-    const cards = objs.map(o => ({
-      game_id: o.game_id,
-      card_id: o.card_id,
-      card_color: o.card_color,
-      hint: o.hint,
-      word_index: o.word_index,
-      word_color: o.word_color, // IMPORTANT
-      word_key: o.word_key,
-      label_fr: o.label_fr,
-      label_es: o.label_es,
-      label_en: o.label_en
-    })).filter(c => String(c.card_id || "").trim() !== "");
-
-    return cards;
+    return rowsToObjects(rows);
   }
 
-  // ===== Session random order (no repeats) =====
-  function newShuffledIndices(n){
+  function fisherYates(n){
     const a = Array.from({length:n}, (_,i)=>i);
     for (let i = a.length - 1; i > 0; i--){
       const j = Math.floor(Math.random() * (i + 1));
@@ -182,111 +150,59 @@
     return a;
   }
 
-  function loadSessionState(){
-    try{
-      const raw = sessionStorage.getItem(SESSION_KEY);
-      return raw ? JSON.parse(raw) : null;
-    }catch{
-      return null;
+  function buildLegend(currentToken){
+    if (!legendList) return;
+    legendList.innerHTML = CATEGORY_LEGEND.map(item => {
+      const hex = resolveColor(item.token);
+      return `
+        <div class="legendRow">
+          <div class="legendLeft">
+            <div class="legendSwatch" style="background:${hex}"></div>
+            <div class="legendText">${item.label}</div>
+          </div>
+          <div class="legendShape">${item.shape}</div>
+        </div>
+      `;
+    }).join("");
+
+    const tok = normalizeToken(currentToken);
+    const match = CATEGORY_LEGEND.find(x => x.token === tok);
+    if (legendNote){
+      legendNote.textContent = match
+        ? `Couleur actuelle : ${match.label}`
+        : (tok ? `Couleur actuelle : ${tok} (catégorie inconnue)` : "Couleur actuelle : inconnue");
     }
   }
 
-  function saveSessionState(state){
-    sessionStorage.setItem(SESSION_KEY, JSON.stringify(state));
+  function openInfo(){
+    const card = CARDS[order[pos]];
+    buildLegend(card?.card_color);
+    infoModal?.classList.remove("hidden");
   }
-
-  function getOrCreateSessionOrder(deckSize){
-    const session = loadSessionState();
-    if (session && Array.isArray(session.order) && typeof session.pos === "number"){
-      if (session.order.length === deckSize) return session;
-    }
-    const state = { order: newShuffledIndices(deckSize), pos: 0 };
-    saveSessionState(state);
-    return state;
-  }
-
-  // ===== DOM =====
-  const splash = document.getElementById("splash");
-  const tilePictionary = document.getElementById("tilePictionary");
-  const pictionaryBadge = document.getElementById("pictionaryBadge");
-  const splashError = document.getElementById("splashError");
-
-  const elCardTitle = document.getElementById("cardTitle");
-  const elLabel = document.getElementById("label");
-  const elHint = document.getElementById("hint");
-
-  const wordCardEl = document.getElementById("wordCard");
-  const challengeBannerEl = document.getElementById("challengeBanner");
-
-  const prevBtn = document.getElementById("prevBtn");
-  const nextBtn = document.getElementById("nextBtn");
-  const langButtons = [...document.querySelectorAll(".langBtn")];
-
-  // Info modal
-  const infoBtn = document.getElementById("infoBtn");
-  const infoModal = document.getElementById("infoModal");
-  const infoClose = document.getElementById("infoClose");
-  const legendList = document.getElementById("legendList");
-  const legendNote = document.getElementById("legendNote");
-
-  // ===== State =====
-  let CARDS = [];
-  let sessionState = null;
-  let currentLang = "fr";
-  let gameStarted = false;
-
-  let wordHidden = false;
-  let currentIsChallenge = false;
-
-  function showError(msg){
-    splashError.classList.add("show");
-    splashError.innerHTML =
-      `<div style="font-weight:950; margin-bottom:6px;">CSV load failed</div>
-       <div style="color: rgba(255,255,255,0.82);">${escapeHtml(msg)}</div>
-       <div style="margin-top:10px; color: rgba(255,255,255,0.72);">
-         Put <span class="mono">pictionary_words.csv</span> next to <span class="mono">index.html</span>,
-         and open via <span class="mono">http://</span> (local server), not <span class="mono">file://</span>.
-       </div>`;
-  }
-
-  function escapeHtml(s){
-    return String(s).replace(/[&<>"']/g, ch => ({
-      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
-    }[ch]));
+  function closeInfo(){
+    infoModal?.classList.add("hidden");
   }
 
   function render(){
-    if (!CARDS.length){
-      elCardTitle.textContent = "Carte —";
-      elLabel.textContent = "—";
-      elHint.textContent = "";
-      elHint.style.display = "none";
-      prevBtn.disabled = true;
-      nextBtn.disabled = true;
-      if (challengeBannerEl) challengeBannerEl.classList.add("hidden");
-      return;
-    }
+    if (!CARDS.length) return;
 
-    const idx = sessionState?.order?.[sessionState.pos] ?? 0;
-    const card = CARDS[idx];
+    const card = CARDS[order[pos]];
 
-    // Dot uses card_color
+    // Dot uses card_color; Word box uses word_color
     const cardHex = resolveColor(card.card_color);
-    document.documentElement.style.setProperty("--dotColor", cardHex);
-
-    // Word box uses word_color
     const wordHex = resolveColor(card.word_color);
+    document.documentElement.style.setProperty("--dotColor", cardHex);
     document.documentElement.style.setProperty("--cardColor", wordHex);
     document.documentElement.style.setProperty("--wordText", idealTextColor(wordHex));
 
     elCardTitle.textContent = `Carte ${cardNumberFromId(card.card_id)}`;
 
-    // New display => word visible
+    // Word visible by default on each render
     wordHidden = false;
     elLabel.textContent = getLabel(card, currentLang);
 
-    // Hint display
-    const hintText = (card.hint || "").trim();
+    // Hint: hide if empty
+    const hintText = String(card.hint || "").trim();
     if (hintText){
       elHint.textContent = hintText;
       elHint.style.display = "";
@@ -295,23 +211,35 @@
       elHint.style.display = "none";
     }
 
-    // Challenge probability (per word display)
-    currentIsChallenge = Math.random() < CHALLENGE_PROB;
+    // Challenge roll (independent each time a word is displayed)
+    const isChallenge = Math.random() < CHALLENGE_PROB;
     if (challengeBannerEl){
-      if (currentIsChallenge) challengeBannerEl.classList.remove("hidden");
+      if (isChallenge) challengeBannerEl.classList.remove("hidden");
       else challengeBannerEl.classList.add("hidden");
     }
-
-    prevBtn.disabled = (CARDS.length <= 1);
-    nextBtn.disabled = (CARDS.length <= 1);
   }
 
-  function toggleWordVisibility(){
-    if (!gameStarted || !CARDS.length) return;
+  function setLang(lang){
+    currentLang = lang;
+    for (const btn of langButtons){
+      btn.setAttribute("aria-pressed", btn.dataset.lang === lang ? "true" : "false");
+    }
+    // Update label only (do not re-roll challenge)
+    const card = CARDS[order[pos]];
+    elLabel.textContent = wordHidden ? HIDDEN_MASK : getLabel(card, currentLang);
+  }
 
-    const idx = sessionState?.order?.[sessionState.pos] ?? 0;
-    const card = CARDS[idx];
+  function prev(){
+    pos = (pos - 1 + order.length) % order.length;
+    render();
+  }
+  function next(){
+    pos = (pos + 1) % order.length;
+    render();
+  }
 
+  function toggleWord(){
+    const card = CARDS[order[pos]];
     if (!wordHidden){
       elLabel.textContent = HIDDEN_MASK;
       wordHidden = true;
@@ -321,105 +249,70 @@
     }
   }
 
-  function setLang(lang){
-    currentLang = lang;
-    for (const btn of langButtons){
-      btn.setAttribute("aria-pressed", btn.dataset.lang === lang ? "true" : "false");
-    }
-    if (!gameStarted) return;
-    if (wordHidden){
-      elLabel.textContent = HIDDEN_MASK;
+  // Double-tap on word card toggles mask
+  function onWordCardPointerUp(e){
+    const target = e.target.closest("#wordCard");
+    if (!target) return;
+
+    const now = Date.now();
+    const delta = now - lastTapTime;
+
+    if (delta > 0 && delta < DOUBLE_TAP_DELAY){
+      toggleWord();
+      lastTapTime = 0;
     } else {
-      const idx = sessionState?.order?.[sessionState.pos] ?? 0;
-      const card = CARDS[idx];
-      elLabel.textContent = getLabel(card, currentLang);
+      lastTapTime = now;
     }
   }
 
-  function prevCard(){
-    if (!sessionState) return;
-    sessionState.pos = (sessionState.pos - 1 + sessionState.order.length) % sessionState.order.length;
-    saveSessionState(sessionState);
-    render();
+  function showLoadingError(msg){
+    if (!loadingError) return;
+    loadingError.classList.remove("hidden");
+    loadingError.innerHTML = `
+      <div style="font-weight:950; margin-bottom:6px;">CSV load failed</div>
+      <div>${escapeHtml(msg)}</div>
+      <div style="margin-top:10px; opacity:0.85;">
+        Make sure you run a local web server (not file://). Example:
+        <div class="mono" style="margin-top:6px;">py -m http.server 8080</div>
+      </div>
+    `;
   }
 
-  function nextCard(){
-    if (!sessionState) return;
-    sessionState.pos = (sessionState.pos + 1) % sessionState.order.length;
-    saveSessionState(sessionState);
-    render();
+  function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g, ch => ({
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+    }[ch]));
   }
 
-  async function startPictionary(){
+  async function init(){
     try{
-      splashError.classList.remove("show");
-      tilePictionary.classList.add("disabled");
-      pictionaryBadge.textContent = "Loading…";
+      // wire events
+      prevBtn?.addEventListener("click", prev);
+      nextBtn?.addEventListener("click", next);
+      langButtons.forEach(btn => btn.addEventListener("click", () => setLang(btn.dataset.lang)));
 
+      infoBtn?.addEventListener("click", openInfo);
+      infoClose?.addEventListener("click", closeInfo);
+      infoModal?.addEventListener("click", (e) => { if (e.target === infoModal) closeInfo(); });
+      window.addEventListener("keydown", (e) => { if (e.key === "Escape") closeInfo(); });
+
+      wordCardEl?.addEventListener("pointerup", onWordCardPointerUp);
+
+      // load deck
       const cards = await loadCSV();
-      if (!cards.length) throw new Error("CSV parsed but no cards found. Check header names and rows.");
-
       CARDS = cards;
-      sessionState = getOrCreateSessionOrder(CARDS.length);
+      order = fisherYates(CARDS.length);
+      pos = 0;
 
-      gameStarted = true;
-      splash.classList.add("hidden");
-
+      // render first
       render();
-    }catch(e){
-      tilePictionary.classList.remove("disabled");
-      pictionaryBadge.textContent = "Tap to start";
-      showError(e && e.message ? e.message : String(e));
+
+      // hide loading
+      loadingOverlay?.classList.add("hidden");
+    }catch(err){
+      showLoadingError(err?.message || String(err));
     }
   }
-  
 
-
-  // ===== Events =====
-  tilePictionary.addEventListener("click", startPictionary);
-
-  prevBtn.addEventListener("click", () => { if (gameStarted) prevCard(); });
-  nextBtn.addEventListener("click", () => { if (gameStarted) nextCard(); });
-
-
-let lastTapTime = 0;
-const DOUBLE_TAP_DELAY = 300; // ms
-
-function handleWordCardPointerUp(e){
-  const card = e.target.closest("#wordCard");
-  if (!card || !gameStarted) return;
-
-  const now = Date.now();
-  const delta = now - lastTapTime;
-
-  if (delta > 0 && delta < DOUBLE_TAP_DELAY){
-    // ✅ double tap detected
-    toggleWordVisibility();
-    lastTapTime = 0; // reset
-  } else {
-    lastTapTime = now;
-  }
-}
-
-document.addEventListener("pointerup", handleWordCardPointerUp);
-
-
-
-
-  langButtons.forEach(btn => btn.addEventListener("click", () => setLang(btn.dataset.lang)));
-
-  if (infoBtn) infoBtn.addEventListener("click", () => { if (gameStarted) openInfo(); });
-  if (infoClose) infoClose.addEventListener("click", closeInfo);
-  if (infoModal) infoModal.addEventListener("click", (e) => { if (e.target === infoModal) closeInfo(); });
-
-  // Keyboard for desktop testing
-  window.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") { closeInfo(); return; }
-    if (!gameStarted) return;
-    if (e.key === "ArrowLeft") prevCard();
-    if (e.key === "ArrowRight") nextCard();
-  });
-
-  // Init placeholders behind splash
-  render();
+  init();
 })();
