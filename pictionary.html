@@ -48,9 +48,21 @@
         </button>
       </div>
 
-      <div class="navRow" aria-label="Navigation">
-        <button class="navBtn" id="prevBtn" type="button"> ← </button>
-        <button class="navBtn" id="nextBtn" type="button"> → </button>
+<div class="navWrapper">
+  <button class="navBtn" id="prevBtn" type="button" aria-label="Previous">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
+  <button class="navBtn" id="nextBtn" type="button" aria-label="Next">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+</div>
+
+
       </div>
     </div>
   </div>

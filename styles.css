@@ -22,6 +22,31 @@ body{
   color: var(--text);
 }
 
+.navWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between; /* THIS is the key */
+  align-items: center;
+}
+
+.navBtn {
+  flex: 1;                 /* they take equal space */
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navBtn svg {
+  width: 40px;
+  height: 40px;
+}
+
+
+
 /* ===== Splash page ===== */
 body.splashPage{
   overflow:auto;
