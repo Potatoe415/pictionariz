@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oh les mains – Config</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<a href="../index.html" class="topImage">
+  <div class="topImage">
+  
+  <img src="ole_top.jpg" alt="Oh les mains">
+</div>
+ </a>
+<link rel="icon" href="data:,">
+
+  <main class="wrap">
+    <section class="card">
+      <h1>Choisis une carte</h1>
+
+      <div class="block">
+        <div class="blockTitle">1) Thème</div>
+        <div class="themeRow" id="themeRow"></div>
+      </div>
+
+      <div class="block">
+        <div class="blockTitle">2) Valeur de la carte</div>
+        <div class="typeRow">
+          <button class="btn typeBtn" data-points="1" type="button">1 point</button>
+          <button class="btn typeBtn" data-points="2" type="button">2 points</button>
+          <button class="btn typeBtn" data-points="3" type="button">3 points</button>
+        </div>
+        <div class="tiny muted" id="hint">Sélectionne un thème d’abord.</div>
+      </div>
+
+      <div class="row">
+        <button id="btnStart" class="btn primary" type="button" disabled>Démarrer</button>
+      </div>
+
+      <div class="note">
+	  <a style="color:#ffffff;" href="https://cdn.1j1ju.com/medias/f7/2a/a8-olemains-regle.pdf" > Règles complètes </a>
+        <div class="noteTitle">Rappel rapide  </div>
+		
+        <ul>
+          <li><b>Olémimes (Orange)</b> : pas de parole / bruit. </br>Action</br>Sport</br>Musique</li>
+          <li><b>Olémots (Vert)</b> : tu décris sans dire les mots. </br>Douce France</br>Graines de Star</br>Marques</li>
+          <li><b>Olésons (Rose)</b> : bruits, fredonner, imiter… </br>Chansons</br>Imitation</br>Finis les paroles</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="shared.js"></script>
+  <script src="config.js"></script>
+</body>
+</html>
