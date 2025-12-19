@@ -1,0 +1,382 @@
+game_id,card_id,card_color,hint,word_index,word_color,word_key,label_fr,scan_status,label_en,label_es
+sqc,sqc_C001,yellow,,1,,western_spaghetti,"Western spaghetti",100,Western spaghetti,Western spaghetti
+sqc,sqc_C001,yellow,,2,,guacamole,"Guacamole",100,Guacamole,Guacamole
+sqc,sqc_C001,yellow,,3,,air_guitar,"Air guitar",100,Air guitar,Guitarra aérea
+sqc,sqc_C001,yellow,,4,,poule_mouillee,"Poule mouillée",100,Chicken, cobarde
+sqc,sqc_C001,yellow,,5,,artiste_de_rue,"Artiste de rue",100,Street artist,Artista callejero
+
+sqc,sqc_C002,yellow,,1,,passe_cafe,"Passe-café",100,Coffee filter,Colador de café
+sqc,sqc_C002,yellow,,2,,chinois,"Chinois",100,Chinese,Chino
+sqc,sqc_C002,yellow,,3,,sardines,"Sardines",100,Sardines,Sardinas
+sqc,sqc_C002,yellow,,4,,ecrivain,"Écrivain",100,Writer,Escritor
+sqc,sqc_C002,yellow,,5,,baguettes_chinoises,"Baguettes chinoises",100,Chopsticks,Palillos chinos
+sqc,sqc_C002,yellow,,6,,espion,"Espion",100,Spy,Espía
+
+sqc,sqc_C003,yellow,,1,,livreur_de_pizza,"Livreur de pizza",100,Pizza delivery man,Repartidor de pizza
+sqc,sqc_C003,yellow,,2,,faire_du_stop,"Faire du stop",100,Hitchhike,Hacer autostop
+sqc,sqc_C003,yellow,,3,,matelas_a_eau,"Matelas à eau",100,Waterbed,Colchón de agua
+sqc,sqc_C003,yellow,,4,,the_a_la_menthe,"Thé à la menthe",100,Mint tea,Té de menta
+sqc,sqc_C003,yellow,,5,,bain_de_bouche,"Bain de bouche",100,Mouthwash,Enjuague bucal
+
+sqc,sqc_C004,yellow,,1,,echange_de_cartes_de_visite,"Échange de cartes de visite",100,Business card exchange,Intercambio de tarjetas
+sqc,sqc_C004,yellow,,2,,fruits_secs,"Fruits secs",100,Dried fruits,Frutos secos
+sqc,sqc_C004,yellow,,3,,epis_de_mais,"Épis de maïs",100,Corn cob,Mazorca de maíz
+sqc,sqc_C004,yellow,,4,,camera_video,"Caméra vidéo",100,Video camera,Cámara de vídeo
+sqc,sqc_C004,yellow,,5,,pirate,"Pirate",100,Pirate,Pirata
+
+sqc,sqc_C005,yellow,,1,,petit_doigt,"Petit doigt",100,Little finger,Dedo meñique
+sqc,sqc_C005,yellow,,2,,poele_a_frire,"Poêle à frire",100,Frying pan,Sartén
+sqc,sqc_C005,yellow,,3,,sous_vetements,"Sous-vêtements",100,Underwear,Ropa interior
+sqc,sqc_C005,yellow,,4,,tribunal,"Tribunal",100,Court,Tribunal
+sqc,sqc_C005,yellow,,5,,vacances,"Vacances",100,Holidays,Vacaciones
+
+sqc,sqc_C006,yellow,,1,,meduse,"Méduse",100,Jellyfish,Medusa
+sqc,sqc_C006,yellow,,2,,oeufs_brouilles,"Œufs brouillés",100,Scrambled eggs,Huevos revueltos
+sqc,sqc_C006,yellow,,3,,harmonica,"Harmonica",100,Harmonica,Armónica
+sqc,sqc_C006,yellow,,4,,calin,"Câlin",100,Hug,Abrazo
+sqc,sqc_C006,yellow,,5,,alarme_anti_incendie,"Alarme anti-incendie",100,Fire alarm,Alarma contra incendios
+
+sqc,sqc_C007,yellow,,1,,zebre,"Zèbre",100,Zebra,Cebra
+sqc,sqc_C007,yellow,,2,,concombre,"Concombre",100,Cucumber,Pepino
+sqc,sqc_C007,yellow,,3,,mante_religieuse,"Mante religieuse",100,Praying mantis,Mantis religiosa
+sqc,sqc_C007,yellow,,4,,restaurant_routier,"Restaurant routier",100,Roadside restaurant,Restaurante de carretera
+sqc,sqc_C007,yellow,,5,,lucky_luke,"Lucky Luke",100,Lucky Luke,Lucky Luke
+
+sqc,sqc_C008,yellow,,1,,harpe,"Harpe",100,Harp,Arpa
+sqc,sqc_C008,yellow,,2,,fer_a_friser,"Fer à friser",100,Curling iron,Rizador
+sqc,sqc_C008,yellow,,3,,ligne_de_mire,"Ligne de mire",100,Sight line,Línea de mira
+sqc,sqc_C008,yellow,,4,,une_part_de_gateau,"Une part de gâteau",100,Slice of cake,Porción de pastel
+sqc,sqc_C008,yellow,,5,,carte_postale,"Carte postale",100,Postcard,Postal
+sqc,sqc_C008,yellow,,6,,lance_flammes,"Lance-flammes",100,Flamethrower,Lanzallamas
+
+sqc,sqc_C009,yellow,,1,,passeport,"Passeport",100,Passport,Paspórte
+sqc,sqc_C009,yellow,,2,,blaireau,"Blaireau",100,Badger,Tejón
+sqc,sqc_C009,yellow,,3,,paon,"Paon",100,Peacock,Pavo real
+sqc,sqc_C009,yellow,,4,,plonger,"Plonger",100,Dive,Bucear
+sqc,sqc_C009,yellow,,5,,chanter_faux,"Chanter faux",100,Sing off-key,Cantar desafinado
+sqc,sqc_C009,yellow,,6,,steven_spielberg,"Steven Spielberg",100,Steven Spielberg,Steven Spielberg
+
+sqc,sqc_C010,yellow,,1,,lettres,"Lettres",100,Letters,Cartas
+sqc,sqc_C010,yellow,,2,,espion,"Espion",100,Spy,Espía
+sqc,sqc_C010,yellow,,3,,frapper,"Frapper",100,Hit,Golpear
+sqc,sqc_C010,yellow,,4,,oeil_au_beurre_noir,"Œil au beurre noir",100,Black eye,Ojo morado
+sqc,sqc_C010,yellow,,5,,guerre_froide,"Guerre froide",100,Cold War,Guerra fría
+
+sqc,sqc_C011,yellow,,1,,piscine,"Piscine",100,Swimming pool,Piscina
+sqc,sqc_C011,yellow,,2,,etudiant,"Étudiant",100,Student,Estudiante
+sqc,sqc_C011,yellow,,3,,plucher,"Plucher",100,Peel,Pelar
+sqc,sqc_C011,yellow,,4,,etre_vivant,"Être vivant",100,Living being,Ser vivo
+sqc,sqc_C011,yellow,,5,,coco_chanel,"Coco Chanel",100,Coco Chanel,Coco Chanel
+
+sqc,sqc_C012,yellow,,1,,tableur,"Tableur",100,Spreadsheet,Hoja de cálculo
+sqc,sqc_C012,yellow,,2,,cobra,"Cobra",100,Cobra,Cobra
+sqc,sqc_C012,yellow,,3,,rebondir,"Rebondir",100,Bounce,Rebotar
+sqc,sqc_C012,yellow,,4,,faire_un_creneau,"Faire un créneau",100,Parallel park,Aparcar en batería
+sqc,sqc_C012,yellow,,5,,haka,"Haka",100,Haka,Haka
+
+sqc,sqc_C013,yellow,,1,,jacuzzi,"Jacuzzi",100,Jacuzzi,Jacuzzi
+sqc,sqc_C013,yellow,,2,,creche,"Crèche",100,Daycare,Guardería
+sqc,sqc_C013,yellow,,3,,se_mettre_a_genoux,"Se mettre à genoux",100,Kneel,Arrodillarse
+sqc,sqc_C013,yellow,,4,,moutarde,"Moutarde",100,Mustard,Mostaza
+sqc,sqc_C013,yellow,,5,,co_voiturage,"Co-voiturage",100,Carpooling,Coche compartido
+
+sqc,sqc_C014,yellow,,1,,cadenas,"Cadenas",100,Padlock,Candado
+sqc,sqc_C014,yellow,,2,,pont_levis,"Pont-levis",100,Drawbridge,Puente levadizo
+sqc,sqc_C014,yellow,,3,,retrecir,"Rétrécir",100,Shrink,Encogerse
+sqc,sqc_C014,yellow,,4,,haut_de_gamme,"Haut-de-gamme",100,High-end,Alta gama
+sqc,sqc_C014,yellow,,5,,futuroscope,"Futuroscope",100,Futuroscope,Futuroscope
+
+sqc,sqc_C015,yellow,,1,,barriere,"Barrière",100,Barrier,Barrera
+sqc,sqc_C015,yellow,,2,,leopard,"Léopard",100,Leopard,Leopardo
+sqc,sqc_C015,yellow,,3,,frissonner,"Frissonner",100,Shiver,Escalofriarse
+sqc,sqc_C015,yellow,,4,,marathon,"Marathon",100,Marathon,Maratón
+sqc,sqc_C015,yellow,,5,,speed_dating,"Speed dating",100,Speed dating,Speed dating
+
+sqc,sqc_C016,yellow,,1,,fauteuil,"Fauteuil",100,Armchair,Sillón
+sqc,sqc_C016,yellow,,2,,calamar,"Calamar",100,Squid,Calamar
+sqc,sqc_C016,yellow,,3,,se_deshabiller,"Se déshabiller",100,Undress,Desvestirse
+sqc,sqc_C016,yellow,,4,,chiffre_d_affaires,"Chiffre d’affaires",100,Turnover,Facturación
+sqc,sqc_C016,yellow,,5,,jeux_olympiques,"Jeux Olympiques",100,Olympic Games,Juegos Olímpicos
+
+sqc,sqc_C017,yellow,,1,,armoire_de_chambre,"Armoire de chambre",100,Bedroom wardrobe,Armario de dormitorio
+sqc,sqc_C017,yellow,,2,,paon,"Paon",100,Peacock,Pavo real
+sqc,sqc_C017,yellow,,3,,plonger,"Plonger",100,Dive,Bucear
+sqc,sqc_C017,yellow,,4,,chanter_faux,"Chanter faux",100,Sing off-key,Cantar desafinado
+sqc,sqc_C017,yellow,,5,,steven_spielberg,"Steven Spielberg",100,Steven Spielberg,Steven Spielberg
+
+sqc,sqc_C018,yellow,,1,,passeport,"Passeport",100,Passport,Paspórte
+sqc,sqc_C018,yellow,,2,,blaireau,"Blaireau",100,Badger,Tejón
+sqc,sqc_C018,yellow,,3,,tendre,"Tendre",100,Tender,Enternecer
+sqc,sqc_C018,yellow,,4,,partie_visible_de_l_iceberg,"Partie visible de l’iceberg",100,Tip of the iceberg,Punta del iceberg
+sqc,sqc_C018,yellow,,5,,george_clooney,"George Clooney",100,George Clooney,George Clooney
+
+sqc,sqc_C019,yellow,,1,,fusible,"Fusible",100,Fuse,Fusible
+sqc,sqc_C019,yellow,,2,,poulpe,"Poulpe",100,Octopus,Pulpo
+sqc,sqc_C019,yellow,,3,,apprendre,"Apprendre",100,Learn,Aprender
+sqc,sqc_C019,yellow,,4,,ville_fantome,"Ville fantôme",100,Ghost town,Pueblo fantasma
+sqc,sqc_C019,yellow,,5,,guinness_record,"Guinness Record",100,Guinness Record,Guinness Record
+
+sqc,sqc_C020,yellow,,1,,cafetiere,"Cafetière",100,Coffee maker,Cafetera
+sqc,sqc_C020,yellow,,2,,panda,"Panda",100,Panda,Panda
+sqc,sqc_C020,yellow,,3,,poncer,"Poncer",100,Sand (wood),Lijar
+sqc,sqc_C020,yellow,,4,,creation,"Création",100,Creation,Creación
+sqc,sqc_C020,yellow,,5,,faire_le_pont,"Faire le pont",100,Take a long weekend,Hacer puente
+
+sqc,sqc_C021,yellow,,1,,tatou,"Tatou",100,Armadillo,Armadillo
+sqc,sqc_C021,yellow,,2,,brule_neige,"Brûle-neige",100,Snow blower,Quitanieves
+sqc,sqc_C021,yellow,,3,,toucher_le_fond,"Toucher le fond",100,Hit rock bottom,Tocar fondo
+sqc,sqc_C021,yellow,,4,,flute,"Flûte",100,Flute,Flauta
+sqc,sqc_C021,yellow,,5,,maison_de_poupee,"Maison de poupée",100,Dollhouse,Casa de muñecas
+
+sqc,sqc_C022,yellow,,1,,phare,"Phare",100,Lighthouse,Faro
+sqc,sqc_C022,yellow,,2,,geek,"Geek",100,Geek,Geek
+sqc,sqc_C022,yellow,,3,,centre_commercial,"Centre commercial",100,Shopping mall,Centro comercial
+sqc,sqc_C022,yellow,,4,,loupe,"Loupe",100,Magnifying glass,Lupa
+sqc,sqc_C022,yellow,,5,,cantine,"Cantine",100,Cafeteria,Cantina
+
+sqc,sqc_C023,yellow,,1,,poire,"Poire",100,Pear,Pera
+sqc,sqc_C023,yellow,,2,,chauffeur_de_bus,"Chauffeur de bus",100,Bus driver,Conductor de autobús
+sqc,sqc_C023,yellow,,3,,oursin_a_la_carbone,"Oursin à la carbone",100,Sea urchin carbonara,Erizo a la carbonara
+sqc,sqc_C023,yellow,,4,,l_elysee,"L’Élysée",100,Élysée Palace,El Elíseo
+sqc,sqc_C023,yellow,,5,,maison_de_campagne,"Maison de campagne",100,Country house,Casa de campo
+sqc,sqc_C023,yellow,,6,,tourner_un_film,"Tourner un film",100,Shoot a movie,Rodar una película
+
+sqc,sqc_C024,yellow,,1,,neige,"Neige",100,Snow,Nieve
+sqc,sqc_C024,yellow,,2,,velo_tandem,"Vélo tandem",100,Tandem bike,Bicicleta tándem
+sqc,sqc_C024,yellow,,3,,du_pied_gauche,"Du pied gauche",100,Get off on the wrong foot,Empezar con mal pie
+sqc,sqc_C024,yellow,,4,,tremblement_de_terre,"Tremblement de terre",100,Earthquake,Terremoto
+sqc,sqc_C024,yellow,,5,,president,"Président",100,President,Presidente
+sqc,sqc_C024,yellow,,6,,chaperon_rouge,"Chaperon rouge",100,Little Red Riding Hood,Caperucita Roja
+
+sqc,sqc_C025,yellow,,1,,titre_de_film,"Titre de film",100,Movie title,Título de película
+sqc,sqc_C025,yellow,,2,,chasse_neige,"Chasse-neige",100,Snowplow,Quitanieves
+sqc,sqc_C025,yellow,,3,,morce_libre_alcor,"Morce libre Alcor",100,Morce Libre Alcor,Morce Libre Alcor
+sqc,sqc_C025,yellow,,4,,comode,"Commode",100,Dresser,Cómoda
+sqc,sqc_C025,yellow,,5,,se_ronger_les_ongles,"Se ronger les ongles",100,Bite one’s nails,Morderse las uñas
+sqc,sqc_C025,yellow,,6,,volley_ball,"Volley-ball",100,Volleyball,Voleibol
+
+sqc,sqc_C026,yellow,,1,,elan,"Élan",100,Moose,Alce
+sqc,sqc_C026,yellow,,2,,livre_de_chevet,"Livre de chevet",100,Bedside book,Libro de cabecera
+sqc,sqc_C026,yellow,,3,,rouleau_de_printemps,"Rouleau de printemps",100,Spring roll,Rollo de primavera
+sqc,sqc_C026,yellow,,4,,sortie_de_but,"Sortie de but",100,Goal kick,Saque de meta
+sqc,sqc_C026,yellow,,5,,calamar_geant,"Calamar géant",100,Giant squid,Calamar gigante
+sqc,sqc_C026,yellow,,6,,serpent_a_sonnette,"Serpent à sonnette",100,Rattlesnake,Serpiente de cascabel
+
+sqc,sqc_C027,yellow,,1,,radeau,"Radeau",100,Raft,Balsa
+sqc,sqc_C027,yellow,,2,,strip_teaseuse,"Strip-teaseuse",100,Stripper,Stripper
+sqc,sqc_C027,yellow,,3,,gardien_de_zoo,"Gardien de zoo",100,Zookeeper,Cuidador de zoológico
+sqc,sqc_C027,yellow,,4,,mariage,"Mariage",100,Wedding,Boda
+sqc,sqc_C027,yellow,,5,,se_defendre_bec_et_ongles,"Se défendre bec et ongles",100,Fight tooth and nail,Defenderse con uñas y dientes
+sqc,sqc_C027,yellow,,6,,soiree_pyjama,"Soirée pyjama",100,Pajama party,Fiesta de pijamas
+
+sqc,sqc_C028,yellow,,1,,salle_de_cinema,"Salle de cinéma",100,Movie theater,Sala de cine
+sqc,sqc_C028,yellow,,2,,spiderman,"Spiderman",100,Spider-Man,Spider-Man
+sqc,sqc_C028,yellow,,3,,pomme_de_terre,"Pomme de terre",100,Potato,Patata
+sqc,sqc_C028,yellow,,4,,femme_de_menage,"Femme de ménage",100,Cleaning lady,Empleada doméstica
+sqc,sqc_C028,yellow,,5,,sentir_la_rose,"Sentir la rose",100,Smell the roses,Disfrutar el momento
+
+sqc,sqc_C029,yellow,,1,,blouson_de_biker,"Blouson de biker",100,Biker jacket,Chaqueta de motociclista
+sqc,sqc_C029,yellow,,2,,ceinture_d_asteroides,"Ceinture d’astéroïdes",100,Asteroid belt,Cinturón de asteroides
+sqc,sqc_C029,yellow,,3,,fusee,"Fusée",100,Rocket,Cohete
+sqc,sqc_C029,yellow,,4,,tahit,"Tahiti",100,Tahiti,Tahití
+sqc,sqc_C029,yellow,,5,,visite_medicale,"Visite médicale",100,Medical checkup,Revisión médica
+
+sqc,sqc_C030,yellow,,1,,rock_n_roll,"Rock’n’roll",100,Rock and roll,Rock and roll
+sqc,sqc_C030,yellow,,2,,dessin_anime,"Dessin animé",100,Cartoon,Dibujo animado
+sqc,sqc_C030,yellow,,3,,chaloupe,"Chaloupe",100,Dinghy,Chalupa
+sqc,sqc_C030,yellow,,4,,gitane,"Gitane",100,Gypsy,Gitana
+
+sqc,sqc_C031,yellow,,1,,cambriolage,"Cambriolage",100,Burglary,Robo
+sqc,sqc_C031,yellow,,2,,grossir,"Grossir",100,Gain weight,Engordar
+sqc,sqc_C031,yellow,,3,,chambre_des_parents,"Chambre des parents",100,Parents’ bedroom,Habitación de los padres
+sqc,sqc_C031,yellow,,4,,mascara,"Mascara",100,Mascara,Rímel
+sqc,sqc_C031,yellow,,5,,bus_scolaire,"Bus scolaire",100,School bus,Autobús escolar
+
+sqc,sqc_C032,yellow,,1,,jet,"Jet",100,Jet plane,Jet
+sqc,sqc_C032,yellow,,2,,lune,"Lune",100,Moon,Luna
+sqc,sqc_C032,yellow,,3,,lunettes_3d,"Lunettes 3D",100,3D glasses,Gafas 3D
+sqc,sqc_C032,yellow,,4,,coquillettes,"Coquillettes",100,Small pasta,Macarrones pequeños
+sqc,sqc_C032,yellow,,5,,mecanicien,"Mécanicien",100,Mechanic,Mecánico
+
+sqc,sqc_C033,yellow,,1,,masque,"Masque",100,Mask,Máscara
+sqc,sqc_C033,yellow,,2,,bus_scolaire,"Bus scolaire",100,School bus,Autobús escolar
+sqc,sqc_C033,yellow,,3,,lezard,"Lézard",100,Lizard,Lagarto
+
+sqc,sqc_C034,yellow,,1,,jet,"Jet",100,Jet plane,Jet
+sqc,sqc_C034,yellow,,2,,lunettes_3d,"Lunettes 3D",100,3D glasses,Gafas 3D
+sqc,sqc_C034,yellow,,3,,coquillettes,"Coquillettes",100,Small pasta,Macarrones pequeños
+sqc,sqc_C034,yellow,,4,,mecanicien,"Mécanicien",100,Mechanic,Mecánico
+
+sqc,sqc_C035,yellow,,1,,rock_n_roll,"Rock’n’roll",100,Rock and roll,Rock and roll
+sqc,sqc_C035,yellow,,2,,dessin_anime,"Dessin animé",100,Cartoon,Dibujo animado
+sqc,sqc_C035,yellow,,3,,chaloupe,"Chaloupe",100,Dinghy,Chalupa
+sqc,sqc_C035,yellow,,4,,gitane,"Gitane",100,Gypsy,Gitana
+
+sqc,sqc_C036,yellow,,1,,jet,"Jet",100,Jet plane,Jet
+sqc,sqc_C036,yellow,,2,,lunettes_3d,"Lunettes 3D",100,3D glasses,Gafas 3D
+sqc,sqc_C036,yellow,,3,,coquillettes,"Coquillettes",100,Small pasta,Macarrones pequeños
+sqc,sqc_C036,yellow,,4,,mecanicien,"Mécanicien",100,Mechanic,Mecánico
+
+sqc,sqc_C037,blue,,1,,boule_de_cristal,"Boule de cristal",100,Crystal ball,Bola de cristal
+sqc,sqc_C037,blue,,2,,karate,"Karaté",100,Karate,Kárate
+sqc,sqc_C037,blue,,3,,cuillere_a_soupe,"Cuillère à soupe",100,Soup spoon,Cuchara sopera
+sqc,sqc_C037,blue,,4,,casino,"Casino",100,Casino,Casino
+sqc,sqc_C037,blue,,6,,maison_de_lordes,"Maison de Lourdes",100,House of Lourdes,Casa de Lourdes
+
+sqc,sqc_C038,blue,,1,,poseidon,"Poséidon",100,Poseidon,Poseidón
+sqc,sqc_C038,blue,,2,,rideaux,"Rideaux",100,Curtains,Cortinas
+sqc,sqc_C038,blue,,3,,dans_leau,"Dans l’eau",100,In the water,En el agua
+sqc,sqc_C038,blue,,4,,cheval_de_course,"Cheval de course",100,Racehorse,Caballo de carreras
+sqc,sqc_C038,blue,,5,,jardin,"Jardin",100,Garden,Jardín
+sqc,sqc_C038,blue,,6,,ecureuil_volant,"Écureuil volant",100,Flying squirrel,Ardilla voladora
+
+sqc,sqc_C039,blue,,1,,la_petite_souris,"La petite souris",100,Tooth fairy,Ratón Pérez
+sqc,sqc_C039,blue,,2,,tondeuse_a_gazon,"Tondeuse à gazon",100,Lawn mower,Cortacésped
+sqc,sqc_C039,blue,,3,,homme_des_cavernes,"Homme des cavernes",100,Caveman,Hombre de las cavernas
+sqc,sqc_C039,blue,,4,,machine_a_laver,"Machine à laver",100,Washing machine,Lavadora
+sqc,sqc_C039,blue,,6,,tomate_cerise,"Tomate cerise",100,Cherry tomato,Tomate cherry
+
+sqc,sqc_C040,blue,,1,,feu_aux_chandelles,"Feu aux chandelles",100,Candlelight dinner,Cena a la luz de las velas
+sqc,sqc_C040,blue,,2,,pilote,"Pilote",100,Pilot,Piloto
+sqc,sqc_C040,blue,,3,,maquette,"Maquette",100,Scale model,Maqueta
+sqc,sqc_C040,blue,,4,,taj_mahal,"Taj Mahal",100,Taj Mahal,Taj Mahal
+sqc,sqc_C040,blue,,5,,bougie,"Bougie",100,Candle,Vela
+sqc,sqc_C040,blue,,6,,microbe,"Microbe",100,Germ,Microbio
+
+sqc,sqc_C041,blue,,1,,magicien,"Magicien",100,Magician,Mago
+sqc,sqc_C041,blue,,3,,garde_cotes,"Garde-côtes",100,Coast guard,Guardacostas
+sqc,sqc_C041,blue,,4,,chien_de_traineau,"Chien de traîneau",100,Sled dog,Perro de trineo
+sqc,sqc_C041,blue,,5,,dans_le_temps,"Dans le temps",100,Through time,En el tiempo
+sqc,sqc_C041,blue,,6,,montre_a_gousset,"Montre à gousset",100,Pocket watch,Reloj de bolsillo
+
+sqc,sqc_C042,blue,,1,,statue_de_la_liberte,"Statue de la Liberté",100,Statue of Liberty,Estatua de la Libertad
+sqc,sqc_C042,blue,,3,,danseuse_du_ventre,"Danseuse du ventre",100,Belly dancer,Bailarina del vientre
+sqc,sqc_C042,blue,,4,,viking,"Viking",100,Viking,Vikingo
+sqc,sqc_C042,blue,,6,,potion_magique,"Potion magique",100,Magic potion,Poción mágica
+
+sqc,sqc_C043,blue,,1,,fermier,"Fermier",100,Farmer,Granjero
+sqc,sqc_C043,blue,,2,,parc_de_surelles,"Parc de Surelles",100,Parc de Surelles,Parque de Surelles
+sqc,sqc_C043,blue,,3,,saute_mouton,"Saute-mouton",100,Leapfrog,Salto del burro
+sqc,sqc_C043,blue,,4,,deltaplane,"Deltaplane",100,Hang glider,Ala delta
+sqc,sqc_C043,blue,,5,,huile_de_coude,"Huile de coude",100,Elbow grease,Trabajo duro
+
+sqc,sqc_C044,blue,,1,,danseuse_etoile,"Danseuse étoile",100,Principal dancer,Bailarina estrella
+sqc,sqc_C044,blue,,2,,casserole,"Casserole",100,Saucepan,Cacerola
+sqc,sqc_C044,blue,,3,,telescope,"Télescope",100,Telescope,Telescopio
+sqc,sqc_C044,blue,,4,,sphinx,"Sphinx",100,Sphinx,Esfinge
+sqc,sqc_C044,blue,,5,,saint_jacques,"Saint-Jacques",100,Saint James,San Jaime
+sqc,sqc_C044,blue,,6,,decheter,"Décheter",100,Shred,Triturar
+
+sqc,sqc_C045,blue,,1,,tilt_de_sonne,"Tilt de Sonne",100,Tilt de Sonne,Tilt de Sonne
+sqc,sqc_C045,blue,,2,,ales_dange,"Ales d’ange",100,Angel wings,Alas de ángel
+sqc,sqc_C045,blue,,3,,cerisier,"Cerisier",100,Cherry tree,Cerezo
+sqc,sqc_C045,blue,,4,,table_basse,"Table basse",100,Coffee table,Mesa baja
+sqc,sqc_C045,blue,,5,,cocktail_de_crevettes,"Cocktail de crevettes",100,Shrimp cocktail,Cóctel de gambas
+sqc,sqc_C045,blue,,6,,carte_au_tresor,"Carte au trésor",100,Treasure map,Mapa del tesoro
+
+sqc,sqc_C046,blue,,1,,le_cid,"Le Cid",100,The Cid,El Cid
+sqc,sqc_C046,blue,,2,,journal,"Journal",100,Newspaper,Periódico
+sqc,sqc_C046,blue,,3,,zeus,"Zeus",100,Zeus,Zeus
+sqc,sqc_C046,blue,,4,,femme_a_barbe,"Femme à barbe",100,Bearded lady,Mujer barbuda
+sqc,sqc_C046,blue,,5,,musique_dascenseur,"Musique d’ascenseur",100,Elevator music,Música de ascensor
+sqc,sqc_C046,blue,,6,,pompier,"Pompier",100,Firefighter,Bombero
+
+sqc,sqc_C047,blue,,1,,boeuf,"Bœuf",100,Beef,Carne de res
+sqc,sqc_C047,blue,,2,,montre,"Montre",100,Watch,Reloj
+sqc,sqc_C047,blue,,3,,periscope,"Périscope",100,Periscope,Periscopio
+sqc,sqc_C047,blue,,4,,moon_boots,"Moon boots",100,Moon boots,Botas lunares
+sqc,sqc_C047,blue,,6,,cafard,"Cafard",100,Cockroach,Cucaracha
+
+sqc,sqc_C048,blue,,1,,banque_du_sang,"Banque du sang",100,Blood bank,Banco de sangre
+sqc,sqc_C048,blue,,3,,parabole,"Parabole",100,Satellite dish,Antena parabólica
+sqc,sqc_C048,blue,,4,,esperer_la_main,"Espérer la main",100,Hope for a hand,Esperar la mano
+sqc,sqc_C048,blue,,5,,egypte,"Égypte",100,Egypt,Egipto
+sqc,sqc_C048,blue,,6,,salle_de_bain,"Salle de bain",100,Bathroom,Baño
+
+sqc,sqc_C049,blue,,1,,fromage_a_raclette,"Fromage à raclette",100,Raclette cheese,Queso raclette
+sqc,sqc_C049,blue,,2,,super_heros,"Super-héros",100,Superhero,Superhéroe
+sqc,sqc_C049,blue,,3,,les_nuages_dans,"Les nuages dans",100,Clouds in,Las nubes en
+sqc,sqc_C049,blue,,4,,pizza_surgele,"Pizza surgelée",100,Frozen pizza,Pizza congelada
+sqc,sqc_C049,blue,,5,,chapeau_de_magicien,"Chapeau de magicien",100,Magician’s hat,Sombrero de mago
+sqc,sqc_C049,blue,,6,,oeuf_pourri,"Œuf pourri",100,Rotten egg,Huevo podrido
+
+sqc,sqc_C050,blue,,1,,empire_de_doigt,"Empire de doigt",100,Finger empire,Imperio del dedo
+sqc,sqc_C050,blue,,3,,salsa,"Salsa",100,Salsa,Salsa
+sqc,sqc_C050,blue,,4,,plateau_tele,"Plateau télé",100,TV set,Plató de TV
+sqc,sqc_C050,blue,,5,,coiffeur,"Coiffeur",100,Hairdresser,Peluquero
+sqc,sqc_C050,blue,,6,,cheeseburger,"Cheeseburger",100,Cheeseburger,Hamburguesa con queso
+
+sqc,sqc_C051,blue,,1,,soleil,"Soleil",100,Sun,Sol
+sqc,sqc_C051,blue,,2,,chaussettes,"Chaussettes",100,Socks,Calcetines
+sqc,sqc_C051,blue,,3,,chocolat_chaud,"Chocolat chaud",100,Hot chocolate,Chocolate caliente
+sqc,sqc_C051,blue,,4,,sortie_de_secours,"Sortie de secours",100,Emergency exit,Salida de emergencia
+sqc,sqc_C051,blue,,5,,jambe_de_bois,"Jambe de bois",100,Wooden leg,Pata de palo
+sqc,sqc_C051,blue,,6,,allumettes,"Allumettes",100,Matches,Cerillas
+
+sqc,sqc_C052,blue,,1,,crabe,"Crabe",100,Crab,Cangrejo
+sqc,sqc_C052,blue,,2,,moulin_rouge,"Moulin Rouge",100,Moulin Rouge,Moulin Rouge
+sqc,sqc_C052,blue,,3,,choux_de_bruxelles,"Choux de Bruxelles",100,Brussels sprouts,Coles de Bruselas
+sqc,sqc_C052,blue,,4,,tulipe,"Tulipe",100,Tulip,Tulipán
+sqc,sqc_C052,blue,,5,,confiture_de_fraise,"Confiture de fraise",100,Strawberry jam,Mermelada de fresa
+sqc,sqc_C052,blue,,6,,plumecard,"Plumecard",100,Plumecard,Plumecard
+
+sqc,sqc_C053,blue,,1,,boussole,"Boussole",100,Compass,Brújula
+sqc,sqc_C053,blue,,2,,perruque,"Perruque",100,Wig,Peluca
+sqc,sqc_C053,blue,,3,,chevalier,"Chevalier",100,Knight,Caballero
+sqc,sqc_C053,blue,,4,,pellicules,"Pellicules",100,Dandruff,Caspa
+sqc,sqc_C053,blue,,5,,fleuriste,"Fleuriste",100,Florist,Florista
+
+sqc,sqc_C054,blue,,1,,boite_aux_lettres,"Boîte aux lettres",100,Mailbox,Buzón
+sqc,sqc_C054,blue,,3,,oeil_du_tigre,"Œil du tigre",100,Tiger’s eye,Ojo de tigre
+sqc,sqc_C054,blue,,4,,al_capo,"Al Capo",100,Al Capone,Al Capone
+sqc,sqc_C054,blue,,6,,geant,"Géant",100,Giant,Gigante
+
+sqc,sqc_C057,blue,,1,,dame_de_coeur,"Dame de cœur",100,Queen of hearts,Dama de corazones
+sqc,sqc_C057,blue,,2,,bateau_de_croisiere,"Bateau de croisière",100,Cruise ship,Crucero
+sqc,sqc_C057,blue,,3,,air_bag,"Air bag",100,Airbag,Airbag
+sqc,sqc_C057,blue,,4,,hotesse_de_l_air,"Hôtesse de l’air",100,Flight attendant,Azafata
+sqc,sqc_C057,blue,,5,,yoyo,"Yoyo",100,Yo-yo,Yo-yo
+
+sqc,sqc_C058,blue,,1,,paris,"Paris",100,Paris,París
+sqc,sqc_C058,blue,,2,,saint_valentin,"Saint valentin",100,Valentine’s Day,San Valentín
+sqc,sqc_C058,blue,,3,,trampoline,"Trampoline",100,Trampoline,Trampolín
+sqc,sqc_C058,blue,,4,,sushi,"Sushi",100,Sushi,Sushi
+sqc,sqc_C058,blue,,5,,escargot,"Escargot",100,Snail,Caracol
+sqc,sqc_C058,blue,,6,,dessous_de_table,"Dessous de table",100,Placemat,Salvamanteles
+
+sqc,sqc_C059,blue,,1,,salade_verte,"Salade verte",100,Green salad,Ensalada verde
+sqc,sqc_C059,blue,,2,,chouette,"Chouette",100,Owl,Búho
+sqc,sqc_C059,blue,,3,,pyjama,"Pyjama",100,Pajamas,Pijama
+sqc,sqc_C059,blue,,4,,feu_de_circulation,"Feu de circulation",100,Traffic light,Semáforo
+sqc,sqc_C059,blue,,5,,course,"Course",100,Race,Carrera
+sqc,sqc_C059,blue,,6,,pole_nord,"Pôle nord",100,North Pole,Polo Norte
+
+sqc,sqc_C060,blue,,1,,motard,"Motard",100,Biker,Motorista
+sqc,sqc_C060,blue,,2,,chien_de_traineau,"Chien de traîneau",100,Sled dog,Perro de trineo
+sqc,sqc_C060,blue,,3,,machine_a_voyager,"Machine à voyager",100,Time machine,Máquina del tiempo
+sqc,sqc_C060,blue,,4,,dans_le_temps,"Dans le temps",100,Through time,En el tiempo
+sqc,sqc_C060,blue,,5,,magicien,"Magicien",100,Magician,Mago
+
+sqc,sqc_C061,blue,,1,,tomate_cerise,"Tomate cerise",100,Cherry tomato,Tomate cherry
+sqc,sqc_C061,blue,,2,,machine_a_laver,"Machine à laver",100,Washing machine,Lavadora
+sqc,sqc_C061,blue,,3,,homme_des_cavernes,"Homme des cavernes",100,Caveman,Hombre de las cavernas
+sqc,sqc_C061,blue,,4,,tondeuse_a_gazon,"Tondeuse à gazon",100,Lawn mower,Cortacésped
+sqc,sqc_C061,blue,,5,,joueur_de_lion,"Joueur de lion",100,Lion tamer,Domador de leones
+
+sqc,sqc_C062,blue,,1,,statue_de_la_liberte,"Statue de la liberté",100,Statue of Liberty,Estatua de la Libertad
+sqc,sqc_C062,blue,,2,,potion_magique,"Potion magique",100,Magic potion,Poción mágica
+sqc,sqc_C062,blue,,3,,danseuse_du_ventre,"Danseuse du ventre",100,Belly dancer,Bailarina del vientre
+sqc,sqc_C062,blue,,4,,viking,"Viking",100,Viking,Vikingo
+sqc,sqc_C062,blue,,5,,cowboy,"Cowboy",100,Cowboy,Cowboy
+
+sqc,sqc_C063,blue,,1,,salle_de_bain,"Salle de bain",100,Bathroom,Baño
+sqc,sqc_C063,blue,,2,,egypte,"Égypte",100,Egypt,Egipto
+sqc,sqc_C063,blue,,3,,serrez_la_main,"Serrez la main",100,Shake hands,Darse la mano
+sqc,sqc_C063,blue,,4,,parabole,"Parabole",100,Satellite dish,Antena parabólica
+sqc,sqc_C063,blue,,5,,banque_du_sang,"Banque du sang",100,Blood bank,Banco de sangre
+
+sqc,sqc_C064,blue,,1,,cafard,"Cafard",100,Cockroach,Cucaracha
+sqc,sqc_C064,blue,,2,,periscope,"Périscope",100,Periscope,Periscopio
+sqc,sqc_C064,blue,,3,,moon_boots,"Moon boots",100,Moon boots,Botas lunares
+sqc,sqc_C064,blue,,4,,montre,"Montre",100,Watch,Reloj
+sqc,sqc_C064,blue,,5,,boeuf,"Bœuf",100,Beef,Carne de res

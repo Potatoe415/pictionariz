@@ -1,9 +1,28 @@
 (() => {
   // ===== Dev knobs =====
-  const CSV_FILE = "pictionary_words.csv";
+  //const CSV_FILE = "pictionary_words.csv";
   const CHALLENGE_PROB = 0.4;           // 0.4 = 4 times out of 10
   const HIDDEN_MASK = "**********";
   const DOUBLE_TAP_DELAY = 300;         // ms
+ 
+  
+  const GAME_CONFIGS = {
+  pictionary: {
+    title: "Pictionary",
+    csv: "pictionary_words.csv",
+    topImage: "pictionary_top.jpg",
+	hasChallenge: true
+  },
+  esquisse: {
+    title: "Esquisse",
+    csv: "esquisse_words.csv",
+    topImage: "esquisse_top.jpg",
+	hasChallenge: false
+  }
+};
+
+
+
 
   // ===== Palette (token -> hex) =====
   // red MUST be DC143C for the deck; challenge outline uses #c8102e in CSS.
@@ -57,6 +76,14 @@
   let currentLang = "fr";
   let wordHidden = false;
   let lastTapTime = 0;
+  
+  function getGameKey(){
+  const params = new URLSearchParams(window.location.search);
+  return params.get("game") || "pictionary";
+}
+
+const GAME_KEY = getGameKey();
+const GAME = GAME_CONFIGS[GAME_KEY] || GAME_CONFIGS.pictionary;
 
   function normalizeToken(x){ return String(x ?? "").trim().toLowerCase(); }
   function resolveColor(token){
@@ -215,9 +242,12 @@
     // Challenge roll (independent each time a word is displayed)
     const isChallenge = Math.random() < CHALLENGE_PROB;
     if (challengeBannerEl){
-      if (isChallenge) challengeBannerEl.classList.remove("hidden");
-      else challengeBannerEl.classList.add("hidden");
-    }
+  if (GAME.hasChallenge && Math.random() < CHALLENGE_PROB){
+    challengeBannerEl.classList.remove("hidden");
+  } else {
+    challengeBannerEl.classList.add("hidden");
+  }
+}
   }
 
   function setLang(lang){
@@ -314,6 +344,21 @@
       showLoadingError(err?.message || String(err));
     }
   }
+
+
+
+const topImg = document.getElementById("topImg");
+if (topImg) topImg.src = GAME.topImage;
+
+function getGameKey(){
+  const params = new URLSearchParams(window.location.search);
+  return params.get("game") || "pictionary";
+}
+
+ 
+  document.title = GAME.title;
+const CSV_FILE = GAME.csv;
+
 
   init();
 })();

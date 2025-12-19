@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Pictionary</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="gamePage">
+
+  <!-- TOP BANNER (hard reset) -->
+  <!-- RESET HARD -->
+  <a href="index.html" class="topImage">
+    <img id="topImg" src="" alt="Game top">
+  </a>
+
+  <div class="app">
+    <div class="cardId">
+      <div class="cardLeft">
+        <span class="dot" aria-hidden="true"></span>
+        <span id="cardTitle">Carte —</span>
+      </div>
+      <button class="infoBtn" id="infoBtn" type="button" aria-label="Info catégories">i</button>
+    </div>
+
+    <main class="stage">
+      <section class="wordCard" id="wordCard" aria-live="polite">
+        <div class="wordWrap">
+          <div class="label" id="label">—</div>
+          <div class="hint" id="hint"></div>
+        </div>
+      </section>
+
+      <div class="challengeBanner hidden" id="challengeBanner">Challenge</div>
+    </main>
+  </div>
+
+  <div class="bottomBar" role="navigation" aria-label="Controls">
+    <div class="bottomInner">
+      <div class="langs" aria-label="Langues">
+        <button class="langBtn" data-lang="fr" aria-pressed="true" type="button">
+          <span class="flag fr" aria-hidden="true"></span><span>FR</span>
+        </button>
+        <button class="langBtn" data-lang="es" aria-pressed="false" type="button">
+          <span class="flag es" aria-hidden="true"></span><span>ES</span>
+        </button>
+        <button class="langBtn" data-lang="en" aria-pressed="false" type="button">
+          <span class="flag en" aria-hidden="true"></span><span>EN</span>
+        </button>
+      </div>
+
+<div class="navWrapper">
+  <button class="navBtn" id="prevBtn" type="button" aria-label="Previous">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
+  <button class="navBtn" id="nextBtn" type="button" aria-label="Next">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Info Modal -->
+  <div class="modalOverlay hidden" id="infoModal" role="dialog" aria-modal="true" aria-label="Catégories">
+    <div class="modalCard">
+      <div class="modalHeader">
+        <div class="modalTitle">Catégories</div>
+        <button class="modalClose" id="infoClose" type="button" aria-label="Fermer">✕</button>
+      </div>
+      <div class="modalBody">
+        <div class="legend" id="legendList"></div>
+        <div class="modalNote" id="legendNote"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Loading overlay -->
+  <div class="loadingOverlay" id="loadingOverlay" aria-live="polite">
+    <div class="loadingCard">
+      <div class="loadingTitle">Loading…</div>
+      <div class="loadingSub">Reading <span class="mono">pictionary_words.csv</span></div>
+      <div class="loadingError hidden" id="loadingError"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
