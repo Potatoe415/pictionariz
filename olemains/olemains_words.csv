@@ -1,0 +1,146 @@
+game_id,card_id,card_color,theme,points,option,label_fr,label_en
+olm,olm_C001a,pink,olesons,1,0,"Sweet Dreams - Eurythmics","Sweet Dreams - Eurythmics"
+olm,olm_C001b,pink,olesons,1,0,"Ma philosophie - Amel Bent","Ma philosophie - Amel Bent"
+
+olm,olm_C002a,pink,olesons,1,0,"All I Want for Christmas Is You - Mariah Carey","All I Want for Christmas Is You - Mariah Carey"
+olm,olm_C002b,pink,olesons,1,0,"As It Was - Harry Styles","As It Was - Harry Styles"
+
+olm,olm_C003a,pink,olesons,1,0,"Voyage voyage - Desireless","Voyage voyage - Desirele"
+olm,olm_C003b,pink,olesons,1,0,"Il était un petit navire - Comptine","Il était un petit navire - Traditional"
+
+olm,olm_C004a,pink,olesons,1,0,"Popcorn salé - Santa","Popcorn salé - Santa"
+olm,olm_C004b,pink,olesons,1,0,"Ce rêve bleu - Aladdin","Ce rêve bleu - Aladdin"
+
+olm,olm_C005a,pink,olesons,1,0,"Alexandrie Alexandra - Claude François","Alexandrie Alexandra - Claude François"
+olm,olm_C005b,pink,olesons,1,0,"Un jour je marierai un ange - Pierre de Maere","Un jour je marierai un ange - Pierre de Maere"
+
+olm,olm_C006a,pink,olesons,1,0,"Titanium - David Guetta ft. Sia","Titanium - David Guetta ft. Sia"
+olm,olm_C006b,pink,olesons,1,0,"Inspecteur Gadget - Générique","Inspector Gadget - Theme"
+
+olm,olm_C007a,pink,olesons,1,0,"Someone Like You - Adele","Someone Like You - Adele"
+olm,olm_C007b,pink,olesons,1,0,"Alouette gentille alouette - Comptine","Alouette - Traditional"
+
+olm,olm_C008a,pink,olesons,1,0,"Petit Papa Noël - Tino Rossi","Petit Papa Noël - Tino Rossi"
+olm,olm_C008b,pink,olesons,1,0,"The Ketchup Song - Las Ketchup","The Ketchup Song - Las Ketchup"
+
+olm,olm_C009a,pink,olesons,1,0,"Toi + moi - Grégoire","Toi + moi - Grégoire"
+olm,olm_C009b,pink,olesons,1,0,"Un jour mon prince viendra - Blanche-Neige","Someday My Prince Will Come - Snow White"
+
+olm,olm_C010a,pink,olesons,1,0,"Balance ton quoi - Angèle","Balance ton quoi - Angèle"
+olm,olm_C010b,pink,olesons,1,0,"Allumer le feu - Johnny Hallyday","Allumer le feu - Johnny Hallyday"
+
+olm,olm_C011a,pink,olesons,1,0,"Call Me Maybe - Carly Rae Jepsen","Call Me Maybe - Carly Rae Jepsen"
+olm,olm_C011b,pink,olesons,1,0,"I Gotta Feeling - Black Eyed Peas","I Gotta Feeling - Black Eyed Peas"
+
+olm,olm_C012a,pink,olesons,1,0,"La panthère rose - Henry Mancini","The Pink Panther - Henry Mancini"
+olm,olm_C012b,pink,olesons,1,0,"Djadja - Aya Nakamura","Djadja - Aya Nakamura"
+
+olm,olm_C013a,pink,olesons,1,0,"Emmenez-moi - Charles Aznavour","Emmenez-me - Charles Aznavour"
+olm,olm_C013b,pink,olesons,1,0,"Whenever, Wherever - Shakira","Whenever, Wherever - Shakira"
+
+olm,olm_C014a,pink,olesons,1,0,"Bohemian Rhapsody - Queen","Bohemian Rhapsody - Queen"
+olm,olm_C014b,pink,olesons,1,0,"Mignon mignon - René la Taupe","Mignon mignon - René la Taupe"
+
+olm,olm_C015a,pink,olesons,1,0,"Oops!... I Did It Again - Britney Spears","Oops!... I Did It Again - Britney Spears"
+olm,olm_C015b,pink,olesons,1,0,"Bad Romance - Lady Gaga","Bad Romance - Lady Gaga"
+
+olm,olm_C016a,pink,olesons,1,0,"Sous l’océan - La Petite Sirène","Under the Sea - The Little Mermaid"
+olm,olm_C016b,pink,olesons,1,0,"Nightcall - Kavinsky","Nightcall - Kavinsky"
+
+
+
+olm,olm_G001a,none,olemots,0,0,"Hurler en chuchotant !","Shout while whispering!"
+olm,olm_G001b,none,olemimes,0,0,"En chantant l’alphabet","Sing the alphabet"
+olm,olm_G001c,none,olesons,0,0,"Imiter l’équipe adverse par la main","Imitate the opposing team using only your hand"
+
+olm,olm_G002a,none,olemots,0,0,"Parler avec la langue tirée","Speak with your tongue out"
+olm,olm_G002b,none,olemimes,0,0,"Montrer chaque mot en faisant le chien","Show each word by acting like a dog"
+olm,olm_G002c,none,olesons,0,0,"Sportif : en faisant du gainage","Sporty: hold a plank"
+
+olm,olm_G003a,none,olemots,0,0,"En chantant sur un air de ton choix","Sing to any tune you like"
+olm,olm_G003b,none,olemimes,0,0,"Mimer en ayant les genoux collés entre eux","Mime with knees stuck together"
+olm,olm_G003c,none,olesons,0,0,"En dansant la macarena","Dance the Macarena"
+
+olm,olm_G004a,none,olemots,0,0,"Pas le droit de passer","You are not allowed to pass"
+olm,olm_G004b,none,olemimes,0,0,"Pas le droit de passer","You are not allowed to pass"
+olm,olm_G004c,none,olesons,0,0,"Pas le droit de passer","You are not allowed to pass"
+
+olm,olm_G005a,none,olemots,0,0,"Sportif : en faisant des pompes (ou des abdos acceptés)","Sporty: do push-ups (or sit-ups allowed)"
+olm,olm_G005b,none,olemimes,0,0,"Tu peux donner la première lettre","You may give the first letter"
+olm,olm_G005c,none,olesons,0,0,"Top chrono : 15 secondes de moins","Countdown: 15 seconds less"
+
+olm,olm_G006a,none,olemots,0,0,"En rappant","By rapping"
+olm,olm_G006b,none,olemimes,0,0,"Mimer en chantant la marseillaise","Mime while singing La Marseillaise"
+olm,olm_G006c,none,olesons,0,0,"En jouant de l’air guitar","Air guitar performance"
+
+olm,olm_G007a,none,olemots,0,0,"En imitant un singe entre chaque carte","Imitate a monkey between each card"
+olm,olm_G007b,none,olemimes,0,0,"En imitant un singe entre chaque carte","Imitate a monkey between each card"
+olm,olm_G007c,none,olesons,0,0,"En tournant sur toi-même en permanence","Spin around continuously"
+
+olm,olm_G008a,none,olemots,0,0,"En sautillant","Hop while speaking"
+olm,olm_G008b,none,olemimes,0,0,"En chantant la marseillaise","Sing La Marseillaise"
+olm,olm_G008c,none,olesons,0,0,"En restant à quatre pattes","Stay on all fours"
+
+olm,olm_G009a,none,olemots,0,0,"C’est Noël : en décorant ton sapin imaginaire","It’s Christmas: decorate an imaginary tree"
+olm,olm_G009b,none,olemimes,0,0,"Le mime égyptien : en restant de profil","Egyptian mime: stay in profile"
+olm,olm_G009c,none,olesons,0,0,"Demande en mariage en gardant un genou à terre","Marriage proposal on one knee"
+
+olm,olm_G010a,none,olemots,0,0,"Prends accent imposé par l’adversaire","Use the accent chosen by the opponent"
+olm,olm_G010b,none,olemimes,0,0,"En faisant comme si tu avais le hoquet","Act like you have hiccups"
+olm,olm_G010c,none,olesons,0,0,"En faisant comme si tu avais le hoquet","Act like you have hiccups"
+
+olm,olm_G011a,none,olemots,0,0,"En parlant avec la voix la plus aiguë","Speak with the highest-pitched voice"
+olm,olm_G011b,none,olemimes,0,0,"Fais 10 tours sur toi-même avant de lancer le chrono","Spin 10 times before starting the timer"
+olm,olm_G011c,none,olesons,0,0,"Sportif : en faisant des squats","Sporty: do squats"
+
+olm,olm_G012a,none,olemots,0,0,"En chantant comme un rappeur","Sing like a rapper"
+olm,olm_G012b,none,olemimes,0,0,"Prends l’accent de ton choix","Choose any accent"
+olm,olm_G012c,none,olesons,0,0,"En dansant disco","Dance disco style"
+
+olm,olm_C001a,green,olemots,2,0,"Bonne Maman","Bonne Maman"
+olm,olm_C001b,green,olemots,2,0,"Converse","Converse"
+
+olm,olm_C002a,green,olemots,2,0,"Bonduelle","Bonduelle"
+olm,olm_C002b,green,olemots,2,0,"Action","Action"
+
+olm,olm_C003a,green,olemots,2,0,"KFC","KFC"
+olm,olm_C003b,green,olemots,2,0,"Milka","Milka"
+
+olm,olm_C004a,green,olemots,2,0,"Eastpak","Eastpak"
+olm,olm_C004b,green,olemots,2,0,"Pom’potes","Pom’potes"
+
+olm,olm_C005a,green,olemots,2,0,"Carte Noire","Carte Noire"
+olm,olm_C005b,green,olemots,2,0,"McDonald’s","McDonald’s"
+
+olm,olm_C006a,green,olemots,2,0,"Vans","Vans"
+olm,olm_C006b,green,olemots,2,0,"Quick","Quick"
+
+olm,olm_C007a,green,olemots,2,0,"Auchan","Auchan"
+olm,olm_C007b,green,olemots,2,0,"Haribo","Haribo"
+
+olm,olm_C008a,green,olemots,2,0,"Michel et Augustin","Michel et Augustin"
+olm,olm_C008b,green,olemots,2,0,"Shein","Shein"
+
+olm,olm_C009a,green,olemots,2,0,"H&M","H&M"
+olm,olm_C009b,green,olemots,2,0,"Panzani","Panzani"
+
+olm,olm_C010a,green,olemots,2,0,"Royal Canin","Royal Canin"
+olm,olm_C010b,green,olemots,2,0,"Google","Google"
+
+olm,olm_C011a,green,olemots,2,0,"Zara","Zara"
+olm,olm_C011b,green,olemots,2,0,"Subway","Subway"
+
+olm,olm_C012a,green,olemots,2,0,"Yves Rocher","Yves Rocher"
+olm,olm_C012b,green,olemots,2,0,"La Poste","La Poste"
+
+olm,olm_C013a,green,olemots,2,0,"Leboncoin","Leboncoin"
+olm,olm_C013b,green,olemots,2,0,"Nesquik","Nesquik"
+
+olm,olm_C014a,green,olemots,2,0,"Old El Paso","Old El Paso"
+olm,olm_C014b,green,olemots,2,0,"Andros","Andros"
+
+olm,olm_C015a,green,olemots,2,0,"Blédina","Blédina"
+olm,olm_C015b,green,olemots,2,0,"Optic 2000","Optic 2000"
+
+olm,olm_C016a,green,olemots,2,0,"Veepee","Veepee"
+olm,olm_C016b,green,olemots,2,0,"Louis Vuitton","Louis Vuitton"
