@@ -1,364 +1,366 @@
-(() => {
-  // ===== Dev knobs =====
-  //const CSV_FILE = "pictionary_words.csv";
-  const CHALLENGE_PROB = 0.4;           // 0.4 = 4 times out of 10
-  const HIDDEN_MASK = "**********";
-  const DOUBLE_TAP_DELAY = 300;         // ms
- 
-  
-  const GAME_CONFIGS = {
-  pictionary: {
-    title: "Pictionary",
-    csv: "pictionary_words.csv",
-    topImage: "pictionary_top.jpg",
-	hasChallenge: true
-  },
-  esquisse: {
-    title: "Esquisse",
-    csv: "esquisse_words.csv",
-    topImage: "esquisse_top.jpg",
-	hasChallenge: false
-  }
+// Oh les mains (sans timer)
+// CSV format: theme,type,word
+// - type = 1|2|3 -> mots
+// - type = gage  -> gages liés au thème
+// word toujours entre guillemets pour gérer les virgules.
+
+const THEMES = [
+  { id: "olemots",  name: "Olémots",  color: "#2ecc71" }, // VERT
+  { id: "olemimes", name: "Olémimes", color: "#ff7a00" }, // ORANGE
+  { id: "olesons",  name: "Olésons",  color: "#ff4fa3" }, // ROSE
+];
+
+const state = {
+  // mots: key = `${theme}|${points}` -> words[]
+  words: new Map(),
+
+  // gages: key = theme -> gages[]
+  gages: new Map(),
+
+  selectedTheme: null,     // theme id
+  selectedType: null,      // "1" | "2" | "3" (points)
+  bag: [],                 // tirage aléatoire sans répétition pour mots
+
+  // gage courant: doit rester le même pour (theme|points)
+  gageByThemeType: new Map(), // key = `${theme}|${points}` -> gage string
+  currentGage: null,
+
+  tries: 0,                // tentatives (passer + trouvé)
+  found: 0,                // trouvés
+  points: 0,               // points gagnés (trouvé => +points carte)
 };
 
+const $ = (id) => document.getElementById(id);
 
+// ----------------------- utils -----------------------
 
-
-  // ===== Palette (token -> hex) =====
-  // red MUST be DC143C for the deck; challenge outline uses #c8102e in CSS.
-  const TOKEN_PALETTE = {
-    yellow: "#FBBF24",
-    green:  "#22C55E",
-    blue:   "#60A5FA",
-    red:    "#DC143C",
-    purple: "#A78BFA",
-    orange: "#FB923C",
-    pink:   "#F472B6",
-    teal:   "#2DD4BF",
-    gray:   "#94A3B8",
-    black:  "#0F172A",
-    white:  "#E2E8F0"
-  };
-
-  // Legend (based on your reference card) — driven by card_color (category)
-  const CATEGORY_LEGEND = [
-    { token: "yellow", label: "OBJET", shape: "✦" },
-    { token: "blue",   label: "PERSONNE / LIEU / ANIMAL", shape: "●" },
-    { token: "orange", label: "ACTION", shape: "◖" },
-    { token: "green",  label: "DIFFICILE", shape: "▼" },
-    { token: "red",    label: "CULTURE GÉNÉRALE", shape: "■" }
-  ];
-
-  // ===== DOM =====
-  const elCardTitle = document.getElementById("cardTitle");
-  const elLabel = document.getElementById("label");
-  const elHint = document.getElementById("hint");
-  const wordCardEl = document.getElementById("wordCard");
-  const challengeBannerEl = document.getElementById("challengeBanner");
-
-  const prevBtn = document.getElementById("prevBtn");
-  const nextBtn = document.getElementById("nextBtn");
-  const langButtons = [...document.querySelectorAll(".langBtn")];
-
-  const infoBtn = document.getElementById("infoBtn");
-  const infoModal = document.getElementById("infoModal");
-  const infoClose = document.getElementById("infoClose");
-  const legendList = document.getElementById("legendList");
-  const legendNote = document.getElementById("legendNote");
-
-  const loadingOverlay = document.getElementById("loadingOverlay");
-  const loadingError = document.getElementById("loadingError");
-
-  // ===== State =====
-  let CARDS = [];
-  let order = [];
-  let pos = 0;
-  let currentLang = "fr";
-  let wordHidden = false;
-  let lastTapTime = 0;
-  
-  function getGameKey(){
-  const params = new URLSearchParams(window.location.search);
-  return params.get("game") || "pictionary";
+function shuffle(arr){
+  for (let i = arr.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
 }
 
-const GAME_KEY = getGameKey();
-const GAME = GAME_CONFIGS[GAME_KEY] || GAME_CONFIGS.pictionary;
+// CSV parser (gère guillemets + virgules + "" pour quote échappé)
+function parseCSV(text){
+  const rows = [];
+  let row = [];
+  let cur = "";
+  let inQuotes = false;
 
-  function normalizeToken(x){ return String(x ?? "").trim().toLowerCase(); }
-  function resolveColor(token){
-    const t = normalizeToken(token);
-    return TOKEN_PALETTE[t] || "#A78BFA";
-  }
-  function idealTextColor(hex){
-    const h = String(hex || "").replace("#","").trim();
-    if (h.length !== 6) return "rgba(255,255,255,0.92)";
-    const r = parseInt(h.slice(0,2),16);
-    const g = parseInt(h.slice(2,4),16);
-    const b = parseInt(h.slice(4,6),16);
-    const lum = (0.2126*r + 0.7152*g + 0.0722*b) / 255;
-    return lum > 0.68 ? "rgba(0,0,0,0.88)" : "rgba(255,255,255,0.92)";
-  }
-  function cardNumberFromId(card_id){
-    const m = String(card_id).match(/C(\d+)/i);
-    return m ? m[1] : (card_id || "—");
-  }
-  function getLabel(card, lang){
-    const key = `label_${lang}`;
-    const v = card?.[key];
-    if (v && String(v).trim()) return v;
-    return card?.label_fr || card?.label_en || card?.label_es || card?.word_key || "—";
-  }
+  for (let i = 0; i < text.length; i++){
+    const c = text[i];
+    const next = text[i + 1];
 
-  // Robust CSV parser (quotes + commas)
-  function parseCSV(text){
-    const rows = [];
-    let row = [];
-    let field = "";
-    let i = 0;
-    let inQuotes = false;
-
-    while (i < text.length) {
-      const c = text[i];
-
-      if (inQuotes) {
-        if (c === '"') {
-          if (text[i+1] === '"') { field += '"'; i += 2; continue; }
-          inQuotes = false; i++; continue;
-        }
-        field += c; i++; continue;
+    if (inQuotes){
+      if (c === '"' && next === '"'){ // escaped quote
+        cur += '"';
+        i++;
+      } else if (c === '"'){
+        inQuotes = false;
       } else {
-        if (c === '"') { inQuotes = true; i++; continue; }
-        if (c === ',') { row.push(field); field = ""; i++; continue; }
-        if (c === '\r') { i++; continue; }
-        if (c === '\n') { row.push(field); rows.push(row); row = []; field = ""; i++; continue; }
-        field += c; i++; continue;
+        cur += c;
       }
-    }
-    if (field.length > 0 || row.length > 0) { row.push(field); rows.push(row); }
-    return rows;
-  }
-
-  function rowsToObjects(rows){
-    if (!rows.length) return [];
-    const header = rows[0].map(h => String(h || "").trim());
-    const objs = [];
-    for (let r = 1; r < rows.length; r++){
-      const line = rows[r];
-      // skip empty rows
-      if (!line || line.every(x => String(x ?? "").trim() === "")) continue;
-      const o = {};
-      for (let c = 0; c < header.length; c++){
-        const key = header[c];
-        if (!key) continue;
-        o[key] = line[c] ?? "";
-      }
-      // skip rows with no card_id at all
-      if (!String(o.card_id || "").trim()) continue;
-      objs.push(o);
-    }
-    return objs;
-  }
-
-  async function loadCSV(){
-    const resp = await fetch(CSV_FILE, { cache: "no-store" });
-    if (!resp.ok) throw new Error(`Cannot load ${CSV_FILE} (HTTP ${resp.status})`);
-    const text = await resp.text();
-    const rows = parseCSV(text);
-    return rowsToObjects(rows);
-  }
-
-  function fisherYates(n){
-    const a = Array.from({length:n}, (_,i)=>i);
-    for (let i = a.length - 1; i > 0; i--){
-      const j = Math.floor(Math.random() * (i + 1));
-      [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
-  }
-
-  function buildLegend(currentToken){
-    if (!legendList) return;
-    legendList.innerHTML = CATEGORY_LEGEND.map(item => {
-      const hex = resolveColor(item.token);
-      return `
-        <div class="legendRow">
-          <div class="legendLeft">
-            <div class="legendSwatch" style="background:${hex}"></div>
-            <div class="legendText">${item.label}</div>
-          </div>
-          <div class="legendShape">${item.shape}</div>
-        </div>
-      `;
-    }).join("");
-
-    const tok = normalizeToken(currentToken);
-    const match = CATEGORY_LEGEND.find(x => x.token === tok);
-    if (legendNote){
-      legendNote.textContent = match
-        ? `Couleur actuelle : ${match.label}   -   Double tap on word to hide it`
-        : (tok ? `Couleur actuelle : ${tok} (catégorie inconnue)` : "Couleur actuelle : inconnue");
-    }
-
-  }
-
-  function openInfo(){
-    const card = CARDS[order[pos]];
-    buildLegend(card?.card_color);
-    infoModal?.classList.remove("hidden");
-  }
-  function closeInfo(){
-    infoModal?.classList.add("hidden");
-  }
-
-  function render(){
-    if (!CARDS.length) return;
-
-    const card = CARDS[order[pos]];
-
-    // Dot uses card_color; Word box uses word_color
-    const cardHex = resolveColor(card.card_color);
-    const wordHex = resolveColor(card.word_color);
-    document.documentElement.style.setProperty("--dotColor", cardHex);
-    document.documentElement.style.setProperty("--cardColor", wordHex);
-    document.documentElement.style.setProperty("--wordText", idealTextColor(wordHex));
-
-    elCardTitle.textContent = `Carte ${cardNumberFromId(card.card_id)}`;
-
-    // Word visible by default on each render
-    wordHidden = false;
-    elLabel.textContent = getLabel(card, currentLang);
-
-    // Hint: hide if empty
-    const hintText = String(card.hint || "").trim();
-    if (hintText){
-      elHint.textContent = hintText;
-      elHint.style.display = "";
     } else {
-      elHint.textContent = "";
-      elHint.style.display = "none";
+      if (c === '"'){
+        inQuotes = true;
+      } else if (c === ","){
+        row.push(cur);
+        cur = "";
+      } else if (c === "\n"){
+        row.push(cur);
+        cur = "";
+        if (row.some(v => v.trim() !== "")) rows.push(row.map(v => v.trim()));
+        row = [];
+      } else if (c === "\r"){
+        // ignore
+      } else {
+        cur += c;
+      }
     }
+  }
 
-    // Challenge roll (independent each time a word is displayed)
-    const isChallenge = Math.random() < CHALLENGE_PROB;
-    if (challengeBannerEl){
-  if (GAME.hasChallenge && Math.random() < CHALLENGE_PROB){
-    challengeBannerEl.classList.remove("hidden");
-  } else {
-    challengeBannerEl.classList.add("hidden");
+  row.push(cur);
+  if (row.some(v => v.trim() !== "")) rows.push(row.map(v => v.trim()));
+  return rows;
+}
+
+function setView(view){
+  $("setupView").classList.toggle("hidden", view !== "setup");
+  $("playView").classList.toggle("hidden", view !== "play");
+}
+
+function refreshStartEnabled(){
+  $("btnStart").disabled = !(state.selectedTheme && state.selectedType);
+}
+
+function getKeyThemeType(){
+  return `${state.selectedTheme}|${state.selectedType}`;
+}
+
+function getTypePoints(){
+  return Number(state.selectedType || 0);
+}
+
+function updateScoreUI(){
+  $("foundCount").textContent = String(state.found);
+  $("tryCount").textContent = String(state.tries);
+  $("pointsCount").textContent = String(state.points);
+}
+
+// ----------------------- CSV load -----------------------
+
+async function loadWords(){
+  const res = await fetch("words.csv", { cache: "no-store" });
+  if (!res.ok) throw new Error("Impossible de charger words.csv");
+  const text = await res.text();
+
+  const rows = parseCSV(text);
+  if (!rows.length) throw new Error("CSV vide");
+
+  const header = rows.shift().map(h => h.toLowerCase());
+  const idxTheme = header.indexOf("theme");
+  const idxType  = header.indexOf("type");
+  const idxWord  = header.indexOf("word");
+
+  if (idxTheme < 0 || idxType < 0 || idxWord < 0){
+    throw new Error("CSV: colonnes attendues: theme,type,word");
+  }
+
+  state.words.clear();
+  state.gages.clear();
+
+  for (const r of rows){
+    const theme = (r[idxTheme] || "").trim();
+    const type  = (r[idxType]  || "").trim();
+    const word  = (r[idxWord]  || "").trim();
+
+    if (!theme || !type || !word) continue;
+
+    if (type === "gage"){
+      if (!state.gages.has(theme)) state.gages.set(theme, []);
+      state.gages.get(theme).push(word);
+    } else {
+      // type doit être 1/2/3
+      if (!["1","2","3"].includes(type)) continue;
+      const key = `${theme}|${type}`;
+      if (!state.words.has(key)) state.words.set(key, []);
+      state.words.get(key).push(word);
+    }
   }
 }
-  }
 
-  function setLang(lang){
-    currentLang = lang;
-    for (const btn of langButtons){
-      btn.setAttribute("aria-pressed", btn.dataset.lang === lang ? "true" : "false");
-    }
-    // Update label only (do not re-roll challenge)
-    const card = CARDS[order[pos]];
-    elLabel.textContent = wordHidden ? HIDDEN_MASK : getLabel(card, currentLang);
-  }
+// ----------------------- Theme/Type selection UI -----------------------
 
-  function prev(){
-    pos = (pos - 1 + order.length) % order.length;
-    render();
-  }
-  function next(){
-    pos = (pos + 1) % order.length;
-    render();
-  }
+function renderThemes(){
+  const wrap = $("themeRow");
+  wrap.innerHTML = "";
 
-  function toggleWord(){
-    const card = CARDS[order[pos]];
-    if (!wordHidden){
-      elLabel.textContent = HIDDEN_MASK;
-      wordHidden = true;
-    } else {
-      elLabel.textContent = getLabel(card, currentLang);
-      wordHidden = false;
-    }
-  }
+  for (const t of THEMES){
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "themeBtn";
+    btn.dataset.theme = t.id;
 
-  // Double-tap on word card toggles mask
-  function onWordCardPointerUp(e){
-    const target = e.target.closest("#wordCard");
-    if (!target) return;
-
-    const now = Date.now();
-    const delta = now - lastTapTime;
-
-    if (delta > 0 && delta < DOUBLE_TAP_DELAY){
-      toggleWord();
-      lastTapTime = 0;
-    } else {
-      lastTapTime = now;
-    }
-  }
-
-  function showLoadingError(msg){
-    if (!loadingError) return;
-    loadingError.classList.remove("hidden");
-    loadingError.innerHTML = `
-      <div style="font-weight:950; margin-bottom:6px;">CSV load failed</div>
-      <div>${escapeHtml(msg)}</div>
-      <div style="margin-top:10px; opacity:0.85;">
-        Make sure you run a local web server (not file://). Example:
-        <div class="mono" style="margin-top:6px;">py -m http.server 8080</div>
+    btn.innerHTML = `
+      <div class="left">
+        <span class="themeSwatch" style="background:${t.color}"></span>
+        <span>${t.name}</span>
       </div>
+      <span class="check">✓</span>
     `;
+
+    btn.addEventListener("click", () => {
+      state.selectedTheme = t.id;
+
+      // Reset type selection when changing theme
+      state.selectedType = null;
+      state.bag = [];
+      state.currentGage = null;
+
+      // UI active state theme
+      [...wrap.querySelectorAll(".themeBtn")]
+        .forEach(b => b.classList.toggle("active", b.dataset.theme === t.id));
+
+      // UI reset type
+      [...document.querySelectorAll(".typeBtn")].forEach(b => b.classList.remove("active"));
+
+      $("typeHint").textContent = "Choisis 1 / 2 / 3 points.";
+      refreshStartEnabled();
+    });
+
+    wrap.appendChild(btn);
   }
-
-  function escapeHtml(s){
-    return String(s).replace(/[&<>"']/g, ch => ({
-      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
-    }[ch]));
-  }
-
-  async function init(){
-    try{
-      // wire events
-      prevBtn?.addEventListener("click", prev);
-      nextBtn?.addEventListener("click", next);
-      langButtons.forEach(btn => btn.addEventListener("click", () => setLang(btn.dataset.lang)));
-
-      infoBtn?.addEventListener("click", openInfo);
-      infoClose?.addEventListener("click", closeInfo);
-      infoModal?.addEventListener("click", (e) => { if (e.target === infoModal) closeInfo(); });
-      window.addEventListener("keydown", (e) => { if (e.key === "Escape") closeInfo(); });
-
-      wordCardEl?.addEventListener("pointerup", onWordCardPointerUp);
-
-      // load deck
-      const cards = await loadCSV();
-      CARDS = cards;
-      order = fisherYates(CARDS.length);
-      pos = 0;
-
-      // render first
-      render();
-
-      // hide loading
-      loadingOverlay?.classList.add("hidden");
-    }catch(err){
-      showLoadingError(err?.message || String(err));
-    }
-  }
-
-
-
-const topImg = document.getElementById("topImg");
-if (topImg) topImg.src = GAME.topImage;
-
-function getGameKey(){
-  const params = new URLSearchParams(window.location.search);
-  return params.get("game") || "pictionary";
 }
 
- 
-  document.title = GAME.title;
-const CSV_FILE = GAME.csv;
+function wireTypeButtons(){
+  document.querySelectorAll(".typeBtn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      if (!state.selectedTheme){
+        $("typeHint").textContent = "Non. D’abord le thème.";
+        return;
+      }
 
+      state.selectedType = btn.dataset.type;
+      state.bag = [];
 
-  init();
+      // UI active type
+      document.querySelectorAll(".typeBtn")
+        .forEach(b => b.classList.toggle("active", b.dataset.type === state.selectedType));
+
+      refreshStartEnabled();
+    });
+  });
+}
+
+// ----------------------- Gameplay -----------------------
+
+function refillBag(){
+  const key = getKeyThemeType();
+  const list = state.words.get(key) || [];
+  state.bag = shuffle([...list]);
+}
+
+function nextWord(){
+  if (state.bag.length === 0) refillBag();
+  if (state.bag.length === 0) return "Aucun mot pour ce thème/valeur.";
+  return state.bag.pop();
+}
+
+function pickGageForCurrentThemeType(){
+  const key = getKeyThemeType();
+
+  // if already picked for this (theme|points), reuse it
+  if (state.gageByThemeType.has(key)){
+    return state.gageByThemeType.get(key);
+  }
+
+  // pick random from theme gages
+  const gList = state.gages.get(state.selectedTheme) || [];
+  const gage = gList.length
+    ? gList[Math.floor(Math.random() * gList.length)]
+    : "Aucun gage pour ce thème.";
+
+  state.gageByThemeType.set(key, gage);
+  return gage;
+}
+
+function applyPlayHeader(){
+  const theme = THEMES.find(t => t.id === state.selectedTheme);
+  const color = theme?.color || "#60a5fa";
+  const pts = getTypePoints();
+
+  $("pillTheme").textContent = theme ? theme.name : "Thème";
+  $("pillTheme").style.borderColor = color;
+  $("pillTheme").style.background = `${color}22`;
+
+  $("pillType").textContent = `${pts} point${pts > 1 ? "s" : ""}`;
+  $("pillType").style.borderColor = "rgba(255,255,255,.18)";
+  $("pillType").style.background = "rgba(255,255,255,.06)";
+
+  $("wordCard").style.borderColor = `${color}66`;
+
+  const count = (state.words.get(getKeyThemeType()) || []).length;
+  $("stockInfo").textContent = `${count} mot(s) dispo`;
+}
+
+function startGame(){
+  // reset counters for this run
+  state.tries = 0;
+  state.found = 0;
+  state.points = 0;
+  updateScoreUI();
+
+  // reset bag for the selected (theme|points)
+  state.bag = [];
+
+  // set gage for this (theme|points)
+  state.currentGage = pickGageForCurrentThemeType();
+  $("gageText").textContent = state.currentGage;
+
+  applyPlayHeader();
+
+  $("wordValue").textContent = nextWord();
+  setView("play");
+}
+
+function onFound(){
+  state.tries += 1;
+  state.found += 1;
+  state.points += getTypePoints();
+  updateScoreUI();
+  $("wordValue").textContent = nextWord();
+}
+
+function onSkip(){
+  state.tries += 1;
+  // points unchanged
+  updateScoreUI();
+  $("wordValue").textContent = nextWord();
+}
+
+// ----------------------- Reset / Change -----------------------
+
+function resetAll(){
+  state.selectedTheme = null;
+  state.selectedType = null;
+  state.bag = [];
+  state.currentGage = null;
+
+  state.tries = 0;
+  state.found = 0;
+  state.points = 0;
+  updateScoreUI();
+
+  // NOTE: on ne vide PAS gageByThemeType ici, car tu as demandé que
+  // le gage reste le même pour un (thème/points) donné tant que tu joues.
+  // Si tu veux réinitialiser les gages aussi, on le fera via le bouton reset confirm.
+
+  document.querySelectorAll(".themeBtn").forEach(b => b.classList.remove("active"));
+  document.querySelectorAll(".typeBtn").forEach(b => b.classList.remove("active"));
+
+  $("typeHint").textContent = "Sélectionne un thème d’abord.";
+  $("gageText").textContent = "—";
+
+  refreshStartEnabled();
+  setView("setup");
+}
+
+function hardResetEverything(){
+  // reset selection + scores + memory of gages
+  state.gageByThemeType.clear();
+  resetAll();
+}
+
+// ----------------------- Wire UI -----------------------
+
+function wireUI(){
+  wireTypeButtons();
+
+  $("btnStart").addEventListener("click", startGame);
+  $("btnNext").addEventListener("click", onFound);
+  $("btnSkip").addEventListener("click", onSkip);
+
+  $("btnChange").addEventListener("click", () => setView("setup"));
+
+  $("btnReset").addEventListener("click", () => {
+    if (confirm("Tout réinitialiser (sélection + score + gages) ?")) {
+      hardResetEverything();
+    }
+  });
+}
+
+// ----------------------- Init -----------------------
+
+(async function init(){
+  try{
+    renderThemes();
+    wireUI();
+    await loadWords();
+    resetAll();
+  } catch (err){
+    console.error(err);
+    alert("Erreur: " + (err?.message || err));
+  }
 })();

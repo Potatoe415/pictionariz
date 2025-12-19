@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oh les mains – Jeu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <div class="topImage">
+  <img src="ole_top.jpg" alt="Oh les mains">
+</div>
+
+
+  <main class="wrap">
+    <section class="card" aria-live="polite">
+      <div class="playHeader">
+        <div class="leftHeader">
+          <div class="pill" id="pillTheme">Thème</div>
+          <div class="pill pill2" id="pillPoints">Points</div>
+          <div class="tiny muted" id="stockInfo">—</div>
+        </div>
+
+        <div class="scoreBoxTop">
+          <div class="scoreTopMain"><span id="foundCount">0</span>/<span id="tryCount">0</span></div>
+          <div class="scoreTopSub"><span id="pointsCount">0</span> pt</div>
+        </div>
+      </div>
+
+      <div class="wordCard" id="wordCard">
+        <div class="wordValue" id="wordValue">…</div>
+      </div>
+
+      <div class="gageCard">
+        <div class="gageTitle">Gage</div>
+        <div class="gageText" id="gageText">—</div>
+      </div>
+
+      <div class="controls">
+        <button id="btnSkip" class="btn danger" type="button">Passer ✗</button>
+        <button id="btnFound" class="btn success" type="button">Trouvé ✓</button>
+      </div>
+	  
+	  <div class="langBar">
+  <button class="langBtn active" data-lang="fr" type="button">🇫🇷 FR</button>
+  <button class="langBtn" data-lang="en" type="button">🇬🇧 EN</button>
+</div>
+
+    </section>
+  </main>
+  
+  <div class="bottomBar">
+  <button id="btnBack" class="btn ghostWide" type="button">← Retour à la config</button>
+</div>
+
+  <script src="shared.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
