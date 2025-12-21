@@ -2,6 +2,33 @@
 
 const state = { theme: null, points: null };
 
+const TYPE_LABELS = {
+  olemimes: {
+    1: "Action (1 pt)",
+    2: "Sport (2 pts)",
+    3: "Musique (3 pts)",
+  },
+  olemots: {
+    1: "Douce France (1 pts)",
+    2: "Graines de Star (2 pts)",
+    3: "Marques (3 pts)",
+  },
+  olesons: {
+    1: "Chansons (1 pts)",
+    2: "Imitation (2 pts)",
+    3: "Finis les paroles (3 pts)",
+  }
+};
+
+function applyTypeLabels(themeId){
+  const map = TYPE_LABELS[themeId] || {};
+  document.querySelectorAll(".typeBtn").forEach(btn => {
+    const p = btn.dataset.points; // "1"|"2"|"3"
+    btn.textContent = map[p] || `${p} point${p === "1" ? "" : "s"}`;
+  });
+}
+
+
 function refreshStart(){
   $("btnStart").disabled = !(state.theme && state.points);
 }
@@ -29,6 +56,7 @@ function renderThemes(){
       $("hint").textContent = "Choisis 1 / 2 / 3 points.";
       [...wrap.querySelectorAll(".themeBtn")]
         .forEach(b => b.classList.toggle("active", b.dataset.theme === t.id));
+	applyTypeLabels(t.id);
       refreshStart();
     });
 

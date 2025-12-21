@@ -1,8 +1,9 @@
 // shared.js
 
 const OHM_THEMES = [
+{ id: "olemots",  name: "Olémots",  color: "#2ecc71" },
   { id: "olemimes", name: "Olémimes", color: "#ff7a00" },
-  { id: "olemots",  name: "Olémots",  color: "#2ecc71" },
+  
   { id: "olesons",  name: "Olésons",  color: "#ff4fa3" },
 ];
 

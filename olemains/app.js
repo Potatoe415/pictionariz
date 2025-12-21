@@ -5,8 +5,8 @@
 // word toujours entre guillemets pour gérer les virgules.
 
 const THEMES = [
-  { id: "olemimes", name: "Olémimes", color: "#ff7a00" }, // ORANGE
   { id: "olemots",  name: "Olémots",  color: "#2ecc71" }, // VERT
+  { id: "olemimes", name: "Olémimes", color: "#ff7a00" }, // ORANGE
   { id: "olesons",  name: "Olésons",  color: "#ff4fa3" }, // ROSE
 ];
 

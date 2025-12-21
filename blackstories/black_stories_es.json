@@ -1,0 +1,335 @@
+    {
+      "language": "es",
+      "stories": [
+        {
+          "id": "1",
+          "title": "Sombra",
+          "short_story": "La mujer se despertó en mitad de la noche, vio una sombra y tras un momento después se suicidó.",
+          "full_story": "La mujer se despertó en mitad de la noche y vio la sombra de una paloma mensajera. La carta era de un amigo de su marido diciendo que el mismo estaba muerto. Incapaz de soportar la perdida, ella se suicidó."
+        },
+        {
+          "id": "2",
+          "title": "Prefeito",
+          "short_story": "El hombre mató al alcalde en frente de la multitud, pero nadie lo culpo.",
+          "full_story": "El hombre trabajaba como verdugo y ejecutó al alcalde por cometer crímenes."
+        },
+        {
+          "id": "3",
+          "title": "La última ronda",
+          "short_story": "La ronda de hoy fue la última para Martín.",
+          "full_story": "Martín estaba haciendo la ronda de inspección del avión cuando el piloto encendió las turbinas. Con tan mala suerte que la corriente de aire generada lo succionó hacia dentro de la turbina."
+        },
+        {
+          "id": "4",
+          "title": "Fan de la musica",
+          "short_story": "Desgraciadamente, aquel fue el último concierto de su vida.",
+          "full_story": "La multitud entusiasmada en un concierto no percibió que uno de los participantes del evento callo en el suelo. Su cuerpo fue hallado durante el transcurso del espectáculo. Sucede que aquel hombre era diabético y olvidó su inyección de insulina en casa."
+        },
+        {
+          "id": "5",
+          "title": "Responsabilidades",
+          "short_story": "Uno de los estudiantes fallo al mantener sus responsabilidades causando la muerte de muchos.",
+          "full_story": "Un grupo de estudiantes querían llegar a la cima de una montaña. Se tendrán que dividir las responsabilidades entre ellos. Cuando hicieron una pausa , ya en lo alto de la montaña, la persona responsable de la comida no llevo nada. Encuentran algunas pequeñas frutas, que desgraciadamente eran venenosas."
+        },
+        {
+          "id": "6",
+          "title": "Sueño fatal",
+          "short_story": "Cientos de personas murieron a causa del sueño.",
+          "full_story": "El farero que cuidaba del faro en el puerto callo rendido de sueño. La luz del faro desapareció de repente, causando el naufragio de varios barcos de pasajeros."
+        },
+        {
+          "id": "7",
+          "title": "Llamada fraternal",
+          "short_story": "Donald y Jack mueren porque estaban muy cerca el uno del otro.",
+          "full_story": "Donald y Jack eran instructores de paracaidismo. Durante uno de sus saltos, ellos volaron muy cerca el uno del otro provocando que los paracaídas se enrredaran. Así que, los dos descendieron en caída libre hasta el suelo."
+        },
+        {
+          "id": "8",
+          "title": "Pieza dramática realista",
+          "short_story": "Nadie se esperaba una noche tan dramática.",
+          "full_story": "Durante una cena, un actor tenía que interpretar una escena de un ataque cardíaco. Con tan mala suerte que el actor sufrio un ataque cardíaco real justo en el momento en que debería estar actuando. Así que nadie pudo ayudarlo."
+        },
+        {
+          "id": "9",
+          "title": "Mucho calor",
+          "short_story": "Dos hombres morirán a causa del calor.",
+          "full_story": "Dos hombres fueron a practicar rafting. A causa del calor, ambos se quitaron los chalecos salva-vidas. Una fuerte corriente los sumergió al fondo del río y murieron ahogados."
+        },
+        {
+          "id": "10",
+          "title": "Feliz cumpleaños",
+          "short_story": "Un hombre murió por culpa de su cumpleaños.",
+          "full_story": "Un vecino del apartamento de arriba estaba celebrando su cumpleaños de forma ruidosa. Jack estaba viendo la televisión en la sala cuando un rayo cayó sobre el."
+        },
+        {
+          "id": "11",
+          "title": "Misericordia",
+          "short_story": "Una ayuda voluntaria acabo en dos muertes.",
+          "full_story": "John estaba muy enfermo y necesitaba un transplante de riñón. Un amigo se decidió a ayudarlo. Después de la cirugía, Jack comenzó a recobrar fuerzas, pero de repente, ambos murieron. Sucede que el donante estaba infectado con la rabia."
+        },
+        {
+          "id": "12",
+          "title": "Larga conversacion",
+          "short_story": "Una mujer falleció a causa de una larga conversación telefónica.",
+          "full_story": "Cuando regresaba del taller, una mujer estaba hablando por teléfono con su amiga. Mientras tanto, la oficinista del taller llamaba a la mujer para informarle de que unos tornillos no habían sido apretados correctamente, pero como la línea estaba ocupada ella no recibió la llamada. Cómo resultado, la rueda salió del eje, el coche perdió el control y cayó por un precipicio."
+        },
+        {
+          "id": "13",
+          "title": "Demasiado tiempo",
+          "short_story": "Un hombre no cálculo el tiempo necesario para alcanzar su meta. Pago con su vida por eso.",
+          "full_story": "Un hombre antes de de tratar de estafar dinero a su seguro de vida decidió cortarse un brazo para ganar un mayor beneficio con la indemnizacion. Pero no tuvo en cuenta el tiempo que le llevaría llegar al hospital más cercano. De ese modo, la ambulancia no llego a tiempo y el hombre sangro hasta morir."
+        },
+        {
+          "id": "14",
+          "title": "Historia de amor",
+          "short_story": "Ellos se ahogaran de tanto amor.",
+          "full_story": "Un hombre y su amante estaban intimando dentro del coche estacionado y encendido dentro del garage. Al cabo de un rato, ambos murieron a causa de los gases del motor."
+        },
+        {
+          "id": "15",
+          "title": "Vanidad",
+          "short_story": "Morirán a causa de la vanidad de Alice.",
+          "full_story": "A pesar de la advertencia, la chica llevó su teléfono móvil a la montaña rusa para hacerse un selfie. A causa de los rápidos movimientos del vagón, el teléfono cayó a la via causando un mal funcionamiento en el sistema de freno. Nadie sobrevivió al final del recorrido."
+        },
+        {
+          "id": "16",
+          "title": "Amor fatal",
+          "short_story": "Ella mató a su hermana para encontrar su amor.",
+          "full_story": "En el funeral de su madre, una mujer conoce a un hombre que nunca había vistoantes. De repente, ella siente que el es el hombre de sus sueños y se enamora inmediatamente de el. Después de unos días, ella mata a su hermana, esperando que el hombre vuelva a aparecer de nuevo en el funeral de su hermana."
+        },
+        {
+          "id": "17",
+          "title": "Templo",
+          "short_story": "El cuerpo de un hombre fue encontrado colgando del techo de una iglesia. Debajo de él había un gran charco de agua.",
+          "full_story": "El hombre decidió suicidarse. Se fue hasta una iglesia abandonada a las afueras de la ciudad. El edificio estaba cubierto de nieve y el subió fácilmente al tejado y se ahorco. Cuando llegó la primavera, la nieve se derritió, dejando el charco de agua bajo su cadáver."
+        },
+        {
+          "id": "18",
+          "title": "Romeo y Julieta",
+          "short_story": "Romeo y Julieta fueron encontrados muertos en el suelo.  A su alrededor hay trozos de vidrio. No hay sangre, pero la ventana está abierta.",
+          "full_story": "Romeo y Julieta son dos peces. Un fuerte viento abrió la ventana que derribo el acuario. El acuario se rompió y ellos se ahogaron."
+        },
+        {
+          "id": "19",
+          "title": "Carne de gaviota",
+          "short_story": "Un hombre fue a un restaurante y pidió carne de gaviota. Después de probar un trozo, el hombre se quito la vida.",
+          "full_story": "Unos meses antes, aquel hombre había naufragado en un barco con su mujer y un amigo. Los tres estaban en una isla desierta y necesitaban comida para sobrevivir. El amigo del hombre puso una trampa con la que mató a su mujer y se la llevó de vuelta al hombre como comida. El le dijo al marido que su mujer se cayó por un precipicio y aquella carne era de gaviota. Tras ser rescatados, el hombre desconfiaba de la historia de su amigo y fue a un restaurante a pedir carne de gaviota. Al saborear el gusto diferente, comprendió que la carne que habían comido era la de su mujer y se mató."
+        },
+        {
+          "id": "20",
+          "title": "Zapatos caros",
+          "short_story": "Un hombre se probó unos zapatos nuevos de piel de cocodrilo en una tienda y murió asfixiado.",
+          "full_story": "Desgraciadamente, había un insecto venenoso dentro de aquel zapato. Cuando el hombre fue a probar el zapato, el insecto le picó, a causa del veneno, el murió asfixiado."
+        },
+        {
+          "id": "21",
+          "title": "Mañana soleada",
+          "short_story": "Una mujer se despertó temprano en una mañana soleada. Fue hasta la ventana y se mató.",
+          "full_story": "La mujer era la líder de una secta. La noche anterior ella reunió a todos sus discípulos y predijo el fin del mundo. Cientos de personas se suicidaron aquella noche. Ella no consiguió soportar aquella responsabilidad tan grande y se mató."
+        },
+        {
+          "id": "22",
+          "title": "El último banquete",
+          "short_story": "Durante un banquete, el rey y la reina bebieron de una única copa. Esa misma noche, la reina murió envenenada dolorosamente, pero el rey permaneció vivo.",
+          "full_story": "Los conspiradores contra el rey pusieron veneno en el agua con la que fueron hechos los cubitos de hielo de la bebida. El rey bebió primero y una sola vez, en cambio la reina dio pequeños tragos y fue bebiendo a lo largo de la noche. El hielo se fue derritiendo y liberando el veneno en la bebida."
+        },
+        {
+          "id": "23",
+          "title": "Buceador",
+          "short_story": "Un hombre fue a bucear a un lago, unas horas después, su cuerpo carbonizado fue encontrado en el bosque.",
+          "full_story": "El hombre estaba buceando en el lago. Al mismo tiempo, un incendio se propagaba en un bosque cercano. El helicóptero de los bomberos fue al lago a coger agua para sofocar el incendio y accidentalmente succionó al buceador en el deposito contenedor de agua. Después el fue arrojado desde el depósito de agua del helicóptero en el bosque en llamas."
+        },
+        {
+          "id": "24",
+          "title": "Lotería",
+          "short_story": "Un hombre ganó su muerte.",
+          "full_story": "3 marineros fueron rescatados en un naufragio de un pequeño barco. Cuando la comida de la que disponían se agotó, ellos decidieron arriesgar su suerte: el nombre de aquel que se sacase en un trozo de papel escrito, sería comido."
+        },
+        {
+          "id": "25",
+          "title": "Superviviente",
+          "short_story": "Una mujer salto de la azotea de un rascacielos. Antes de la caída, ella vio a una persona y se arrepintió.",
+          "full_story": "Después de un apocalipsis, la mujer intento durante muchos años encontrar a otros supervivientes en la tierra. Sin éxito, ella decidió suicidarse. Cerca del suelo, pudo observar a una persona viva, pero ya era demasiado tarde."
+        },
+        {
+          "id": "26",
+          "title": "Ventana",
+          "short_story": "Una mujer estaba en la tercera planta de su casa cuando observó a un hombre con un cuchillo. Inevitablemente, un instante después ella fue asesinada.",
+          "full_story": "En realidad, el hombre estaba detrás de ella y ella vio la sombra del asesino."
+        },
+        {
+          "id": "27",
+          "title": "Caída",
+          "short_story": "Un hombre cayó al suelo desde una altura de dos metros, aún así murió.",
+          "full_story": "El hombre cayó dentro de la jaula de un oso y este lo devoró."
+        },
+        {
+          "id": "28",
+          "title": "Mano rota",
+          "short_story": "La chica rompió su mano y eso le salvo la vida.",
+          "full_story": "Para reparar el hueso roto, los médicos le insertaron una pieza metálica. La paciente se recuperó rápidamente, tenía que coger un vuelo para asistir a su trabajo. Mientras tanto en el aeropuerto, ella se retrasó por culpa del detector de metales y finalmente perdió el vuelo. Al aterrizar aquel avión se estrelló."
+        },
+        {
+          "id": "29",
+          "title": "Fuertes Vientos",
+          "short_story": "La chica que murió por los fuertes vientos.",
+          "full_story": "Hoy era un día muy ventoso, y Lisa decidió salir a volar un cometa. De repente, se acercaron nubes eléctricas y un relámpago la alcanzó."
+        },
+        {
+          "id": "30",
+          "title": "La última cena",
+          "short_story": "La cena de Jack mató a su familia.",
+          "full_story": "Jack se fue de acampada con su familia. Decidió cocinar carne, pero el olor atrajo a los osos y estos se los comieron."
+        },
+		 {
+          "id": "31",
+          "title": "Dentista",
+          "short_story": "Un hombre muere después de su visita al dentista.",
+          "full_story": "El doctor puso a anestesia local para intervenir la afección dental del paciente. Debido a esto, la lengua de éste se durmió. Cuando regresó a casa, fue atacado con un cuchillo pero no pudo gritar por el entumecimiento de su lengua."
+        },
+        {
+          "id": "32",
+          "title": "Resfriado",
+          "short_story": "El resfriado de la mujer liquidó a su familia al completo.",
+          "full_story": "Debido al resfriado, la mujer tenía la nariz taponada y no fue capaz de captar una fuga de gas en la cocina. Una cerilla prendida fue suficiente para que toda la vivienda explotara"
+        },
+        {
+          "id": "33",
+          "title": "Un vaso de agua",
+          "short_story": "Un hombre entra en un bar y le pide al camarero un vaso de agua. El dependiente se agacha, coge una pistola y apunta directamente al cliente. Éste le da las gracias y se va.",
+          "full_story": "El hombre tenía hipo y quería un vaso de agua para deshacerse de él. El camarero podía escuchar hipo mientras atendía al cliente, así que cogió su pistola para asustarle y quitarle el hipo. Funcionó, por lo cual el hombre agradecido se fue, y no necesitó esperar más por el vaso de agua."
+        },
+        {
+          "id": "34",
+          "title": "Ropajes perdidos",
+          "short_story": "El hombre perdió su ropaje durante su rutina diaria, y como consecuencia, murió.",
+          "full_story": "El hombre era buceador de profundidades marinas. Perdió su máscara."
+        },
+        {
+          "id": "35",
+          "title": "Doctor",
+          "short_story": "El doctor mató a su paciente, pero nadie le condenó.",
+          "full_story": "El paciente se realizó unos análisis de sangre sin decirle al doctor que tenía VIH. El doctor no siguió las recomendaciones y accidentalmente se pinchó. Se puso tan furioso que lo asesinó."
+        },
+        {
+          "id": "36",
+          "title": "El conductor",
+          "short_story": "Un coche atropelló un peatón, pero el nombre, que estuvo al volante, no fue encarcelado.",
+          "full_story": "Un estudiante de la escuela de conducción estaba conduciendo un coche. De acuerdo con las normas de tráfico el conductor es un instructor, él tiene la responsabilidad."
+        },
+        {
+          "id": "37",
+          "title": "El bailarín malo",
+          "short_story": "Un par de bailarines murieron durante la actuación.",
+          "full_story": "Durante la actuación, otro par envenenó una rosa, que los socios se transmitieron el uno al otro durante la actuación, debido a ambos murieron."
+        },
+        {
+          "id": "38",
+          "title": "Falta de comida",
+          "short_story": "Una mujer estaba rodeada de comida, pero murió de hambre.",
+          "full_story": "La mujer se encerró accidentalmente en un almacén. Ya que ella trabajaba sola y en almacén  sólo era conservas, que no podía abrir, ella murió de hambre."
+        },
+        {
+          "id": "39",
+          "title": "Una mujer enfurecido",
+          "short_story": "Una mujer quería matar a su marido, pero cometió un suicidio.",
+          "full_story": "La mujer conoció, que su marido le había engañado y decidió envenenar la cena. Lo siento, sus hijos entraron en la cocina y probaron la comida envenenada. La mujer no pudo perdonarse a sí misma y cometió un suicidio."
+        },
+        {
+          "id": "40",
+          "title": "La luz brillante",
+          "short_story": "Una chica vio la luz brillante y pronto murió.",
+          "full_story": "La chica volvió a casa en el camino rural. Repentinamente un coche apareció en el camino y la cegó. La chica estaba perdida y no tenía tiempo para salir de la carretera. Como resultado, fue atropellada por un coche."
+        },
+        {
+          "id": "41",
+          "title": "Decapitado",
+          "short_story": "Jack salió de la casa para desayunar y perdió la cabeza.",
+          "full_story": "Jack es un raton. Sin sentir la amenaza, se metió en una trampa para ratones y le cortó la cabeza."
+        },
+        {
+          "id": "42",
+          "title": "Justicia",
+          "short_story": "Policía era un testigo de un ataque de la mujer armada con mentira a un hombre y le disparó. En unas semanas él mismo encontró a ese hombre, lo mató y lo cometió.",
+          "full_story": "Unos meses antes, un hombre violó a la hija de esta mujer. El tribunal le dio al hombre libertad condicional. La mujer no pudo aceptar la injusticia del veredicto y decidió hacer justicia personalmente. El policía le disparó a una madre de tres hijos. Cuando se enteró de esto, el policía hizo justicia y se suicidó, incapaz de soportar la responsabilidad por el asesinato de una mujer."
+        },
+        {
+          "id": "43",
+          "title": "Muy rápido",
+          "short_story": "Un hombre que iba a morir en pocos días, murió mucho más rápido.",
+          "full_story": "Este hombre era un donante de riñón. Los familiares del futuro paciente querían heredar el estado y envenenar al donante. Como resultado, murió unas horas después."
+        },
+        {
+          "id": "44",
+          "title": "Pobre pareja",
+          "short_story": "La pareja murió porque Marlin falló en sus deberes.",
+          "full_story": "Marlin es un gato, sus tareas incluían la captura de ratones. La pareja tomó un baño y mientras tanto el ratón masticaba los cables en el baño. Cuando el hombre comenzó a emerger del agua, fue electrocutado y ambos cónyuges murieron."
+        },
+        {
+          "id": "45",
+          "title": "Asistencia mutua",
+          "short_story": "Asesino a sueldo entró en la casa para matar a John. Pero esa noche ayudó a John a salvar a su esposa y hijos.",
+          "full_story": "Poco antes del asesinato, ocurrió un terremoto y todas las personas, incluido el asesino encontraban en el sótano bajo los escombros. La esposa resultó gravemente herida y John acordó con el asesino para ayudarlo levantar ella y los niños en el piso de arriba."
+        },
+        {
+          "id": "46",
+          "title": "Joyas caras",
+          "short_story": "Lisa tenía joyas muy caras, pero murió detrás de un cubo de basura.",
+          "full_story": "Lisa era una ladrona y recien y robo joyas muy caras.Para escapar la policía, decidió esconderse detrás de un cubo de basura. El camión de basura apareció de repente, ella no tuvo tiempo de escapar y la aplastó."
+        },
+        {
+          "id": "47",
+          "title": "La última llamada",
+          "short_story": "Sonó el teléfono, el hombre le respondió y lamentó mucho lo que había hecho, pero ya era demasiado tarde ... Unos minutos más tarde fue asesinado.",
+          "full_story": "El médico llamó al hombre e informó que el diagnóstico fatal, que se realizó un mes antes, estaba equivocado y que el hombre estaba sano. Sin embargo, ya había pudiera ordenar al asesino para que la familia recibiría un seguro de su muerte. Pocos minutos después le dispararon."
+        },
+        {
+          "id": "48",
+          "title": "Un hombre con una cerilla",
+          "short_story": "El cuerpo de un hombre absolutamente desnudo fue encontrado al pie de la montaña, había una cerilla en la mano del hombre.",
+          "full_story": "La compañía de turistas voló en un globo cuando una montaña apareció en su camino. Decidieron lanzar todo el lastre y la ropa para ganar altura, pero esto no ayudó. Luego los turistas decidieron sacar un partido: un hombre con un partido corto tuvo que saltar por la borda."
+        },
+        {
+          "id": "49",
+          "title": "Mal humor",
+          "short_story": "Katya estaba triste todo el día. Esa noche, ella mató a cientos de personas.",
+          "full_story": "El huracán 'Katrina' viajó miles de kilómetros antes de llegar al continente. A despecho de las numerosas advertencias, los nativos decidieron quedarse en las casas. Como resultado, cientos de personas murieron."
+        },
+        {
+          "id": "50",
+          "title": "El tamaño importa",
+          "short_story": "Eva ponía a Adam en sus manos en los últimos momentos de su vida.",
+          "full_story": "Eva decidió regalar a su hija un osito de felpa - Adam. Se dirigía a ascensor, mantenido un osito en sus manos, que era tan grande que la mujer no notó la advertencia de reparación del ascensor y fracasó en un pozo abierto."
+        },
+		 {
+          "id": "61",
+          "title": "Periódico",
+          "short_story": "El hombre leyó el periódico y abrió la página donde estaba escrito: Alice Meyer fue asesinada. Inmediatamente supo quién era el asesino.",
+          "full_story": "Trabajaba en una agencia de viajes, y el marido de Alice reservó un vuelo de ida para dos personas y solo uno billete de ida y vuelta."
+        },
+        {
+          "id": "62",
+          "title": "La gata",
+          "short_story": "La señora sólo quería ayudar a su gata.",
+          "full_story": "El gato se cayó en un baño lleno de agua y se mojó. La anfitriona, sin malas intenciones, meti la gata en el microondas."
+        },
+        {
+          "id": "63",
+          "title": "Una coartada fallida",
+          "short_story": "Un hombre conducía al trabajo y escuchaba la radio. Después de cientos de metros se detuvo y se disparó.",
+          "full_story": "El hombre trabajaba como DJ en la estación de radio . Incluyó una pista muy larga, condujo a su casa y mató a su novia. En el camino al trabajo, notó que el disco estaba atascado. No tenía coartada y se disparó a sí mismo."
+        },
+           {
+             "id": "64",
+               "title": "Pequeñas dificultades",
+               "short_story": "Un hombre mató a su novia en el séptimo piso de un edificio. Al llegar al primer piso, se dio cuenta de que había olvidado el arma en la escena del crimen. Tomó el ascensor hasta el tercer piso, pero subió el resto del camino las escaleras.",
+               "full_story": "El hombre era un enano. Solo pudo llegar al botón del tercer piso."
+             },
+             {
+               "id": "65",
+               "title": "Motocicleta",
+               "short_story": "El hombre yace sin cabeza en una moto.",
+               "full_story": "El hombre iba en su motocicleta. Mientras conducía un camión que llevaba placas de metal, una placa se cayó y le cortó la cabeza."
+             }
+      ]
+    }

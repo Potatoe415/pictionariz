@@ -1,0 +1,369 @@
+{
+  "stories_list": [
+    {
+      "language": "fr",
+      "stories": [
+        {
+          "id": "1",
+          "title": "Ombre",
+          "short_story": "La femme s’est réveillée la nuit, a vu une ombre et, quelques minutes plus tard, s’est suicidée.",
+          "full_story": "La femme s’est réveillée la nuit et a vu l’ombre d’un pigeon voyageur. La lettre venait du collègue de son mari et annonçait que son mari était mort. Incapable de supporter le poids de cette perte, la femme s’est suicidée."
+        },
+        {
+          "id": "2",
+          "title": "Le maire",
+          "short_story": "L’homme a tué le maire devant la foule, mais personne ne l’a emprisonné.",
+          "full_story": "L’homme travaillait comme bourreau et a exécuté le maire pour ses crimes."
+        },
+        {
+          "id": "3",
+          "title": "La dernière inspection",
+          "short_story": "La tournée d’inspection d’aujourd’hui fut la dernière pour Martin.",
+          "full_story": "Martin effectuait une inspection programmée de l’avion lorsque le pilote a démarré le moteur. Malheureusement, le flux d’air l’a aspiré dans le réacteur."
+        },
+        {
+          "id": "4",
+          "title": "Fan de musique",
+          "short_story": "Malheureusement, ce fut le dernier concert de sa vie.",
+          "full_story": "La foule enthousiaste au concert n’a pas remarqué qu’un des participants était tombé. Son corps a été découvert pendant l’entracte. Il s’est avéré que l’homme était diabétique et avait oublié son stylo à insuline chez lui."
+        },
+        {
+          "id": "5",
+          "title": "Responsabilités",
+          "short_story": "Un des étudiants n’a pas assumé sa responsabilité, causant la mort de plusieurs personnes.",
+          "full_story": "Un groupe d’étudiants voulait atteindre le sommet d’une montagne. Ils ont réparti les responsabilités entre eux. Lors d’une pause en haute montagne, ils ont découvert que la personne responsable des provisions n’avait rien apporté. Ils ont trouvé des myrtilles qui, malheureusement, étaient toxiques."
+        },
+        {
+          "id": "6",
+          "title": "Sommeil fatal",
+          "short_story": "Des centaines de personnes sont mortes à cause du sommeil.",
+          "full_story": "Le gardien du phare s’est endormi. La lumière du phare s’est soudainement éteinte, provoquant le naufrage de plusieurs navires de passagers."
+        },
+        {
+          "id": "7",
+          "title": "Lien fraternel",
+          "short_story": "Donald et Jack sont morts parce qu’ils étaient trop proches l’un de l’autre.",
+          "full_story": "Donald et Jack étaient instructeurs de parachutisme. Lors d’un de leurs sauts, ils se sont approchés trop près l’un de l’autre, ce qui a emmêlé leurs parachutes. Ils se sont écrasés au sol."
+        },
+        {
+          "id": "8",
+          "title": "Véritable drame",
+          "short_story": "Personne ne s’attendait à un tel drame en soirée.",
+          "full_story": "Lors d’une scène, un acteur devait simuler une crise cardiaque. Malheureusement, une véritable crise cardiaque s’est produite exactement au même moment. Personne n’a pu l’aider ensuite."
+        },
+        {
+          "id": "9",
+          "title": "Trop de chaleur",
+          "short_story": "Deux hommes sont morts à cause de la chaleur.",
+          "full_story": "Deux hommes sont partis en excursion en canoë. À cause de la chaleur, ils ont retiré leurs gilets de sauvetage. Le courant fort les a entraînés sous l’eau et ils se sont noyés."
+        },
+        {
+          "id": "10",
+          "title": "Anniversaire malheureux",
+          "short_story": "L’homme est mort à cause d’un anniversaire.",
+          "full_story": "Un voisin du dessus fêtait bruyamment son anniversaire. Jack regardait la télévision dans le salon lorsqu’un lustre est soudainement tombé sur lui."
+        },
+        {
+          "id": "11",
+          "title": "Miséricorde",
+          "short_story": "Une aide gratuite s’est transformée en deux morts.",
+          "full_story": "John était gravement malade et avait besoin d’une greffe de rein. Son ami a accepté de l’aider gratuitement. Après l’opération, John a commencé à reprendre des forces, mais soudainement les deux hommes sont morts. Il s’est avéré que le donneur était infecté par la rage."
+        },
+        {
+          "id": "12",
+          "title": "Longue conversation",
+          "short_story": "Une femme est morte à cause d’une longue conversation téléphonique.",
+          "full_story": "En rentrant du garage après un changement de pneus, la femme parlait au téléphone avec son amie. Au même moment, l’atelier essayait de la joindre pour l’avertir qu’ils avaient oublié de serrer les boulons. La roue s’est détachée et la voiture a fini dans le fossé."
+        },
+        {
+          "id": "13",
+          "title": "Trop long",
+          "short_story": "Un homme a mal évalué le temps nécessaire pour atteindre son objectif. Il l’a payé de sa vie.",
+          "full_story": "L’homme voulait toucher l’argent de son assurance vie. Il a décidé de se couper un bras pour obtenir une indemnisation maximale, mais n’a pas pris en compte la distance jusqu’à l’hôpital le plus proche. L’ambulance n’est pas arrivée à temps et il est mort d’hémorragie."
+        },
+        {
+          "id": "14",
+          "title": "Histoire d’amour",
+          "short_story": "Ils sont morts étouffés par amour.",
+          "full_story": "Un homme et sa maîtresse s’amusaient dans une voiture dans un garage. Le garage n’était pas ventilé et l’homme a démarré la voiture. Au bout d’un moment, ils sont tous les deux morts à cause des gaz d’échappement."
+        },
+        {
+          "id": "15",
+          "title": "Vanité",
+          "short_story": "Ils sont morts à cause de la vanité d’Alice.",
+          "full_story": "Malgré les avertissements, une fille a pris son téléphone portable dans des montagnes russes pour faire un selfie. À cause des secousses, le téléphone est tombé et a bloqué le mécanisme de freinage. Personne n’a survécu à l’arrivée."
+        },
+        {
+          "id": "16",
+          "title": "Amour fatal",
+          "short_story": "Elle a tué sa sœur pour revoir l’homme qu’elle aimait.",
+          "full_story": "Lors des funérailles de sa mère, une femme rencontre un homme qu’elle n’a jamais vu auparavant. Elle réalise qu’il est l’homme de ses rêves et tombe instantanément amoureuse. Quelques jours plus tard, elle tue sa sœur en espérant revoir l’homme lors des funérailles."
+        },
+        {
+          "id": "17",
+          "title": "Temple élevé",
+          "short_story": "Le corps d’un homme pend sous le plafond du temple. Un immense bassin d’eau se trouve en dessous.",
+          "full_story": "L’homme a décidé de se suicider. Il s’est rendu dans une église abandonnée à l’extérieur de la ville. Le bâtiment était entièrement recouvert de neige, ce qui lui a permis de grimper jusqu’au plafond et de se pendre. Puis le printemps est arrivé et la neige a fondu."
+        },
+        {
+          "id": "18",
+          "title": "Roméo et Juliette",
+          "short_story": "Roméo et Juliette gisent morts sur le sol. Des éclats de verre sont autour d’eux. Il n’y a pas de sang, mais la fenêtre est grande ouverte.",
+          "full_story": "Roméo et Juliette sont des poissons. Un vent violent a ouvert la fenêtre et a fait tomber l’aquarium. L’aquarium s’est brisé et ils sont morts asphyxiés."
+        },
+        {
+          "id": "19",
+          "title": "Viande de mouette",
+          "short_story": "L’homme est allé au restaurant, a commandé de la viande de mouette, en a goûté un morceau et s’est suicidé.",
+          "full_story": "Quelques mois plus tôt, l’homme avait fait naufrage avec sa femme. Ils ont survécu avec un serveur et ont atteint une île déserte. N’ayant plus de nourriture, le serveur est parti avec la femme. Il l’a tuée et a rapporté sa chair à l’homme en prétendant qu’elle était tombée d’une falaise et qu’il avait rapporté de la viande de mouette. Au restaurant, le goût de la viande était différent de celui de l’île et l’homme a compris qu’il avait mangé sa femme. Il s’est alors suicidé."
+        },
+        {
+          "id": "20",
+          "title": "Chaussures coûteuses",
+          "short_story": "L’homme a essayé de nouvelles chaussures en peau de crocodile dans un magasin et s’est étouffé.",
+          "full_story": "Malheureusement, un insecte extrêmement venimeux se trouvait dans l’une des chaussures. Lorsqu’il les a enfilées, l’insecte l’a mordu et l’homme est mort asphyxié par le poison."
+        },
+        {
+          "id": "21",
+          "title": "Matin ensoleillé",
+          "short_story": "La femme s’est réveillée tôt par un matin ensoleillé, est allée à la fenêtre et s’est suicidée.",
+          "full_story": "La femme était la dirigeante d’une secte. La veille au soir, elle avait rassemblé ses adeptes et annoncé la fin du monde. Des centaines de personnes se sont suicidées cette nuit-là. Incapable de supporter le poids de cette responsabilité, elle s’est suicidée."
+        },
+        {
+          "id": "22",
+          "title": "Le dernier banquet",
+          "short_story": "Lors du banquet, le roi et la reine ont bu dans la même carafe. Ce soir-là, la reine est morte dans d’atroces souffrances, mais le roi est resté en vie.",
+          "full_story": "Les conspirateurs ont ajouté du poison à l’eau destinée aux glaçons. Le roi a bu rapidement, tandis que la reine buvait lentement et la glace a fondu."
+        },
+        {
+          "id": "23",
+          "title": "Plongeur",
+          "short_story": "L’homme est allé au lac et, quelques heures plus tard, son corps calciné a été retrouvé dans la forêt.",
+          "full_story": "L’homme plongeait dans le lac. Pendant ce temps, un incendie s’est déclaré dans la forêt voisine. Un hélicoptère de lutte contre les incendies est venu puiser de l’eau dans le lac et a accidentellement aspiré le plongeur. Il a ensuite été largué au-dessus de la forêt en flammes."
+        },
+        {
+          "id": "24",
+          "title": "Loterie",
+          "short_story": "L’homme gagne sa propre mort.",
+          "full_story": "Trois marins ont survécu à un naufrage sur un petit radeau. Lorsqu’ils ont manqué de nourriture, ils ont décidé de tirer au sort : celui dont le nom serait tiré serait mangé."
+        },
+        {
+          "id": "25",
+          "title": "Passante",
+          "short_story": "La femme a sauté du toit du gratte-ciel. Avant la chute, elle a vu un passant et l’a regretté.",
+          "full_story": "Après l’apocalypse, la femme a erré pendant de nombreuses années à la recherche d’autres humains. N’en trouvant aucun, elle a décidé de sauter du toit. En bas, elle a aperçu une personne vivante, mais il était trop tard."
+        },
+        {
+          "id": "26",
+          "title": "Fenêtre",
+          "short_story": "La femme se trouvait au troisième étage de sa maison lorsqu’elle a remarqué un homme avec un couteau. Pourtant, elle a été tuée en un instant.",
+          "full_story": "En réalité, l’homme se trouvait derrière elle et la femme n’a vu que l’ombre du meurtrier."
+        },
+        {
+          "id": "27",
+          "title": "Chute",
+          "short_story": "L’homme est tombé d’une hauteur de deux mètres sur l’herbe, mais est mort.",
+          "full_story": "L’homme est tombé dans l’enclos d’un ours, qui l’a déchiqueté."
+        },
+        {
+          "id": "28",
+          "title": "Main cassée",
+          "short_story": "La jeune fille s’est cassé la main et cela lui a sauvé la vie.",
+          "full_story": "Les médecins ont inséré une tige métallique dans la main de la femme pour la guérison. Elle s’est rapidement rétablie et a accepté un voyage d’affaires. À l’aéroport, elle a été retardée par le détecteur de métaux. L’avion s’est écrasé à l’atterrissage."
+        },
+        {
+          "id": "29",
+          "title": "Vent violent",
+          "short_story": "La jeune fille est morte à cause d’un vent violent.",
+          "full_story": "Il y avait beaucoup de vent ce jour-là et Lisa a décidé de faire voler un cerf-volant. Soudain, des nuages d’orage sont arrivés et la foudre l’a frappée."
+        },
+        {
+          "id": "30",
+          "title": "Dernier dîner",
+          "short_story": "Le dîner de Jack a tué sa famille.",
+          "full_story": "Jack est parti camper avec sa famille. Il a décidé de cuisiner de la viande pour le dîner, mais l’odeur a attiré des ours, qui les ont dévorés."
+        },
+		 {
+          "id": "31",
+          "title": "Dentiste",
+          "short_story": "L’homme est mort après être allé chez le dentiste.",
+          "full_story": "Le médecin a utilisé une anesthésie locale pour retirer une dent malade. À cause de cela, la langue de l’homme était engourdie. En rentrant chez lui, il a été attaqué au couteau, mais il n’a pas pu crier à cause de l’engourdissement de sa langue."
+        },
+        {
+          "id": "32",
+          "title": "Rhume",
+          "short_story": "Le rhume de la femme a tué toute sa famille.",
+          "full_story": "À cause de son rhume, la femme avait le nez bouché et n’a pas senti une fuite de gaz dans la cuisine. Une seule allumette a suffi pour faire exploser toute la maison."
+        },
+        {
+          "id": "33",
+          "title": "Un verre d’eau",
+          "short_story": "L’homme entre dans un bar et demande au barman un verre d’eau. Le barman se penche sous le comptoir, sort une arme et la pointe sur l’homme. L’homme dit « merci » et s’en va.",
+          "full_story": "L’homme avait le hoquet et voulait un verre d’eau pour s’en débarrasser. Le barman a entendu le hoquet lorsqu’il parlait, alors il a sorti une arme pour lui faire peur et faire passer le hoquet. Cela a fonctionné et l’homme l’a remercié avant de partir, n’ayant plus besoin d’eau."
+        },
+        {
+          "id": "34",
+          "title": "Équipement perdu",
+          "short_story": "L’homme a perdu un élément de son équipement pendant sa routine quotidienne et, par conséquent, est mort.",
+          "full_story": "L’homme était plongeur en eaux profondes. Il a perdu son masque."
+        },
+        {
+          "id": "35",
+          "title": "Médecin",
+          "short_story": "Le médecin a tué sa patiente, mais personne ne l’a condamné.",
+          "full_story": "La patiente a fait une prise de sang sans dire au médecin qu’elle était atteinte du sida. Le médecin n’a pas respecté toutes les précautions et s’est accidentellement piqué. Fou de colère, il l’a tuée."
+        },
+        {
+          "id": "36",
+          "title": "Le conducteur",
+          "short_story": "L’homme a tué un piéton, mais n’a pas été emprisonné.",
+          "full_story": "L’homme qui conduisait la voiture était un élève d’une auto-école. Selon les règles du code de la route, le conducteur responsable est le moniteur, qui assume toute la responsabilité."
+        },
+        {
+          "id": "37",
+          "title": "Mauvais danseur",
+          "short_story": "Un couple de danseurs meurt pendant une compétition de danse.",
+          "full_story": "Pendant la compétition, un autre couple a empoisonné la rose que les danseurs se passaient pendant leur chorégraphie, provoquant leur mort."
+        },
+        {
+          "id": "38",
+          "title": "Manque de nourriture",
+          "short_story": "La femme meurt de faim bien qu’elle soit entourée de nourriture.",
+          "full_story": "La femme travaillait seule dans un magasin et s’est accidentellement enfermée dans l’entrepôt. Toute la nourriture était en conserve et, n’ayant rien pour ouvrir les boîtes, elle est morte de faim."
+        },
+        {
+          "id": "39",
+          "title": "Femme en furie",
+          "short_story": "La femme voulait tuer son mari, mais s’est suicidée.",
+          "full_story": "La femme a découvert que son mari la trompait et a décidé d’empoisonner le dîner. À son grand regret, leurs enfants sont entrés dans la cuisine et ont goûté à la nourriture empoisonnée. Incapable de se pardonner, la femme s’est suicidée."
+        },
+        {
+          "id": "40",
+          "title": "Lumière aveuglante",
+          "short_story": "La petite fille a vu une lumière et est morte peu après.",
+          "full_story": "La petite fille rentrait chez elle sur une route de campagne. Soudain, une voiture est apparue et l’a aveuglée avec ses phares. Désorientée, elle n’a pas eu le temps de quitter la route et a été renversée."
+        },
+        {
+          "id": "41",
+          "title": "Décapité",
+          "short_story": "Jack est sorti de la maison pour prendre son petit-déjeuner et a été décapité.",
+          "full_story": "Jack est une souris. Il a essayé d’attraper du fromage dans un piège à souris et a été décapité."
+        },
+        {
+          "id": "42",
+          "title": "Justice",
+          "short_story": "Un policier a été témoin de l’attaque d’une femme armée d’un couteau contre un homme et l’a abattue. Quelques semaines plus tard, il a retrouvé cet homme, l’a tué et s’est suicidé.",
+          "full_story": "Quelques mois auparavant, un homme avait violé la fille de cette femme. Le tribunal lui a infligé une peine avec sursis. La femme n’a pas pu accepter l’injustice du verdict et a décidé de rendre justice elle-même. Le policier a abattu la mère de trois enfants. En apprenant toute l’histoire, le policier a rendu justice à son tour et s’est suicidé, incapable de supporter la responsabilité d’avoir tué une femme."
+        },
+        {
+          "id": "43",
+          "title": "Trop rapide",
+          "short_story": "Un homme qui pensait mourir dans quelques jours est mort plus tôt que prévu.",
+          "full_story": "L’homme était donneur de rein. Les proches du futur receveur voulaient hériter de sa fortune et ont empoisonné le donneur. Il est mort en quelques heures."
+        },
+        {
+          "id": "44",
+          "title": "Couple malchanceux",
+          "short_story": "Un couple marié est mort parce que Marlin n’a pas assuré ses fonctions.",
+          "full_story": "Marlin est un chat dont la mission était d’attraper les souris. Un couple marié prenait un bain pendant qu’une souris rongeait un câble électrique. Lorsque l’homme a commencé à sortir de la baignoire, il a été électrocuté et les deux époux sont morts."
+        },
+        {
+          "id": "45",
+          "title": "Entraide",
+          "short_story": "Le tueur s’est rendu chez John pour le tuer. Pourtant, ce soir-là, il l’a aidé à sauver sa femme et ses enfants.",
+          "full_story": "Peu avant le meurtre, un tremblement de terre s’est produit et tous les habitants, y compris le tueur, se sont retrouvés coincés sous les décombres au sous-sol. Sa femme était blessée et John s’est arrangé avec le meurtrier pour l’aider à faire sortir sa femme et ses enfants."
+        },
+        {
+          "id": "46",
+          "title": "Bijoux coûteux",
+          "short_story": "Lisa possédait des bijoux très coûteux, mais elle est morte dans une benne à ordures.",
+          "full_story": "Lisa était une voleuse et venait de dérober des bijoux de grande valeur. Pour échapper à la police, elle s’est cachée dans une benne. Le camion-poubelle est arrivé avant qu’elle ne puisse sortir et l’a écrasée."
+        },
+        {
+          "id": "47",
+          "title": "Dernier appel",
+          "short_story": "Un appel téléphonique a eu lieu, l’homme a répondu et a profondément regretté ce qu’il avait fait, mais il était déjà trop tard… Quelques minutes plus tard, il a été tué.",
+          "full_story": "Le médecin de l’homme l’a appelé pour lui annoncer que le diagnostic fatal posé un mois plus tôt était erroné et qu’il était en bonne santé. Cependant, il avait déjà engagé un tueur à gages afin que sa famille touche l’assurance. Quelques minutes plus tard, il a été abattu."
+        },
+        {
+          "id": "48",
+          "title": "Un homme avec une allumette",
+          "short_story": "Le corps d’un homme nu a été retrouvé au pied de la montagne, une allumette à la main.",
+          "full_story": "Un groupe de touristes volait en montgolfière lorsqu’une montagne s’est dressée sur leur trajectoire. Ils ont jeté tout le lest et leurs vêtements pour gagner de l’altitude, sans succès. Ils ont alors tiré à la courte paille : l’homme avec la plus petite allumette devait sauter par-dessus bord."
+        },
+        {
+          "id": "49",
+          "title": "Humeur orageuse",
+          "short_story": "Kate était de mauvaise humeur toute la journée. Le soir, elle a tué des centaines de personnes.",
+          "full_story": "L’ouragan « Katrina » a parcouru des milliers de kilomètres avant d’atteindre le continent. Malgré les avertissements, de nombreuses personnes ont choisi de rester chez elles. Des centaines de personnes sont mortes."
+        },
+        {
+          "id": "50",
+          "title": "La taille compte",
+          "short_story": "Ève tenait Adam dans ses bras jusqu’à ses derniers instants.",
+          "full_story": "Ève a décidé d’offrir à sa fille un énorme ours en peluche nommé Adam. En entrant dans l’ascenseur avec la peluche dans les bras, elle est tombée dans la cage. Adam était si grand qu’il lui masquait le panneau d’avertissement indiquant une panne de l’ascenseur."
+        },
+		  {
+          "id": "61",
+          "title": "Un journal",
+          "short_story": "L’homme lisait le journal et a vu le titre : Alice Mayer a été tuée. Il a compris qui était le meurtrier.",
+          "full_story": "Il travaillait dans une agence de voyages, et le mari d’Alice avait réservé un billet aller simple pour deux personnes, et un billet retour pour une seule."
+        },
+        {
+          "id": "62",
+          "title": "Un chat",
+          "short_story": "La maîtresse voulait seulement aider son chat et l’a tué.",
+          "full_story": "Le chat est tombé dans une baignoire remplie d’eau. La maîtresse a mis le chat dans le four à micro-ondes."
+        },
+        {
+          "id": "63",
+          "title": "Mauvais alibi",
+          "short_story": "L’homme écoutait la radio dans sa voiture. Après quelques centaines de mètres, il s’est arrêté et s’est tiré une balle.",
+          "full_story": "L’homme était DJ. Il avait lancé un morceau très long, était rentré chez lui et avait tué sa petite amie. En se rendant ensuite à son travail, il a remarqué que le disque s’était arrêté. Il n’avait aucun alibi et s’est suicidé."
+        },
+        {
+          "id": "127",
+          "title": "La porte",
+          "short_story": "Lorsque la femme a ouvert la porte, elle a immédiatement compris qui avait tué son mari.",
+          "full_story": "Au milieu du XVIIIe siècle, chaque ville avait son bourreau. Lorsque la femme est allée rendre visite pour la première fois à sa nouvelle connaissance, elle a trouvé la tenue du bourreau dans l’armoire. Le bourreau qui avait exécuté son mari un an plus tôt portait le même capuchon."
+        },
+        {
+          "id": "131",
+          "title": "Le menu",
+          "short_story": "Tous les invités qui avaient mangé le menu à quatre plats ce soir-là au restaurant ont été malades le reste de la soirée.",
+          "full_story": "Tous les invités se trouvaient sur un bateau et, peu après le dîner, alors que la mer devenait de plus en plus agitée, ils ont eu le mal de mer."
+        },
+        {
+          "id": "132",
+          "title": "Crise cardiaque",
+          "short_story": "Lorsque la main l’a touché, l’homme a eu tellement peur qu’il a fait une crise cardiaque.",
+          "full_story": "Cet homme travaillait depuis de nombreuses années comme chauffeur de corbillard. Après la faillite de l’entreprise, il avait commencé à travailler comme chauffeur de taxi. Malheureusement, son premier passager, silencieux pendant tout le trajet, a soudainement posé la main sur son épaule et lui a demandé de s’arrêter."
+        },
+        {
+          "id": "133",
+          "title": "Eau bénite",
+          "short_story": "L’homme a plongé son doigt ensanglanté dans l’eau et, au bout d’un moment, la coupure n’était plus visible.",
+          "full_story": "L’homme s’était coupé dans la jungle et, lorsqu’il a plongé son doigt ensanglanté dans une rivière voisine, les piranhas qui y vivaient ont mangé toute la chair de son doigt."
+        },
+        {
+          "id": "135",
+          "title": "Adieu",
+          "short_story": "Lorsqu’une jeune femme a revu son oncle disparu depuis longtemps, elle a été bouleversée.",
+          "full_story": "La jeune femme était étudiante en médecine et devait apprendre l’anatomie humaine lors d’une autopsie. Elle a été complètement choquée lorsqu’elle a vu son oncle mort allongé devant elle."
+        },
+        {
+          "id": "140",
+          "title": "Le tir",
+          "short_story": "La femme a été abattue dans sa voiture. La police n’a pas pu retrouver la balle, bien que la voiture était verrouillée et les vitres fermées.",
+          "full_story": "Au moment où la femme a été touchée par le tir, elle se trouvait dans un cabriolet dont le toit était ouvert."
+        },
+        {
+          "id": "161",
+          "title": "Beaucoup d’argent",
+          "short_story": "La femme a trouvé 100 euros dans un livre et s’est suicidée de désespoir.",
+          "full_story": "La femme était écrivaine. Elle avait publié son premier livre un an plus tôt et l’avait offert à la bibliothèque municipale. Elle avait décidé de surprendre le premier lecteur en glissant 100 euros au milieu du livre. Un jour, elle a repris le livre sur l’étagère et y a retrouvé l’argent. Elle a compris que personne ne s’était intéressé à son livre et s’est suicidée de désespoir."
+        }
+      ]
+    }
+  ]
+}

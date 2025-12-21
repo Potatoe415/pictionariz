@@ -1,0 +1,207 @@
+:root{
+  --bg:#0b0b0e;
+  --card:#121218;
+  --text:#f2f2f5;
+  --muted:#b7b7c4;
+  --muted2:#8e8ea1;
+  --line:rgba(255,255,255,.10);
+  --good:#52ffb8;
+  --shadow: 0 20px 60px rgba(0,0,0,.55);
+  --radius: 18px;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  background: radial-gradient(1200px 700px at 20% 0%, rgba(255,255,255,.06), transparent 55%),
+              radial-gradient(900px 600px at 90% 20%, rgba(255,255,255,.04), transparent 60%),
+              var(--bg);
+  color:var(--text);
+}
+
+.topbar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  padding:16px 16px 10px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.brand{
+  display:flex;
+  gap:12px;
+  align-items:center;
+  min-width: 240px;
+}
+.logo{
+  width:44px;
+  height:44px;
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(255,255,255,.12), rgba(255,255,255,.06));
+  border:1px solid var(--line);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow: var(--shadow);
+}
+.brandTitle{font-weight:800; letter-spacing:.3px}
+.brandSub{font-size:12px; color:var(--muted2); margin-top:2px}
+
+.controls{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+}
+
+.container{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 10px 16px 28px;
+}
+
+.card{
+  background: linear-gradient(180deg, rgba(255,255,255,.06), transparent 45%), var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px;
+  box-shadow: var(--shadow);
+}
+
+.metaRow{
+  display:flex;
+  gap:10px;
+  justify-content:flex-start;
+  flex-wrap:wrap;
+  margin-bottom: 10px;
+}
+
+.pill{
+  font-size: 12px;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.04);
+  padding: 6px 10px;
+  border-radius: 999px;
+}
+
+.title{
+  margin: 8px 0 14px;
+  font-size: 26px;
+  line-height: 1.1;
+}
+
+.label{
+  font-size: 12px;
+  color: var(--muted2);
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  margin: 10px 0 8px;
+}
+
+.short{
+  margin: 0 0 14px;
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.revealHeader{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  margin-top: 6px;
+}
+
+.linkBtn{
+  background: transparent;
+  border: 0;
+  color: var(--good);
+  font-weight: 700;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 10px;
+}
+.linkBtn:hover{background: rgba(82,255,184,.08)}
+
+.revealBox{
+  width: 100%;
+  text-align:left;
+  border-radius: 16px;
+  border: 1px dashed rgba(255,255,255,.18);
+  background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+  padding: 14px 14px;
+  cursor: pointer;
+  color: var(--text);
+}
+
+.revealHint{
+  color: var(--muted);
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.full{
+  white-space: pre-wrap;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.hidden{display:none}
+
+.footerRow{
+  display:flex;
+  gap:10px;
+  margin-top: 14px;
+  flex-wrap:wrap;
+}
+
+.btn{
+  flex: 1 1 140px;
+  padding: 12px 12px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.04);
+  color: var(--text);
+  cursor: pointer;
+  font-weight: 700;
+}
+.btn:hover{background: rgba(255,255,255,.07)}
+.btn:active{transform: translateY(1px)}
+
+.btn.primary{
+  background: rgba(82,255,184,.14);
+  border-color: rgba(82,255,184,.25);
+}
+.btn.primary:hover{background: rgba(82,255,184,.18)}
+
+.chip{
+  padding: 10px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.04);
+  color: var(--text);
+  cursor: pointer;
+  font-weight: 800;
+  letter-spacing: .3px;
+}
+.chip:hover{background: rgba(255,255,255,.07)}
+
+.langWrap{
+  display:flex;
+  gap:8px;
+  padding: 6px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.03);
+}
+.langBtn[aria-pressed="true"]{
+  background: rgba(255,255,255,.18);
+  border-color: rgba(255,255,255,.25);
+}

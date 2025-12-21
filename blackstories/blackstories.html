@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Black Stories</title>
+  <link rel="stylesheet" href="./blackstories.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">🕯️</div>
+      <div class="brandText">
+        <div class="brandTitle">Black Stories</div>
+        <div class="brandSub">Lis l’énigme. Clique pour révéler la solution.</div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <div class="langWrap" role="group" aria-label="Langue">
+        <button class="chip langBtn" data-lang="fr" type="button">FR</button>
+        <button class="chip langBtn" data-lang="en" type="button">EN</button>
+        <button class="chip langBtn" data-lang="es" type="button">ES</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <div class="metaRow">
+        <div class="pill" id="storyCounter">—</div>
+        <div class="pill" id="storyId">ID: —</div>
+      </div>
+
+      <h1 class="title" id="title">Chargement…</h1>
+
+      <div class="label">Histoire courte</div>
+      <p class="short" id="shortStory">—</p>
+
+      <div class="revealHeader">
+        <div class="label">Solution</div>
+        <button id="toggleRevealBtn" class="linkBtn" type="button" aria-expanded="false">
+          Révéler
+        </button>
+      </div>
+
+      <button id="revealBox" class="revealBox" type="button" aria-label="Révéler l’histoire complète">
+        <div class="revealHint" id="revealHint">Touchez pour révéler l’histoire complète</div>
+        <div class="full hidden" id="fullStory"></div>
+      </button>
+
+      <div class="footerRow">
+        <button class="btn" id="prevBtn" type="button">Précédent</button>
+        <button class="btn primary" id="nextBtn" type="button">Suivant</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="./blackstories.js"></script>
+</body>
+</html>
