@@ -61,33 +61,33 @@ async function loadOHMCSV(){
   const idxPoints = header.indexOf("points");
   const idxFR     = header.indexOf("label_fr");
   const idxEN     = header.indexOf("label_en");
+  const idxES     = header.indexOf("label_es");
 
-  if ([idxTheme, idxPoints, idxFR, idxEN].some(i => i < 0)){
-    throw new Error("CSV: colonnes attendues: theme,points,label_fr,label_en");
+  if ([idxTheme, idxPoints, idxFR, idxEN, idxES].some(i => i < 0)){
+    throw new Error("CSV: colonnes attendues: theme,points,label_fr,label_en,label_es");
   }
 
-  const words = new Map(); // key = `${theme}|${points}` -> [{fr,en}]
-  const gages = new Map(); // key = theme -> [{fr,en}]
+  const words = new Map(); // `${theme}|${points}` -> [{fr,en,es}]
+  const gages = new Map(); // theme -> [{fr,en,es}]
 
   for (const r of rows){
     const theme = (r[idxTheme] || "").trim();
     const ptsRaw = (r[idxPoints] || "").trim();
-    const fr = (r[idxFR] || "").trim();
-    const en = (r[idxEN] || "").trim();
-
-    if (!theme || !ptsRaw) continue;
+    if (!theme || ptsRaw === "") continue;
 
     const points = Number(ptsRaw);
-    const item = { fr, en };
+    const item = {
+      fr: ((r[idxFR] || "").trim()),
+      en: ((r[idxEN] || "").trim()),
+      es: ((r[idxES] || "").trim()),
+    };
 
-    // ✅ TA règle: points == 0 => gage
     if (points === 0){
       if (!gages.has(theme)) gages.set(theme, []);
       gages.get(theme).push(item);
       continue;
     }
 
-    // mots: points 1/2/3
     if ([1,2,3].includes(points)){
       const key = `${theme}|${points}`;
       if (!words.has(key)) words.set(key, []);
@@ -97,6 +97,7 @@ async function loadOHMCSV(){
 
   return { words, gages };
 }
+
 
 
 
