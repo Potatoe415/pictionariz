@@ -6,17 +6,17 @@ const TYPE_LABELS = {
   olemimes: {
     1: "Action (1 pt)",
     2: "Sport (2 pts)",
-    3: "Musique (3 pts)",
+    //3: "Musique (3 pts)",
   },
   olemots: {
     1: "Douce France (1 pts)",
-    2: "Graines de Star (2 pts)",
-    3: "Marques (3 pts)",
+    2: "Marques (2 pts)",
+   // 3: "Marques (3 pts)",
   },
   olesons: {
-    1: "Chansons (1 pts)",
-    2: "Imitation (2 pts)",
-    3: "Finis les paroles (3 pts)",
+    1: "Fredonne (1 pts)",
+    2: "Finis les paroles (2 pts)",
+    //3: "Finis les paroles (3 pts)",
   }
 };
 
