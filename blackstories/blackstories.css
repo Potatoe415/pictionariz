@@ -25,7 +25,7 @@ body{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  gap:14px;
+  gap:0px;
   padding:16px 16px 10px;
   max-width: 980px;
   margin: 0 auto;
@@ -145,7 +145,13 @@ body{
   color: var(--muted);
   font-size: 13px;
   margin-bottom: 10px;
+
+  /* double la hauteur visuelle */
+  padding-top: 12px;
+  padding-bottom: 12px;
+  line-height: 1.6;
 }
+
 
 .full{
   white-space: pre-wrap;
@@ -204,4 +210,88 @@ body{
 .langBtn[aria-pressed="true"]{
   background: rgba(255,255,255,.18);
   border-color: rgba(255,255,255,.25);
+}
+
+
+.titleRow{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:14px;
+}
+
+.illusWrap{
+  flex: 0 0 auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 16px;
+  border: 0px solid var(--line);
+  /*background: rgba(255,255,255,.03);*/
+  overflow: hidden;
+  /*box-shadow: 0 10px 30px rgba(0,0,0,.35);*/
+}
+
+.illusImg{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  display:block;
+}
+
+.illusHidden{
+  display:none !important;
+}
+
+/* Responsive: sur petits écrans, on passe l’image sous le titre */
+@media (max-width: 520px){
+  .titleRow{
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .illusWrap{
+    width: 100%;
+    height: 160px;
+  }
+}
+
+
+/* navigation arrows */
+
+.navRow{
+  display:flex;
+  width:100%;
+  gap:0;
+}
+
+.navBtn{
+  flex:1;
+  height:56px;
+  background:none;
+  border:none;
+  cursor:pointer;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.navPrev{
+  border-right:1px solid rgba(255,255,255,0.15);
+  color:#aaa;
+}
+
+.navNext{
+  color:#fff;
+}
+
+.navBtn:active{
+  background: rgba(255,255,255,0.05);
+}
+
+.navIcon{
+  width:28px;
+  height:28px;
+  pointer-events:none;
 }

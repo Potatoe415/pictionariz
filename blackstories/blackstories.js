@@ -22,12 +22,15 @@ const els = {
   fullStory: document.getElementById("fullStory"),
   revealBox: document.getElementById("revealBox"),
   revealHint: document.getElementById("revealHint"),
-  toggleRevealBtn: document.getElementById("toggleRevealBtn"),
+  //toggleRevealBtn: document.getElementById("toggleRevealBtn"),
   prevBtn: document.getElementById("prevBtn"),
   nextBtn: document.getElementById("nextBtn"),
   storyCounter: document.getElementById("storyCounter"),
   storyId: document.getElementById("storyId"),
   langBtns: Array.from(document.querySelectorAll(".langBtn")),
+  illusWrap: document.getElementById("illusWrap"),
+illusImg: document.getElementById("illusImg"),
+
 };
 
 const FILES = {
@@ -35,6 +38,54 @@ const FILES = {
   en: "./black_stories_en.json",
   es: "./black_stories_es.json",
 };
+
+const ILLUSTRATIONS_DIR = "./illustrations";
+const ILLUSTRATIONS_EXTS = ["png", "jpeg", "png", "webp"];
+
+function setIllustrationVisible(isVisible){
+  if (!els.illusWrap) return;
+  els.illusWrap.classList.toggle("illusHidden", !isVisible);
+}
+
+function updateIllustration(storyId){
+  if (!els.illusImg || !els.illusWrap) return;
+
+  const idStr = String(storyId ?? "").trim();
+  if (!idStr) {
+    setIllustrationVisible(false);
+    return;
+  }
+
+  // On cache pendant qu’on charge, et on ne montre que si ça marche
+  setIllustrationVisible(false);
+
+  let idx = 0;
+
+  const tryNext = () => {
+    if (idx >= ILLUSTRATIONS_EXTS.length) {
+      // aucune extension trouvée
+      els.illusImg.removeAttribute("src");
+      setIllustrationVisible(false);
+      return;
+    }
+
+    const ext = ILLUSTRATIONS_EXTS[idx++];
+    const url = `${ILLUSTRATIONS_DIR}/${encodeURIComponent(idStr)}.${ext}`;
+
+    // Important: on force un nouveau chargement
+    els.illusImg.onload = () => {
+      setIllustrationVisible(true);
+    };
+    els.illusImg.onerror = () => {
+      tryNext();
+    };
+
+    els.illusImg.src = url;
+  };
+
+  tryNext();
+}
+
 
 let DATA = { fr: [], en: [], es: [] };
 
@@ -59,15 +110,12 @@ function setLangUI(lang) {
     btn.setAttribute("aria-pressed", isActive ? "true" : "false");
   });
 }
-
 function setReveal(state) {
   revealed = !!state;
   els.fullStory.classList.toggle("hidden", !revealed);
   els.revealHint.textContent = revealed
     ? "Touchez pour cacher l’histoire complète"
     : "Touchez pour révéler l’histoire complète";
-  els.toggleRevealBtn.textContent = revealed ? "Cacher" : "Révéler";
-  els.toggleRevealBtn.setAttribute("aria-expanded", revealed ? "true" : "false");
 }
 
 function safeText(x) {
@@ -116,6 +164,10 @@ function renderByIndex(idx) {
 
   els.prevBtn.disabled = historyPos <= 0;
   els.nextBtn.disabled = total <= 1; // still allow next for random, but if only 1 story, pointless
+  
+  updateIllustration(story.id);
+setIllustrationVisible(false);
+
 
   setReveal(false);
 }
@@ -217,10 +269,7 @@ function bindEvents() {
   });
 
   els.revealBox.addEventListener("click", () => setReveal(!revealed));
-  els.toggleRevealBtn.addEventListener("click", (e) => {
-    e.stopPropagation();
-    setReveal(!revealed);
-  });
+
 
   els.nextBtn.addEventListener("click", goNext);
   els.prevBtn.addEventListener("click", goPrev);
